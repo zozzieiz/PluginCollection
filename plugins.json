@@ -199,6 +199,12 @@
 			"configName": "SonarPet"
 		},
 		{
+			"name": "Auctions",
+			"desc": "An elegant auctioning solution that\nallows text tooltips for auctioned items\n&cThis plugin requires &nVault&c.",
+			"jarName": "Auctions.jar",
+			"configName": "Auctions"
+		},
+		{
 			"name": "ObsidianAuctions",
 			"desc": "Unique chat based auction system.\n&cThis plugin requires &nVault&c.",
 			"jarName": "ObsidianAuctions.jar",
