@@ -437,6 +437,13 @@
 			"desc": "Allows your users with permissions\nto change their name/chat color!",
 			"jarName": "ChatColor.jar",
 			"configName": "ChatColor+"
+		},
+		{
+			"name": "GitSchematic",
+			"desc": "Import and share WorldEdit schematics.",
+			"jarName": "GitSchematic.jar",
+			"configName": "GitSchematic",
+			"tier": "2"
 		}
 	]
 }
