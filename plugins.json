@@ -437,6 +437,12 @@
 			"desc": "Allows your users with permissions\nto change their name/chat color!",
 			"jarName": "ChatColor.jar",
 			"configName": "ChatColor+"
+		},
+		{
+			"name": "MCAuthenticator",
+			"desc": "Enables you to secure your server using 2FA.",
+			"jarName": "MCAuthenticator-Universal-2.0.4",
+			"configName": "MCAuthenticator"
 		}
 	]
 }
