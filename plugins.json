@@ -50,7 +50,7 @@
 		},
 		{
 			"name": "Fast Async WorldEdit",
-			"desc": "Optimizes WorldEdit when working with large amounts of blocks.",
+			"desc": "Optimizes WorldEdit when working with large amounts of blocks.\n&cThis plugin requires &nWorld Edit",
 			"jarName": "FastAsyncWorldEdit.jar",
 			"configName": "FastAsyncWorldEdit",
 			"freePlugin":"true"
