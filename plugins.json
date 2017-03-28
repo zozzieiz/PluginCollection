@@ -53,7 +53,8 @@
 			"desc": "Optimizes WorldEdit when working with large amounts of blocks.\n&cThis plugin requires &nWorld Edit",
 			"jarName": "FastAsyncWorldEdit.jar",
 			"configName": "FastAsyncWorldEdit",
-			"freePlugin":"true"
+			"freePlugin":"true",
+			"disabled": true
 		},
 		{
 			"name": "World Guard",
@@ -68,7 +69,7 @@
 			"configName": "VoxelSniper"
 		},
 		{
-			"name": "FastAsyncVoxelSniper",
+			"name": "Fast Async VoxelSniper",
 			"desc": "Optimizes VoxelSniper.",
 			"jarName": "FastAsyncVoxelSniper.jar",
 			"configName": "~",
@@ -107,6 +108,13 @@
 			"jarName": "BetterCombat.jar",
 			"configName": "BetterCombat",
 			"freePlugin":"true"
+		},
+		{
+			"name":"CreeperHeal",
+			"desc": "Automatically heal explosion damage!",
+			"jarName": "CreeperHeal.jar",
+			"configName": "CreeperHeal",
+			"requiredRank": "2"
 		},
 		{
 			"name": "Combat Log",
