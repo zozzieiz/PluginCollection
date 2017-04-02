@@ -53,14 +53,14 @@
 			"desc": "&bLink minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&cRequires &nBKCommonLib&c to be installed.",  
 			"jarName": "TrainCarts.jar",  
 			"configName": "TrainCarts"  
-	        },
+	  },
 		{
 			"name": "BKCommonLib",  
 			"desc": "&eDependency for TrainCarts",  
 			"jarName": "BKCommonLib.jar",  
 			"configName": "BKCommonLib",
 			"freePlugin": "true"
-	        },
+	  },
 		{
 			"name": "Fast Async WorldEdit",
 			"desc": "Optimizes WorldEdit when working with large amounts of blocks.\n&cThis plugin requires &nWorld Edit",
@@ -93,6 +93,12 @@
 			"desc": "A plugin with brushes and height maps for terraforming.",
 			"jarName": "goBrush.jar",
 			"configName": "goBrush"
+		},
+		{
+			"name": "World Guard",
+			"desc": "Create and manage regions using this plugin.",
+			"jarName": "worldguard.jar",
+			"configName": "WorldGuard"
 		},
 		{
 			"name": "Vault",
@@ -220,6 +226,13 @@
 			"jarName": "ProjectKorra.jar",
 			"configName": "ProjectKorra",
 			"requiredRank": "3"
+		},
+		{
+			"name": "EchoPet",
+			"desc": "EchoPet is no longer supported for 1.9+. It will not work!",
+			"jarName": "EchoPet_v2.8.0.jar",
+			"configName": "EchoPet_v2.8.0",
+			"disabled": true
 		},
 		{
 			"name": "SimplePets",
@@ -486,6 +499,12 @@
 			"desc": "Allows your users with permissions\nto change their name/chat color!",
 			"jarName": "ChatColor.jar",
 			"configName": "ChatColor+"
+		},
+		{
+			"name": "MCAuthenticator",
+			"desc": "Enables you to secure your server using 2FA.",
+			"jarName": "MCAuthenticator.jar",
+			"configName": "MCAuthenticator"
 		}
 	]
 }
