@@ -63,22 +63,10 @@
 	        },
 		{
 			"name": "Fast Async WorldEdit",
-			"desc": "Extremely optimized WorldEdit to use when working with big numbers.",
+			"desc": "Optimizes WorldEdit when working with large amounts of blocks.\n&cThis plugin requires &nWorld Edit",
 			"jarName": "FastAsyncWorldEdit.jar",
-			"configName": "FastAsyncWorldEdit"
-		},
-		{
-			"name": "AsyncWorldEdit",
-			"desc": "WorldEdit with reduced lag.\n&cRequires &nWorldEdit&c and &nAsyncWorldEditInjector&r&c to be installed.",
-			"jarName": "AsyncWorldEdit.jar",
-			"configName": "AsyncWorldEdit",
-			"disabled": true
-		},
-		{
-			"name": "AsyncWorldEditInjector",
-			"desc": "Required plugin for &nAsyncWorldEdit&r",
-			"jarName": "AsyncWorldEditInjector.jar",
-			"configName": "AsyncWorldEditInjector",
+			"configName": "FastAsyncWorldEdit",
+			"freePlugin":"true",
 			"disabled": true
 		},
 		{
@@ -88,16 +76,64 @@
 			"configName": "WorldGuard"
 		},
 		{
+			"name": "VoxelSniper",
+			"desc": "Long range map editing tool for terraforming.",
+			"jarName": "VoxelSniper-7.1.0-SNAPSHOT-all.jar",
+			"configName": "VoxelSniper"
+		},
+		{
+			"name": "Fast Async VoxelSniper",
+			"desc": "Optimizes VoxelSniper.",
+			"jarName": "FastAsyncVoxelSniper.jar",
+			"configName": "~",
+			"freePlugin":"true"
+		},
+		{
+			"name": "goBrush",
+			"desc": "A plugin with brushes and height maps for terraforming.",
+			"jarName": "goBrush.jar",
+			"configName": "goBrush"
+		},
+		{
 			"name": "Vault",
-			"desc": "Economy API.",
+			"desc": "Economy, Permissions, and Chat API.",
 			"jarName": "Vault.jar",
-			"configName": "Vault"
+			"configName": "Vault",
+			"freePlugin":"true"
+		},
+		{
+			"name": "Placeholder API",
+			"desc": "API which gives plugins access to variables to display.",
+			"jarName": "PlaceholderAPI.jar",
+			"configName": "PlaceholderAPI",
+			"freePlugin":"true"
 		},
 		{
 			"name": "ProtocolLib",
-			"desc": "Allows plugins to access new functions.",
+			"desc": "API which allows plugins to access new functions.",
 			"jarName": "ProtocolLib.jar",
-			"configName": "ProtocolLib"
+			"configName": "ProtocolLib",
+			"freePlugin":"true"
+		},
+		{
+			"name": "BetterCombat",
+			"desc": "Moves the combat style back to 1.7/1.8\nRemoves attack speed, adds block hitting, etc.",
+			"jarName": "BetterCombat.jar",
+			"configName": "BetterCombat",
+			"freePlugin":"true"
+		},
+		{
+			"name":"CreeperHeal",
+			"desc": "Automatically heal explosion damage!",
+			"jarName": "CreeperHeal.jar",
+			"configName": "CreeperHeal",
+			"requiredRank": "2"
+		},
+		{
+			"name": "Combat Log",
+			"desc": "Punish players who log out during combat!",
+			"jarName": "CombatLog-1.8.11-fix.jar",
+			"configName": "CombatLog-1.8.11-fix"
 		},
 		{
 			"name": "ChestShop",
@@ -130,15 +166,16 @@
 			"configName": "SilkSpawners"
 		},
 		{
-			"name": "MineResetLite",
-			"desc": "Create mines that will reset.",
-			"jarName": "MineResetLite.jar",
-			"configName": "MineResetLite"
+			"name": "Orebfuscator",
+			"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cThis plugin requires &nProtocolLib",
+			"jarName": "Orebfuscator.jar",
+			"configName":"Orebfuscator4",
+			"requiredRank":"3"
 		},
 		{
-			"name": "AntiSwear",
-			"desc": "Stop players spamming & cussing in chat.",
-			"jarName": "AntiSwear.jar",
+			"name": "Chat Control",
+			"desc": "Control aspects of the chat and prevent swearing/spamming.",
+      "jarName": "AntiSwear.jar",
 			"configName": "ChatControl"
 		},
 		{
@@ -148,16 +185,22 @@
 			"configName": "Lockette"
 		},
 		{
-			"name": "EZRanksLite",
+			"name": "EZRanksPro",
 			"desc": "Simple auto rankup plugin.\n&cRequires Vault and a permissions plugin.\n&cScoreboards will reset when installed.",
-			"jarName": "EZRanksLite1.6-Bukkit-1.8.jar",
-			"configName": "EZRanksLite1.6-Bukkit-1.8"
+			"jarName": "EZRanksPro.jar",
+			"configName": "EZRanksPro"
 		},
 		{
 			"name": "Combat Log",
 			"desc": "Punish players who log out during combat!",
 			"jarName": "CombatLog-1.8.11-fix.jar",
 			"configName": "CombatLog-1.8.11-fix"
+    },
+    {
+			"name": "MineResetLite",
+			"desc": "Create mines that will reset.",
+			"jarName": "MineResetLite.jar",
+			"configName": "MineResetLite"
 		},
 		{
 			"name": "Libs Disguises",
@@ -167,22 +210,28 @@
 		},
 		{
 			"name": "Create Your Own Menus",
-			"desc": "Allows you to create your own GUI menus!",
+			"desc": "Allows you to create your own GUI menus!\n&cNote: May be somewhat vulnerable to exploits within certain hack clients.",
 			"jarName": "CreateYourOwnMenus-0.5.9.jar",
 			"configName": "CreateYourOwnMenus"
 		},
-		{	
-			"name": "EchoPet",
-			"desc": "EchoPet is no longer supported for 1.9+. It will not work!",
-			"jarName": "EchoPet_v2.8.0.jar",
-			"configName": "EchoPet_v2.8.0",
-			"disabled": true
+		{
+			"name": "Project Korra",
+			"desc": "Bring the elemental powers of Avatar: the Last Airbender into your server.",
+			"jarName": "ProjectKorra.jar",
+			"configName": "ProjectKorra",
+			"requiredRank": "3"
 		},
 		{
-		    "name": "SonarPet",
-			"desc": "A fork of EchoPet updated for 1.9.",
-			"jarName": "SonarPet.jar",
-			"configName": "SonarPet"
+			"name": "SimplePets",
+			"desc": "A simple pets plugin (EchoPets replacement)\n&c&nThis may conflict with Citizens!",
+			"jarName": "SimplePets.jar",
+			"configName": "SimplePets"
+		},
+		{
+			"name": "Auctions",
+			"desc": "An elegant auctioning solution that\nallows text tooltips for auctioned items\n&cThis plugin requires &nVault&c.",
+			"jarName": "Auctions.jar",
+			"configName": "Auctions"
 		},
 		{
 			"name": "ObsidianAuctions",
@@ -191,28 +240,22 @@
 			"configName": "ObsidianAuctions"
 		},
 		{
-			"name": "VoxelSniper",
-			"desc": "Long range map editing tool for terraforming.",
-			"jarName": "VoxelSniper-7.1.0-SNAPSHOT-all.jar",
-			"configName": "VoxelSniper"
-		},
-		{
-			"name": "BetterCombat",
-			"desc": "Moves the combat style back to 1.7/1.8\nRemoves attack speed, adds block hitting, etc.",
-			"jarName": "BetterCombat.jar",
-			"configName": "BetterCombat"
-		},
-		{
-			"name": "Easy Trades",
+			"name": "Trade+",
 			"desc": "Lets players easily and safely trade items via a GUI.",
-			"jarName": "EasyTrades.jar",
-			"configName": "EasyTrades"
+			"jarName": "TradePlus.jar",
+			"configName": "TradePlus"
 		},
 		{
 			"name": "Action Announcer",
 			"desc": "Create timed broadcasts for your server through the action bar.",
 			"jarName": "ActionAnnouncer.jar",
 			"configName": "ActionAnnouncer"
+		},
+		{
+			"name": "UltraBar",
+			"desc": "Send Boss Bar messages, Titles, and Actionbars!",
+			"jarName": "UltraBar.jar",
+			"configName": "UltraBar"
 		},
 		{
 			"name": "Holographic Displays",
@@ -234,81 +277,94 @@
 		},
 		{
 			"name": "Citizens",
-			"desc": "Create custom and interactive NPCs.\n&cThis plugin requires &nTier 1&c to install.\n&cCan cause extreme lag. Lots of free RAM is required!",
+			"desc": "Create custom and interactive NPCs.\n&cCan cause extreme lag. Lots of free RAM is required!",
 			"jarName": "Citizens.jar",
 			"configName": "Citizens",
-			"requiredRank": "1",
-			"disabled": true
+			"requiredRank": "1"
+		},
+		{
+			"name": "CommandNPC",
+			"desc": "Add right-clickable commands to your NPCs.\n&cThis plugin requires &nCitizens&c.",
+			"jarName": "CommandNPC.jar",
+			"configName": "CommandNPC",
+			"requiredRank": "1"
 		},
 		{
 			"name": "McMMO",
-			"desc": "RPG experience in Minecraft!\n&cThis plugin requires &nTier 1&c to install.",
+			"desc": "RPG experience in Minecraft!",
 			"jarName": "mcMMO.jar",
 			"configName": "mcMMO",
 			"requiredRank": "1"
 		},
-		{   
+		{
 			"name": "Factions",
-			"desc": "Claim land, build a base and wage war!\n&cThis plugin requires &nTier 2&c to install.",
+			"desc": "Claim land, build a base and wage war!",
 			"jarName": "Factions.jar",
 			"configName": "Factions",
 			"requiredRank": "2"
 		},
-		{   
+		{
 			"name": "Obsidian Breaker",
-			"desc": "Allows explosions to break Obsidian!\n&aWorks well with Factions raiding.\n&cThis plugin requires &nTier 2&c to install.",
+			"desc": "Allows explosions to break Obsidian!\n&aWorks well with Factions raiding.",
 			"jarName": "ObsidianBreaker.jar",
 			"configName": "ObsidianBreaker",
 			"requiredRank": "2"
 		},
 		{
-			"name": "Sky Block",
-			"desc": "Survive on Skyblock islands.\n&cThis plugin requires &nTier 2&c and &nVault&c.",
+			"name": "ASkyBlock",
+			"desc": "Survive on Skyblock islands.\n&cThis plugin requires &nVault&c.",
 			"jarName": "askyblock.jar",
 			"configName": "ASkyBlock",
 			"requiredRank": "2"
 		},
 		{
+			"name": "ASkyGrid",
+			"desc": "Survive in a grid of blocks.\n&cThis plugin requires &nVault&c.",
+			"jarName": "askygrid.jar",
+			"configName": "ASkyGrid",
+			"requiredRank": "2"
+		},
+		{
 			"name": "Towny",
-			"desc": "Towny is a versatile, player-controlled land management plugin.\n&cThis plugin requires &nTier 4&c to install.",
+			"desc": "Towny is a versatile, player-controlled land management plugin.",
 			"jarName": "Towny.jar",
 			"configName": "Towny",
 			"requiredRank": "4"
 		},
 		{
 			"name": "TownyChat",
-			"desc": "This is required if you want to let Towny modify chat.\n&cThis plugin requires &nTier 4&c to install.",
+			"desc": "This is required if you want to let Towny modify chat.",
 			"jarName": "TownyChat.jar",
 			"configName": "TownyChat",
 			"requiredRank": "4"
 		},
 		{
-			"name": "Multiverse-Core",
-			"desc": "Multi-world management.\n&cThis plugin requires &nTier 4&c to install.",
-			"jarName": "Multiverse-Core.jar",
-			"configName": "Multiverse-Core",
-			"requiredRank": "4"
-		},
-		{
 			"name": "VoidWorld",
-			"desc": "Create void-worlds with this and Multiverse-Core.\n&cThis plugin requires &nTier 4&c to install.",
+			"desc": "Create void-worlds with this and Multiverse-Core.",
 			"jarName": "VoidWorld.jar",
 			"configName": "VoidWorld",
 			"requiredRank": "4"
 		},
-			{
+		{
 			"name": "PlotSquared",
-			"desc": "PlotSquared is a land management plugin.\n&cThis plugin requires &nTier 4&c to install.",
+			"desc": "PlotSquared is a land management plugin.",
 			"jarName": "PlotSquared.jar",
 			"configName": "PlotSquared",
 			"requiredRank": "4"
 		},
 		{
+			"name": "Core Protect",
+			"desc": "Fast, efficient block logging and anti-griefing tool.",
+			"jarName": "CoreProtect.jar",
+			"configName": "CoreProtect",
+			"requiredRank": "2"
+		},
+		{
 			"name": "Log by Bayside308",
-			"desc": "Log blocks in your world without MySQL or configuration.\n&cThis plugin requires &nTier 3&c to install.",
+			"desc": "Log block changes in your world.",
 			"jarName": "Log.jar",
 			"configName": "Log",
-			"requiredRank": "3"
+			"requiredRank": "2"
 		},
 		{
 			"name": "Joe's Horse Collect",
@@ -321,6 +377,115 @@
 			"desc": "Added marriages and divorces to your server.",
 			"jarName": "JoeMarriage.jar",
 			"configName": "JoeMarriage"
+		},
+		{
+			"name": "Loot Protect",
+			"desc": "Protects loot dropped upon death.",
+			"jarName": "LootProtect.jar",
+			"configName": "LootProtect"
+		},
+		{
+			"name": "ClearLag",
+			"desc": "Helps clear the lag on your server.",
+			"jarName": "Clearlag.jar",
+			"configName": "ClearLag",
+    	"requiredRank": "1"
+		},
+		{
+    	"name": "Scaffold",
+			"desc": "A multi-world plugin developed by Minehut.\nAllows importing worlds through commands!\nThis plugin is recommended over Multiverse-Core",
+			"jarName": "Scaffold.jar",
+			"configName": "Scaffold",
+			"requiredRank": "4"
+   	},
+    {
+			"name": "Multiverse",
+			"desc": "Multi-world management.",
+			"jarName": "Multiverse-Core.jar",
+			"configName": "Multiverse-Core",
+			"requiredRank": "4"
+		},
+		{
+			"name": "Multiverse Portals",
+			"desc": "Multiverse addon for world portal creation",
+			"jarName": "Multiverse-Portals.jar",
+			"configName": "Multiverse-Portals",
+			"requiredRank": "4",
+			"freePlugin": "true"
+		},
+		{
+			"name": "Multiverse Nether Portals",
+			"desc": "Multiverse addon for teleportation between worlds using nether portals",
+			"jarName": "Multiverse-NetherPortals.jar",
+			"configName": "Multiverse-NetherPortals",
+			"requiredRank": "4",
+			"freePlugin": "true"
+		},
+		{
+			"name": "Multiverse Sign Portals",
+			"desc": "Multiverse addon for teleportation between worlds using signs",
+			"jarName": "Multiverse-SignPortals.jar",
+			"configName": "Multiverse-SignPortals",
+			"requiredRank": "4",
+			"freePlugin": "true"
+		},
+		{
+			"name": "Multiverse Adventure",
+			"desc": "Multiverse addon for adventure map makers!\nResets worlds automatically between plays.",
+			"jarName": "Multiverse-Adventure.jar",
+			"configName": "Multiverse-Adventure",
+			"requiredRank": "4",
+			"freePlugin": "true"
+		},
+		{
+			"name":"Punishment",
+			"desc": "Punish your players more effectively! \n&cNote: May prevent scoreboards from properly displaying.",
+			"jarName": "Punishment.jar",
+			"configName": "Punishment",
+			"requiredRank": "2"
+		},
+		{
+			"name":"AutoMessage",
+			"desc":" A fully in-game edited automatic broadcast system.",
+			"jarName":"AutoMessage.jar",
+			"configName":"AutoMessage",
+			"requiredRank": "1"
+    		},
+    		{
+			"name": "Title Welcome Message",
+			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
+			"jarName": "TitleWelcomeMessage.jar",
+			"configName": "TitleWelcomeMessage"
+		},
+		{
+			"name": "Nametag Edit",
+			"desc": "Edit tablist/scoreboard prefixes and suffixes",
+			"jarName": "NametagEdit.jar",
+			"configName": "NametagEdit"
+		},
+    {
+			"name": "Area Shop",
+			"desc": "Allows for the buying and renting of worldguard regions",
+			"jarName": "AreaShop.jar",
+			"configName": "AreaShop"
+    },
+		{
+			"name": "CmdSigns",
+			"desc": "Fully customizable command signs",
+			"jarName": "CmdSigns.jar",
+			"configName": "CmdSigns"
+		},
+		{
+			"name": "AutoColor",
+			"desc": "Permission based auto chat color",
+			"jarName": "AutoColor.jar",
+			"configName": "AutoColor"
+		},
+		{
+			"name": "ChatColor+",
+			"desc": "Allows your users with permissions\nto change their name/chat color!",
+			"jarName": "ChatColor.jar",
+			"configName": "ChatColor+"
 		}
 	]
 }
