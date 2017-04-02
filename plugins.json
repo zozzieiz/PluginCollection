@@ -95,12 +95,6 @@
 			"configName": "goBrush"
 		},
 		{
-			"name": "World Guard",
-			"desc": "Create and manage regions using this plugin.",
-			"jarName": "worldguard.jar",
-			"configName": "WorldGuard"
-		},
-		{
 			"name": "Vault",
 			"desc": "Economy, Permissions, and Chat API.",
 			"jarName": "Vault.jar",
