@@ -49,12 +49,10 @@
 			"configName": "WorldEdit"
 		},
 		{
-			
-		"name": "TrainCarts",  
-		"desc": "&bLink minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&aPlugin BKCommonLib required to use this plugin",  
-		"jarName": "TrainCarts.jar",  
-		"configName": "TrainCarts"  
-			
+			"name": "TrainCarts",  
+			"desc": "&bLink minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&aPlugin BKCommonLib required to use this plugin",  
+			"jarName": "TrainCarts.jar",  
+			"configName": "TrainCarts"  
 	        },
 		{
 			"name": "BKCommonLib",  
