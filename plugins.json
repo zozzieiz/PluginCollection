@@ -505,9 +505,9 @@
 			"desc": "Import and share WorldEdit schematics\n&cRequires &nWorldEdit&c to install.",
 			"jarName": "GitSchematic.jar",
 			"configName": "GitSchematic",
-			"tier": "2"
-    },
-    {
+			"requiredRank": "2"
+    		},
+    		{
 			"name": "MCAuthenticator",
 			"desc": "Enables you to secure your server using 2FA.",
 			"jarName": "MCAuthenticator.jar",
