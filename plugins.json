@@ -57,13 +57,11 @@
 			
 	        },
 		{
-			
-		"name": "BKCommonLib",  
-		"desc": "&eDependency for TrainCarts",  
-		"jarName": "BKCommonLib.jar",  
-		"configName": "BKCommonLib"
-	        "freePlugin": "true"
-			
+			"name": "BKCommonLib",  
+			"desc": "&eDependency for TrainCarts",  
+			"jarName": "BKCommonLib.jar",  
+			"configName": "BKCommonLib",
+			"freePlugin": "true"
 	        },
 		{
 			"name": "Fast Async WorldEdit",
