@@ -53,14 +53,14 @@
 			"desc": "&bLink minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&cRequires &nBKCommonLib&c to be installed.",  
 			"jarName": "TrainCarts.jar",  
 			"configName": "TrainCarts"  
-	  },
+	  	},
 		{
 			"name": "BKCommonLib",  
 			"desc": "&eDependency for TrainCarts",  
 			"jarName": "BKCommonLib.jar",  
 			"configName": "BKCommonLib",
 			"freePlugin": "true"
-	  },
+	  	},
 		{
 			"name": "Fast Async WorldEdit",
 			"desc": "Optimizes WorldEdit when working with large amounts of blocks.\n&cThis plugin requires &nWorld Edit",
@@ -201,8 +201,8 @@
 			"desc": "Punish players who log out during combat!",
 			"jarName": "CombatLog-1.8.11-fix.jar",
 			"configName": "CombatLog-1.8.11-fix"
-    },
-    {
+    		},
+    		{
 			"name": "MineResetLite",
 			"desc": "Create mines that will reset.",
 			"jarName": "MineResetLite.jar",
@@ -402,16 +402,16 @@
 			"desc": "Helps clear the lag on your server.",
 			"jarName": "Clearlag.jar",
 			"configName": "ClearLag",
-    	"requiredRank": "1"
+    			"requiredRank": "1"
 		},
 		{
-    	"name": "Scaffold",
+    			"name": "Scaffold",
 			"desc": "A multi-world plugin developed by Minehut.\nAllows importing worlds through commands!\nThis plugin is recommended over Multiverse-Core",
 			"jarName": "Scaffold.jar",
 			"configName": "Scaffold",
 			"requiredRank": "4"
-   	},
-    {
+   		},
+    		{
 			"name": "Multiverse",
 			"desc": "Multi-world management.",
 			"jarName": "Multiverse-Core.jar",
@@ -463,8 +463,8 @@
 			"jarName":"AutoMessage.jar",
 			"configName":"AutoMessage",
 			"requiredRank": "1"
-    },
-    {
+    		},
+    		{
 			"name": "Title Welcome Message",
 			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
 			"jarName": "TitleWelcomeMessage.jar",
@@ -476,12 +476,12 @@
 			"jarName": "NametagEdit.jar",
 			"configName": "NametagEdit"
 		},
-    {
+    		{
 			"name": "Area Shop",
 			"desc": "Allows for the buying and renting of worldguard regions",
 			"jarName": "AreaShop.jar",
 			"configName": "AreaShop"
-    },
+    		},
 		{
 			"name": "CmdSigns",
 			"desc": "Fully customizable command signs",
