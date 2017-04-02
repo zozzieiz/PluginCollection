@@ -441,7 +441,7 @@
 		{
 			"name": "MCAuthenticator",
 			"desc": "Enables you to secure your server using 2FA.",
-			"jarName": "MCAuthenticator-Universal-2.0.4",
+			"jarName": "MCAuthenticator",
 			"configName": "MCAuthenticator"
 		}
 	]
