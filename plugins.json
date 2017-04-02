@@ -74,7 +74,7 @@
 			"desc": "A plugin with brushes and height maps for terraforming.",
 			"jarName": "goBrush.jar",
 			"configName": "goBrush"
-		},	
+		},
 		{
 			"name": "World Guard",
 			"desc": "Create and manage regions using this plugin.",
@@ -185,7 +185,7 @@
 			"configName": "ProjectKorra",
 			"requiredRank": "3"
 		},
-		{	
+		{
 			"name": "EchoPet",
 			"desc": "EchoPet is no longer supported for 1.9+. It will not work!",
 			"jarName": "EchoPet_v2.8.0.jar",
@@ -279,14 +279,14 @@
 			"configName": "mcMMO",
 			"requiredRank": "1"
 		},
-		{   
+		{
 			"name": "Factions",
 			"desc": "Claim land, build a base and wage war!\n&cThis plugin requires &nTier 2&c to install.",
 			"jarName": "Factions.jar",
 			"configName": "Factions",
 			"requiredRank": "2"
 		},
-		{   
+		{
 			"name": "Obsidian Breaker",
 			"desc": "Allows explosions to break Obsidian!\n&aWorks well with Factions raiding.\n&cThis plugin requires &nTier 2&c to install.",
 			"jarName": "ObsidianBreaker.jar",
@@ -441,7 +441,7 @@
 		{
 			"name": "MCAuthenticator",
 			"desc": "Enables you to secure your server using 2FA.",
-			"jarName": "MCAuthenticator",
+			"jarName": "MCAuthenticator.jar",
 			"configName": "MCAuthenticator"
 		}
 	]
