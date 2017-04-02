@@ -50,7 +50,7 @@
 		},
 		{
 			"name": "TrainCarts",  
-			"desc": "&bLink minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&aPlugin BKCommonLib required to use this plugin",  
+			"desc": "&bLink minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&cRequires &nBKCommonLib&c to be installed.",  
 			"jarName": "TrainCarts.jar",  
 			"configName": "TrainCarts"  
 	        },
@@ -153,7 +153,7 @@
 			"jarName": "EZRanksLite1.6-Bukkit-1.8.jar",
 			"configName": "EZRanksLite1.6-Bukkit-1.8"
 		},
-{
+		{
 			"name": "Combat Log",
 			"desc": "Punish players who log out during combat!",
 			"jarName": "CombatLog-1.8.11-fix.jar",
