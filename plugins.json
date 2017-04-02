@@ -49,6 +49,19 @@
 			"configName": "WorldEdit"
 		},
 		{
+			"name": "TrainCarts",  
+			"desc": "&bLink minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&cRequires &nBKCommonLib&c to be installed.",  
+			"jarName": "TrainCarts.jar",  
+			"configName": "TrainCarts"  
+	        },
+		{
+			"name": "BKCommonLib",  
+			"desc": "&eDependency for TrainCarts",  
+			"jarName": "BKCommonLib.jar",  
+			"configName": "BKCommonLib",
+			"freePlugin": "true"
+	        },
+		{
 			"name": "Fast Async WorldEdit",
 			"desc": "Optimizes WorldEdit when working with large amounts of blocks.\n&cThis plugin requires &nWorld Edit",
 			"jarName": "FastAsyncWorldEdit.jar",
@@ -178,6 +191,12 @@
 			"configName": "EZRanksPro"
 		},
 		{
+			"name": "Combat Log",
+			"desc": "Punish players who log out during combat!",
+			"jarName": "CombatLog-1.8.11-fix.jar",
+			"configName": "CombatLog-1.8.11-fix"
+    },
+    {
 			"name": "MineResetLite",
 			"desc": "Create mines that will reset.",
 			"jarName": "MineResetLite.jar",
