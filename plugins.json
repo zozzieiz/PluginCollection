@@ -440,7 +440,7 @@
 		},
 		{
 			"name": "GitSchematic",
-			"desc": "Import and share WorldEdit schematics\n&cThis plugin requires WorldEdit and Tier 2",
+			"desc": "Import and share WorldEdit schematics\n&cRequires &nWorldEdit&c to install.",
 			"jarName": "GitSchematic.jar",
 			"configName": "GitSchematic",
 			"tier": "2"
