@@ -49,19 +49,6 @@
 			"configName": "WorldEdit"
 		},
 		{
-			"name": "TrainCarts",  
-			"desc": "&bLink minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&cRequires &nBKCommonLib&c to be installed.",  
-			"jarName": "TrainCarts.jar",  
-			"configName": "TrainCarts"  
-	  	},
-		{
-			"name": "BKCommonLib",  
-			"desc": "&eDependency for TrainCarts",  
-			"jarName": "BKCommonLib.jar",  
-			"configName": "BKCommonLib",
-			"freePlugin": "true"
-	  	},
-		{
 			"name": "Fast Async WorldEdit",
 			"desc": "Optimizes WorldEdit when working with large amounts of blocks.\n&cThis plugin requires &nWorld Edit",
 			"jarName": "FastAsyncWorldEdit.jar",
@@ -121,6 +108,19 @@
 			"jarName": "BetterCombat.jar",
 			"configName": "BetterCombat",
 			"freePlugin":"true"
+		},
+		{
+			"name": "GitSchematic",
+			"desc": "Import and share WorldEdit schematics\n&cRequires &nWorldEdit&c to install.",
+			"jarName": "GitSchematic.jar",
+			"configName": "GitSchematic",
+			"requiredRank": "2"
+		},
+		{
+			"name": "MCAuthenticator",
+			"desc": "Enables you to secure your server using 2FA.",
+			"jarName": "MCAuthenticator.jar",
+			"configName": "MCAuthenticator"
 		},
 		{
 			"name":"CreeperHeal",
@@ -195,8 +195,8 @@
 			"desc": "Punish players who log out during combat!",
 			"jarName": "CombatLog-1.8.11-fix.jar",
 			"configName": "CombatLog-1.8.11-fix"
-    		},
-    		{
+    },
+    {
 			"name": "MineResetLite",
 			"desc": "Create mines that will reset.",
 			"jarName": "MineResetLite.jar",
@@ -457,8 +457,8 @@
 			"jarName":"AutoMessage.jar",
 			"configName":"AutoMessage",
 			"requiredRank": "1"
-    		},
-    		{
+    },
+    {
 			"name": "Title Welcome Message",
 			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
 			"jarName": "TitleWelcomeMessage.jar",
@@ -470,12 +470,12 @@
 			"jarName": "NametagEdit.jar",
 			"configName": "NametagEdit"
 		},
-    		{
+    {
 			"name": "Area Shop",
 			"desc": "Allows for the buying and renting of worldguard regions",
 			"jarName": "AreaShop.jar",
 			"configName": "AreaShop"
-    		},
+    },
 		{
 			"name": "CmdSigns",
 			"desc": "Fully customizable command signs",
@@ -495,17 +495,17 @@
 			"configName": "ChatColor+"
 		},
 		{
-			"name": "GitSchematic",
-			"desc": "Import and share WorldEdit schematics\n&cRequires &nWorldEdit&c to install.",
-			"jarName": "GitSchematic.jar",
-			"configName": "GitSchematic",
-			"requiredRank": "2"
-    		},
-    		{
-			"name": "MCAuthenticator",
-			"desc": "Enables you to secure your server using 2FA.",
-			"jarName": "MCAuthenticator.jar",
-			"configName": "MCAuthenticator"
+			"name": "TrainCarts",
+			"desc": "&bLink minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&cRequires &nBKCommonLib&c to be installed.",
+			"jarName": "TrainCarts.jar",
+			"configName": "TrainCarts"
+		},
+		{
+			"name": "BKCommonLib",
+			"desc": "&eDependency for TrainCarts",
+			"jarName": "BKCommonLib.jar",
+			"configName": "BKCommonLib",
+			"freePlugin": "true"
 		}
 	]
 }
