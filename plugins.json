@@ -190,13 +190,7 @@
 			"jarName": "EZRanksPro.jar",
 			"configName": "EZRanksPro"
 		},
-		{
-			"name": "Combat Log",
-			"desc": "Punish players who log out during combat!",
-			"jarName": "CombatLog-1.8.11-fix.jar",
-			"configName": "CombatLog-1.8.11-fix"
-    },
-    {
+    		{
 			"name": "MineResetLite",
 			"desc": "Create mines that will reset.",
 			"jarName": "MineResetLite.jar",
