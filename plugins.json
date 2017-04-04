@@ -500,6 +500,13 @@
 			"jarName": "BKCommonLib.jar",
 			"configName": "BKCommonLib",
 			"freePlugin": "true"
+		},
+		{
+			"name": "AquaticPerms",
+			"desc": "A super simple permissions plugin",
+			"jarName": "AquaticPerms.jar",
+			"configName": "AquaticPerms",
+			"freePlugin": "true"
 		}
 	]
 }
