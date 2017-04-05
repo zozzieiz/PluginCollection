@@ -120,7 +120,8 @@
 			"name": "MCAuthenticator",
 			"desc": "Enables you to secure your server using 2FA.",
 			"jarName": "MCAuthenticator.jar",
-			"configName": "MCAuthenticator"
+			"configName": "MCAuthenticator",
+			"disabled": true
 		},
 		{
 			"name":"CreeperHeal",
