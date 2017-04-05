@@ -50,7 +50,7 @@
 		},
 		{
 			"name": "Fast Async WorldEdit",
-			"desc": "Optimizes WorldEdit when working with large amounts of blocks.\n&cThis plugin requires &nWorld Edit",
+			"desc": "Optimizes WorldEdit when working with large amounts of blocks.\n&cRequires &nWorld Edit",
 			"jarName": "FastAsyncWorldEdit.jar",
 			"configName": "FastAsyncWorldEdit",
 			"freePlugin":"true",
@@ -168,7 +168,7 @@
 		},
 		{
 			"name": "Orebfuscator",
-			"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cThis plugin requires &nProtocolLib",
+			"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cRequires &nProtocolLib",
 			"jarName": "Orebfuscator.jar",
 			"configName":"Orebfuscator4",
 			"requiredRank":"3"
@@ -225,19 +225,26 @@
 		},
 		{
 			"name": "SimplePets",
-			"desc": "A simple pets plugin (EchoPets replacement)\n&c&nThis may conflict with Citizens!",
+			"desc": "A simple pets plugin (EchoPets replacement)\n&cRequires &nSimpleAPI&c.\n&c&nThis may conflict with Citizens!",
 			"jarName": "SimplePets.jar",
 			"configName": "SimplePets"
 		},
 		{
+			"name": "SimpleAPI",
+			"desc": "A simple, lightweight set of APIs",
+			"jarName": "SimpleAPI.jar",
+			"configName": "SimpleAPI",
+			"freePlugin": "true"
+		},
+		{
 			"name": "Auctions",
-			"desc": "An elegant auctioning solution that\nallows text tooltips for auctioned items\n&cThis plugin requires &nVault&c.",
+			"desc": "An elegant auctioning solution that\nallows text tooltips for auctioned items\n&cRequires &nVault&c.",
 			"jarName": "Auctions.jar",
 			"configName": "Auctions"
 		},
 		{
 			"name": "ObsidianAuctions",
-			"desc": "Unique chat based auction system.\n&cThis plugin requires &nVault&c.",
+			"desc": "Unique chat based auction system.\n&cRequires &nVault&c.",
 			"jarName": "ObsidianAuctions.jar",
 			"configName": "ObsidianAuctions"
 		},
@@ -286,7 +293,7 @@
 		},
 		{
 			"name": "CommandNPC",
-			"desc": "Add right-clickable commands to your NPCs.\n&cThis plugin requires &nCitizens&c.",
+			"desc": "Add right-clickable commands to your NPCs.\n&cRequires &nCitizens&c.",
 			"jarName": "CommandNPC.jar",
 			"configName": "CommandNPC",
 			"requiredRank": "1"
@@ -314,14 +321,14 @@
 		},
 		{
 			"name": "ASkyBlock",
-			"desc": "Survive on Skyblock islands.\n&cThis plugin requires &nVault&c.",
+			"desc": "Survive on Skyblock islands.\n&cRequires &nVault&c.",
 			"jarName": "askyblock.jar",
 			"configName": "ASkyBlock",
 			"requiredRank": "2"
 		},
 		{
 			"name": "ASkyGrid",
-			"desc": "Survive in a grid of blocks.\n&cThis plugin requires &nVault&c.",
+			"desc": "Survive in a grid of blocks.\n&cRequires &nVault&c.",
 			"jarName": "askygrid.jar",
 			"configName": "ASkyGrid",
 			"requiredRank": "2"
@@ -491,7 +498,7 @@
 		},
 		{
 			"name": "TrainCarts",
-			"desc": "&bLink minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&cRequires &nBKCommonLib&c to be installed.",
+			"desc": "&bLink minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&cRequires &nBKCommonLib&c.",
 			"jarName": "TrainCarts.jar",
 			"configName": "TrainCarts"
 		},
