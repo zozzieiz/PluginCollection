@@ -508,6 +508,13 @@
 			"jarName": "BKCommonLib.jar",
 			"configName": "BKCommonLib",
 			"freePlugin": "true"
+		},
+		{
+			"name": "ImageOnMap",
+			"desc": "&bHave you ever wanted to view an image on a map ingame? ImageOnMap allows you to do it!.",
+			"jarName": "ImageOnMap-3.0.jar",
+			"configName": "ImageOnMap"
+			"freePlugin": "true"
 		}
 	]
 }
