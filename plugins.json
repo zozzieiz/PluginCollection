@@ -40,7 +40,8 @@
 			"name": "Skript",
 			"desc": "Modify servers through a scripting interface.",
 			"jarName": "Skript.jar",
-			"configName": "Skript"
+			"configName": "Skript",
+			"requiredRank": "4"
 		},
 		{
 			"name": "No Cheat Plus",
