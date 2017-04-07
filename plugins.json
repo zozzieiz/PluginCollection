@@ -498,23 +498,22 @@
 		},
 		{
 			"name": "TrainCarts",
-			"desc": "&bLink minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&cRequires &nBKCommonLib&c.",
+			"desc": "Link minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&cRequires &nBKCommonLib&c.",
 			"jarName": "TrainCarts.jar",
 			"configName": "TrainCarts"
 		},
 		{
 			"name": "BKCommonLib",
-			"desc": "&eDependency for TrainCarts",
+			"desc": "Dependency for TrainCarts",
 			"jarName": "BKCommonLib.jar",
 			"configName": "BKCommonLib",
 			"freePlugin": "true"
 		},
 		{
 			"name": "ImageOnMap",
-			"desc": "&bHave you ever wanted to view an image on a map ingame? ImageOnMap allows you to do it!.",
-			"jarName": "ImageOnMap-3.0.jar",
+			"desc": "Create map boards with images.",
+			"jarName": "ImageOnMap.jar",
 			"configName": "ImageOnMap"
-			"freePlugin": "true"
 		}
 	]
 }
