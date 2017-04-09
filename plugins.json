@@ -521,6 +521,12 @@
 			"desc": "Create map boards with images.",
 			"jarName": "ImageOnMap.jar",
 			"configName": "ImageOnMap"
+		},
+		{
+			"name": "PhatLoots",
+			"desc": "This plugin allows Players to receive loot (money/items/exp/etc...) from Chests/Mobs.",
+			"jarName": "PhatLoots.jar"
+			"configName": "PhatLoots"
 		}
 	]
 }
