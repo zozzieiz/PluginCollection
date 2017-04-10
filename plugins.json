@@ -521,6 +521,12 @@
 			"desc": "Create map boards with images.",
 			"jarName": "ImageOnMap.jar",
 			"configName": "ImageOnMap"
+		},
+		{
+			"name": "InstantRespawn",
+			"desc": "Stops the Respawn screen from showing\nand respawns straight away.",
+			"jarName": "InstantRespawn.jar",
+			"freePlugin": "true"
 		}
 	]
 }
