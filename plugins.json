@@ -34,7 +34,22 @@
 			"name": "Permissions Ex",
 			"desc": "Create permission systems.",
 			"jarName": "PermissionsEx.jar",
-			"configName": "PermissionsEx"
+			"configName": "PermissionsEx",
+      "freePlugin": "true"
+		},
+    {
+			"name": "AquaticPerms",
+			"desc": "A super simple per-user permissions plugin",
+			"jarName": "AquaticPerms.jar",
+			"configName": "AquaticPerms",
+			"freePlugin": "true"
+    },
+		{
+			"name": "Skript",
+			"desc": "Modify servers through a scripting interface.",
+			"jarName": "Skript.jar",
+			"configName": "Skript",
+			"requiredRank": "4"
 		},
 		{
 			"name": "No Cheat Plus",
@@ -50,7 +65,7 @@
 		},
 		{
 			"name": "Fast Async WorldEdit",
-			"desc": "Optimizes WorldEdit when working with large amounts of blocks.\n&cThis plugin requires &nWorld Edit",
+			"desc": "Optimizes WorldEdit when working with large amounts of blocks.\n&cRequires &nWorld Edit",
 			"jarName": "FastAsyncWorldEdit.jar",
 			"configName": "FastAsyncWorldEdit",
 			"freePlugin":"true",
@@ -61,6 +76,12 @@
 			"desc": "Create and manage regions using this plugin.",
 			"jarName": "worldguard.jar",
 			"configName": "WorldGuard"
+		},
+		{
+			"name": "Red Protect",
+			"desc": "Anti-Grief, Chat protection, Spawn Protection\nMay be a good alternative to WorldGuard.",
+			"jarName": "RedProtect.jar",
+			"configName": "RedProtect"
 		},
 		{
 			"name": "VoxelSniper",
@@ -120,7 +141,8 @@
 			"name": "MCAuthenticator",
 			"desc": "Enables you to secure your server using 2FA.",
 			"jarName": "MCAuthenticator.jar",
-			"configName": "MCAuthenticator"
+			"configName": "MCAuthenticator",
+			"disabled": true
 		},
 		{
 			"name":"CreeperHeal",
@@ -167,7 +189,7 @@
 		},
 		{
 			"name": "Orebfuscator",
-			"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cThis plugin requires &nProtocolLib",
+			"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cRequires &nProtocolLib",
 			"jarName": "Orebfuscator.jar",
 			"configName":"Orebfuscator4",
 			"requiredRank":"3"
@@ -224,19 +246,26 @@
 		},
 		{
 			"name": "SimplePets",
-			"desc": "A simple pets plugin (EchoPets replacement)\n&c&nThis may conflict with Citizens!",
+			"desc": "A simple pets plugin (EchoPets replacement)\n&cRequires &nSimpleAPI&c.\n&c&nThis may conflict with Citizens!",
 			"jarName": "SimplePets.jar",
 			"configName": "SimplePets"
 		},
 		{
+			"name": "SimpleAPI",
+			"desc": "A simple, lightweight set of APIs",
+			"jarName": "SimpleAPI.jar",
+			"configName": "SimpleAPI",
+			"freePlugin": "true"
+		},
+		{
 			"name": "Auctions",
-			"desc": "An elegant auctioning solution that\nallows text tooltips for auctioned items\n&cThis plugin requires &nVault&c.",
+			"desc": "An elegant auctioning solution that\nallows text tooltips for auctioned items\n&cRequires &nVault&c.",
 			"jarName": "Auctions.jar",
 			"configName": "Auctions"
 		},
 		{
 			"name": "ObsidianAuctions",
-			"desc": "Unique chat based auction system.\n&cThis plugin requires &nVault&c.",
+			"desc": "Unique chat based auction system.\n&cRequires &nVault&c.",
 			"jarName": "ObsidianAuctions.jar",
 			"configName": "ObsidianAuctions"
 		},
@@ -285,7 +314,7 @@
 		},
 		{
 			"name": "CommandNPC",
-			"desc": "Add right-clickable commands to your NPCs.\n&cThis plugin requires &nCitizens&c.",
+			"desc": "Add right-clickable commands to your NPCs.\n&cRequires &nCitizens&c.",
 			"jarName": "CommandNPC.jar",
 			"configName": "CommandNPC",
 			"requiredRank": "1"
@@ -313,14 +342,14 @@
 		},
 		{
 			"name": "ASkyBlock",
-			"desc": "Survive on Skyblock islands.\n&cThis plugin requires &nVault&c.",
+			"desc": "Survive on Skyblock islands.\n&cRequires &nVault&c.",
 			"jarName": "askyblock.jar",
 			"configName": "ASkyBlock",
 			"requiredRank": "2"
 		},
 		{
 			"name": "ASkyGrid",
-			"desc": "Survive in a grid of blocks.\n&cThis plugin requires &nVault&c.",
+			"desc": "Survive in a grid of blocks.\n&cRequires &nVault&c.",
 			"jarName": "askygrid.jar",
 			"configName": "ASkyGrid",
 			"requiredRank": "2"
@@ -490,23 +519,34 @@
 		},
 		{
 			"name": "TrainCarts",
-			"desc": "&bLink minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&cRequires &nBKCommonLib&c to be installed.",
+			"desc": "Link minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&cRequires &nBKCommonLib&c.",
 			"jarName": "TrainCarts.jar",
 			"configName": "TrainCarts"
 		},
 		{
 			"name": "BKCommonLib",
-			"desc": "&eDependency for TrainCarts",
+			"desc": "Dependency for TrainCarts",
 			"jarName": "BKCommonLib.jar",
 			"configName": "BKCommonLib",
 			"freePlugin": "true"
 		},
+    {
+			"name": "ImageOnMap",
+			"desc": "Create map boards with images.",
+			"jarName": "ImageOnMap.jar",
+			"configName": "ImageOnMap"
+		},
 		{
-			"name": "AquaticPerms",
-			"desc": "A super simple permissions plugin",
-			"jarName": "AquaticPerms.jar",
-			"configName": "AquaticPerms",
-			"freePlugin": "true"
+			"name": "PhatLoots",
+			"desc": "Allows players to receive loot (money/items/exp/etc...) from Chests/Mobs.",
+			"jarName": "PhatLoots.jar",
+			"configName": "PhatLoots"
+		},
+		{
+			"name": "NBTEditor",
+			"desc": "Allows easy customization of many aspects of Minecraft\nthrough the modification of NBT tags.",
+			"jarName": "NBTEditor.jar",
+			"configName": "NBTEditor"
 		}
 	]
 }
