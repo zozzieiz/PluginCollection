@@ -70,6 +70,12 @@
 			"configName": "WorldGuard"
 		},
 		{
+			"name": "Red Protect",
+			"desc": "Anti-Grief, Chat protection, Spawn Protection\nMay be a good alternative to WorldGuard.",
+			"jarName": "RedProtect.jar",
+			"configName": "RedProtect"
+		},
+		{
 			"name": "VoxelSniper",
 			"desc": "Long range map editing tool for terraforming.",
 			"jarName": "VoxelSniper-7.1.0-SNAPSHOT-all.jar",
