@@ -533,12 +533,6 @@
 			"desc": "This plugin allows Players to receive loot (money/items/exp/etc...) from Chests/Mobs.",
 			"jarName": "PhatLoots.jar",
 			"configName": "PhatLoots"
-		},
-		{
-			"name": "NBTEditor",
-			"desc": "Allows easy customization of many aspects of Minecraft\nthrough the modification of NBT tags.",
-			"jarName": "NBTEditor.jar",
-			"configName": "NBTEditor"
 		}
 	]
 }
