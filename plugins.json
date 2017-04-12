@@ -35,15 +35,15 @@
 			"desc": "Create permission systems.",
 			"jarName": "PermissionsEx.jar",
 			"configName": "PermissionsEx",
-      "freePlugin": "true"
+      			"freePlugin": "true"
 		},
-    {
+    		{
 			"name": "AquaticPerms",
 			"desc": "A super simple per-user permissions plugin",
 			"jarName": "AquaticPerms.jar",
 			"configName": "AquaticPerms",
 			"freePlugin": "true"
-    },
+    		},
 		{
 			"name": "Skript",
 			"desc": "Modify servers through a scripting interface.",
@@ -197,7 +197,7 @@
 		{
 			"name": "Chat Control",
 			"desc": "Control aspects of the chat and prevent swearing/spamming.",
-      "jarName": "AntiSwear.jar",
+      			"jarName": "AntiSwear.jar",
 			"configName": "ChatControl"
 		},
 		{
@@ -480,8 +480,8 @@
 			"jarName":"AutoMessage.jar",
 			"configName":"AutoMessage",
 			"requiredRank": "1"
-    },
-    {
+    		},
+    		{
 			"name": "Title Welcome Message",
 			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
 			"jarName": "TitleWelcomeMessage.jar",
@@ -493,12 +493,12 @@
 			"jarName": "NametagEdit.jar",
 			"configName": "NametagEdit"
 		},
-    {
+    		{
 			"name": "Area Shop",
 			"desc": "Allows for the buying and renting of worldguard regions",
 			"jarName": "AreaShop.jar",
 			"configName": "AreaShop"
-    },
+    		},
 		{
 			"name": "CmdSigns",
 			"desc": "Fully customizable command signs",
@@ -530,7 +530,7 @@
 			"configName": "BKCommonLib",
 			"freePlugin": "true"
 		},
-    {
+    		{
 			"name": "ImageOnMap",
 			"desc": "Create map boards with images.",
 			"jarName": "ImageOnMap.jar",
