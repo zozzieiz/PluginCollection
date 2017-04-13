@@ -34,8 +34,16 @@
 			"name": "Permissions Ex",
 			"desc": "Create permission systems.",
 			"jarName": "PermissionsEx.jar",
-			"configName": "PermissionsEx"
+			"configName": "PermissionsEx",
+      			"freePlugin": "true"
 		},
+    {
+			"name": "AquaticPerms",
+			"desc": "A super simple per-user permissions plugin",
+			"jarName": "AquaticPerms.jar",
+			"configName": "AquaticPerms",
+			"freePlugin": "true"
+    },
 		{
 			"name": "Skript",
 			"desc": "Modify servers through a scripting interface.",
@@ -43,6 +51,13 @@
 			"configName": "Skript",
 			"requiredRank": "4"
 		},
+    {
+			"name": "InstantRespawn",
+			"desc": "Stops the Respawn screen from showing\nand respawns straight away.",
+			"jarName": "InstantRespawn.jar",
+      "configName": "~",
+			"freePlugin": "true"
+    },
 		{
 			"name": "No Cheat Plus",
 			"desc": "Anti-cheat system to block bad modifications. \n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
@@ -68,6 +83,12 @@
 			"desc": "Create and manage regions using this plugin.",
 			"jarName": "worldguard.jar",
 			"configName": "WorldGuard"
+		},
+		{
+			"name": "Red Protect",
+			"desc": "Anti-Grief, Chat protection, Spawn Protection\nMay be a good alternative to WorldGuard.",
+			"jarName": "RedProtect.jar",
+			"configName": "RedProtect"
 		},
 		{
 			"name": "VoxelSniper",
@@ -183,7 +204,7 @@
 		{
 			"name": "Chat Control",
 			"desc": "Control aspects of the chat and prevent swearing/spamming.",
-      "jarName": "AntiSwear.jar",
+      			"jarName": "AntiSwear.jar",
 			"configName": "ChatControl"
 		},
 		{
@@ -198,7 +219,7 @@
 			"jarName": "EZRanksPro.jar",
 			"configName": "EZRanksPro"
 		},
-    		{
+    {
 			"name": "MineResetLite",
 			"desc": "Create mines that will reset.",
 			"jarName": "MineResetLite.jar",
@@ -408,13 +429,13 @@
     			"requiredRank": "1"
 		},
 		{
-    			"name": "Scaffold",
+    	"name": "Scaffold",
 			"desc": "A multi-world plugin developed by Minehut.\nAllows importing worlds through commands!\nThis plugin is recommended over Multiverse-Core",
 			"jarName": "Scaffold.jar",
 			"configName": "Scaffold",
 			"requiredRank": "4"
-   		},
-    		{
+   	},
+    {
 			"name": "Multiverse",
 			"desc": "Multi-world management.",
 			"jarName": "Multiverse-Core.jar",
@@ -516,17 +537,23 @@
 			"configName": "BKCommonLib",
 			"freePlugin": "true"
 		},
-		{
+    {
 			"name": "ImageOnMap",
 			"desc": "Create map boards with images.",
 			"jarName": "ImageOnMap.jar",
 			"configName": "ImageOnMap"
 		},
+    {
+			"name": "PhatLoots",
+			"desc": "Allows players to receive loot (money/items/exp/etc...) from Chests/Mobs.",
+			"jarName": "PhatLoots.jar",
+			"configName": "PhatLoots"
+		},
 		{
-			"name": "InstantRespawn",
-			"desc": "Stops the Respawn screen from showing\nand respawns straight away.",
-			"jarName": "InstantRespawn.jar",
-			"freePlugin": "true"
+			"name": "NBTEditor",
+			"desc": "Allows easy customization of many aspects of Minecraft\nthrough the modification of NBT tags.",
+			"jarName": "NBTEditor.jar",
+			"configName": "NBTEditor"
 		}
 	]
 }
