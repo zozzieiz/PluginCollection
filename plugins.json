@@ -37,13 +37,13 @@
 			"configName": "PermissionsEx",
       			"freePlugin": "true"
 		},
-    		{
+    {
 			"name": "AquaticPerms",
 			"desc": "A super simple per-user permissions plugin",
 			"jarName": "AquaticPerms.jar",
 			"configName": "AquaticPerms",
 			"freePlugin": "true"
-    		},
+    },
 		{
 			"name": "Skript",
 			"desc": "Modify servers through a scripting interface.",
@@ -51,6 +51,13 @@
 			"configName": "Skript",
 			"requiredRank": "4"
 		},
+    {
+			"name": "InstantRespawn",
+			"desc": "Stops the Respawn screen from showing\nand respawns straight away.",
+			"jarName": "InstantRespawn.jar",
+      "configName": "~",
+			"freePlugin": "true"
+    },
 		{
 			"name": "No Cheat Plus",
 			"desc": "Anti-cheat system to block bad modifications. \n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
@@ -212,7 +219,7 @@
 			"jarName": "EZRanksPro.jar",
 			"configName": "EZRanksPro"
 		},
-    		{
+    {
 			"name": "MineResetLite",
 			"desc": "Create mines that will reset.",
 			"jarName": "MineResetLite.jar",
@@ -422,13 +429,13 @@
     			"requiredRank": "1"
 		},
 		{
-    			"name": "Scaffold",
+    	"name": "Scaffold",
 			"desc": "A multi-world plugin developed by Minehut.\nAllows importing worlds through commands!\nThis plugin is recommended over Multiverse-Core",
 			"jarName": "Scaffold.jar",
 			"configName": "Scaffold",
 			"requiredRank": "4"
-   		},
-    		{
+   	},
+    {
 			"name": "Multiverse",
 			"desc": "Multi-world management.",
 			"jarName": "Multiverse-Core.jar",
@@ -480,8 +487,8 @@
 			"jarName":"AutoMessage.jar",
 			"configName":"AutoMessage",
 			"requiredRank": "1"
-    		},
-    		{
+    },
+    {
 			"name": "Title Welcome Message",
 			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
 			"jarName": "TitleWelcomeMessage.jar",
@@ -493,12 +500,12 @@
 			"jarName": "NametagEdit.jar",
 			"configName": "NametagEdit"
 		},
-    		{
+    {
 			"name": "Area Shop",
 			"desc": "Allows for the buying and renting of worldguard regions",
 			"jarName": "AreaShop.jar",
 			"configName": "AreaShop"
-    		},
+    },
 		{
 			"name": "CmdSigns",
 			"desc": "Fully customizable command signs",
@@ -530,13 +537,13 @@
 			"configName": "BKCommonLib",
 			"freePlugin": "true"
 		},
-    		{
+    {
 			"name": "ImageOnMap",
 			"desc": "Create map boards with images.",
 			"jarName": "ImageOnMap.jar",
 			"configName": "ImageOnMap"
 		},
-		{
+    {
 			"name": "PhatLoots",
 			"desc": "Allows players to receive loot (money/items/exp/etc...) from Chests/Mobs.",
 			"jarName": "PhatLoots.jar",
