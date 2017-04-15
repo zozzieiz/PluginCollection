@@ -91,6 +91,12 @@
 			"configName": "RedProtect"
 		},
 		{
+			"name": "GriefPrevention",
+			"desc": "Anti-grief plugin which lets your players protect\ntheir own builds. Can also be used to\nmake admin claims.",
+			"jarName": "GriefPrevention.jar",
+			"configName": "GriefPrevention"
+		},
+		{
 			"name": "VoxelSniper",
 			"desc": "Long range map editing tool for terraforming.",
 			"jarName": "VoxelSniper-7.1.0-SNAPSHOT-all.jar",
