@@ -584,6 +584,12 @@
 			"configName": "NBTEditor"
 		},
 		{
+			"name": "RPGItems",
+			"desc": "Add special lore, abilities, and more to items.",
+			"jarName": "RPGItems.jar",
+			"configName": "RPGItems"
+    },
+    {
 			"name": "PlayerVaults",
 			"desc": "Allows players to use an unlimited (or set)\namount of personal storage vaults.",
 			"jarName": "PlayerVaults.jar",
