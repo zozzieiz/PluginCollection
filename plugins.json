@@ -49,13 +49,13 @@
 			"configName": "PermissionsEx",
       "freePlugin": "true"
 		},
-    {
+    		{
 			"name": "AquaticPerms",
 			"desc": "A super simple per-user permissions plugin",
 			"jarName": "AquaticPerms.jar",
 			"configName": "AquaticPerms",
 			"freePlugin": "true"
-    },
+    		},
 		{
 			"name": "Skript",
 			"desc": "Modify servers through a scripting interface.",
@@ -75,6 +75,12 @@
 			"desc": "Anti-cheat system to block bad modifications. \n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
 			"jarName": "NoCheatPlus.jar",
 			"configName": "NoCheatPlus"
+		},
+    {
+			"name": "RandomTP",
+			"desc": "Allows players to easily teleport to random locations in the world.",
+			"jarName": "RandomTP.jar",
+			"configName": "~"
 		},
 		{
 			"name": "World Edit",
@@ -445,7 +451,7 @@
     			"requiredRank": "1"
 		},
 		{
-    	"name": "Scaffold",
+    			"name": "Scaffold",
 			"desc": "A multi-world plugin developed by Minehut.\nAllows importing worlds through commands!\nThis plugin is recommended over Multiverse-Core",
 			"jarName": "Scaffold.jar",
 			"configName": "Scaffold",
