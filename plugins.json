@@ -37,13 +37,13 @@
 			"configName": "PermissionsEx",
       			"freePlugin": "true"
 		},
-    {
+    		{
 			"name": "AquaticPerms",
 			"desc": "A super simple per-user permissions plugin",
 			"jarName": "AquaticPerms.jar",
 			"configName": "AquaticPerms",
 			"freePlugin": "true"
-    },
+    		},
 		{
 			"name": "Skript",
 			"desc": "Modify servers through a scripting interface.",
@@ -51,13 +51,13 @@
 			"configName": "Skript",
 			"requiredRank": "4"
 		},
-    {
+    		{
 			"name": "InstantRespawn",
 			"desc": "Stops the Respawn screen from showing\nand respawns straight away.",
 			"jarName": "InstantRespawn.jar",
-      "configName": "~",
+      			"configName": "~",
 			"freePlugin": "true"
-    },
+    		},
 		{
 			"name": "No Cheat Plus",
 			"desc": "Anti-cheat system to block bad modifications. \n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
@@ -69,14 +69,6 @@
 			"desc": "Build tools.",
 			"jarName": "worldedit.jar",
 			"configName": "WorldEdit"
-		},
-		{
-			"name": "Fast Async WorldEdit",
-			"desc": "Optimizes WorldEdit when working with large amounts of blocks.\n&cRequires &nWorld Edit",
-			"jarName": "FastAsyncWorldEdit.jar",
-			"configName": "FastAsyncWorldEdit",
-			"freePlugin":"true",
-			"disabled": true
 		},
 		{
 			"name": "World Guard",
@@ -219,7 +211,7 @@
 			"jarName": "EZRanksPro.jar",
 			"configName": "EZRanksPro"
 		},
-    {
+    		{
 			"name": "MineResetLite",
 			"desc": "Create mines that will reset.",
 			"jarName": "MineResetLite.jar",
@@ -287,6 +279,12 @@
 			"desc": "Create timed broadcasts for your server through the action bar.",
 			"jarName": "ActionAnnouncer.jar",
 			"configName": "ActionAnnouncer"
+		},
+		{
+			"name": "Actionbar",
+			"desc": "Animated actionbar, join messages, etc.",
+			"jarName": "Actionbar.jar",
+			"configName": "Actionbar"
 		},
 		{
 			"name": "UltraBar",
@@ -429,13 +427,13 @@
     			"requiredRank": "1"
 		},
 		{
-    	"name": "Scaffold",
+    			"name": "Scaffold",
 			"desc": "A multi-world plugin developed by Minehut.\nAllows importing worlds through commands!\nThis plugin is recommended over Multiverse-Core",
 			"jarName": "Scaffold.jar",
 			"configName": "Scaffold",
 			"requiredRank": "4"
-   	},
-    {
+   		},
+    		{
 			"name": "Multiverse",
 			"desc": "Multi-world management.",
 			"jarName": "Multiverse-Core.jar",
@@ -487,8 +485,20 @@
 			"jarName":"AutoMessage.jar",
 			"configName":"AutoMessage",
 			"requiredRank": "1"
-    },
-    {
+	    	},
+		{
+			"name": "Tablist",
+			"desc": "Animated tablist with variables",
+			"jarName": "Tablist.jar",
+			"configName": "Tablist"
+		},
+		{
+			"name": "Titlebar",
+			"desc": "Animated titlebar",
+			"jarName": "Titlebar.jar",
+			"configName": "Titlebar"
+		},
+	    	{
 			"name": "Title Welcome Message",
 			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
 			"jarName": "TitleWelcomeMessage.jar",
@@ -500,12 +510,12 @@
 			"jarName": "NametagEdit.jar",
 			"configName": "NametagEdit"
 		},
-    {
+    		{
 			"name": "Area Shop",
 			"desc": "Allows for the buying and renting of worldguard regions",
 			"jarName": "AreaShop.jar",
 			"configName": "AreaShop"
-    },
+    		},
 		{
 			"name": "CmdSigns",
 			"desc": "Fully customizable command signs",
@@ -537,13 +547,13 @@
 			"configName": "BKCommonLib",
 			"freePlugin": "true"
 		},
-    {
+    		{
 			"name": "ImageOnMap",
 			"desc": "Create map boards with images.",
 			"jarName": "ImageOnMap.jar",
 			"configName": "ImageOnMap"
 		},
-    {
+    		{
 			"name": "PhatLoots",
 			"desc": "Allows players to receive loot (money/items/exp/etc...) from Chests/Mobs.",
 			"jarName": "PhatLoots.jar",
