@@ -1,6 +1,18 @@
 {
 	"plugins": [
 		{
+			"name": "Buycraft",
+			"desc": "Set up automatic stores for your server.",
+			"jarName": "BuycraftX.jar",
+			"configName": "BuycraftX"
+		},
+		{
+			"name": "Enjin",
+			"desc": "Connect an Enjin site and Donationcraft store to your server.",
+			"jarName": "EnjinMinecraftPlugin.jar",
+			"configName": "EnjinMinecraftPlugin"
+		},
+		{
 			"name": "Essentials",
 			"desc": "Essential commands\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "Essentials.jar",
@@ -35,7 +47,7 @@
 			"desc": "Create permission systems.",
 			"jarName": "PermissionsEx.jar",
 			"configName": "PermissionsEx",
-      			"freePlugin": "true"
+      "freePlugin": "true"
 		},
     {
 			"name": "AquaticPerms",
@@ -55,7 +67,7 @@
 			"name": "InstantRespawn",
 			"desc": "Stops the Respawn screen from showing\nand respawns straight away.",
 			"jarName": "InstantRespawn.jar",
-      "configName": "~",
+      			"configName": "~",
 			"freePlugin": "true"
     },
 		{
@@ -71,14 +83,6 @@
 			"configName": "WorldEdit"
 		},
 		{
-			"name": "Fast Async WorldEdit",
-			"desc": "Optimizes WorldEdit when working with large amounts of blocks.\n&cRequires &nWorld Edit",
-			"jarName": "FastAsyncWorldEdit.jar",
-			"configName": "FastAsyncWorldEdit",
-			"freePlugin":"true",
-			"disabled": true
-		},
-		{
 			"name": "World Guard",
 			"desc": "Create and manage regions using this plugin.",
 			"jarName": "worldguard.jar",
@@ -89,6 +93,12 @@
 			"desc": "Anti-Grief, Chat protection, Spawn Protection\nMay be a good alternative to WorldGuard.",
 			"jarName": "RedProtect.jar",
 			"configName": "RedProtect"
+		},
+		{
+			"name": "GriefPrevention",
+			"desc": "Anti-grief plugin which lets your players protect\ntheir own builds. Can also be used to\nmake admin claims.",
+			"jarName": "GriefPrevention.jar",
+			"configName": "GriefPrevention"
 		},
 		{
 			"name": "VoxelSniper",
@@ -219,7 +229,7 @@
 			"jarName": "EZRanksPro.jar",
 			"configName": "EZRanksPro"
 		},
-    {
+    		{
 			"name": "MineResetLite",
 			"desc": "Create mines that will reset.",
 			"jarName": "MineResetLite.jar",
@@ -287,6 +297,12 @@
 			"desc": "Create timed broadcasts for your server through the action bar.",
 			"jarName": "ActionAnnouncer.jar",
 			"configName": "ActionAnnouncer"
+		},
+		{
+			"name": "Actionbar",
+			"desc": "Animated actionbar, join messages, etc.",
+			"jarName": "Actionbar.jar",
+			"configName": "Actionbar"
 		},
 		{
 			"name": "UltraBar",
@@ -434,8 +450,8 @@
 			"jarName": "Scaffold.jar",
 			"configName": "Scaffold",
 			"requiredRank": "4"
-   	},
-    {
+   		},
+    		{
 			"name": "Multiverse",
 			"desc": "Multi-world management.",
 			"jarName": "Multiverse-Core.jar",
@@ -487,8 +503,20 @@
 			"jarName":"AutoMessage.jar",
 			"configName":"AutoMessage",
 			"requiredRank": "1"
-    },
+	  },
     {
+			"name": "Tablist",
+			"desc": "Animated tablist with variables",
+			"jarName": "Tablist.jar",
+			"configName": "Tablist"
+		},
+		{
+			"name": "Titlebar",
+			"desc": "Animated titlebar",
+			"jarName": "Titlebar.jar",
+			"configName": "Titlebar"
+		},
+	  {
 			"name": "Title Welcome Message",
 			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
 			"jarName": "TitleWelcomeMessage.jar",
@@ -557,9 +585,15 @@
 		},
 		{
 			"name": "RPGItems",
-			"desc": "Allows players to set color lores on items,abilities and more.",
+			"desc": "Add special lore, abilities, and more to items.",
 			"jarName": "RPGItems.jar",
 			"configName": "RPGItems"
+    },
+    {
+			"name": "PlayerVaults",
+			"desc": "Allows players to use an unlimited (or set)\namount of personal storage vaults.",
+			"jarName": "PlayerVaults.jar",
+			"configName": "PlayerVaults"
 		}
 	]
 }
