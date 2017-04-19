@@ -1,6 +1,18 @@
 {
 	"plugins": [
 		{
+			"name": "Buycraft",
+			"desc": "Set up automatic stores for your server.",
+			"jarName": "BuycraftX.jar",
+			"configName": "BuycraftX"
+		},
+		{
+			"name": "Enjin",
+			"desc": "Connect an Enjin site and Donationcraft store to your server.",
+			"jarName": "EnjinMinecraftPlugin.jar",
+			"configName": "EnjinMinecraftPlugin"
+		},
+		{
 			"name": "Essentials",
 			"desc": "Essential commands\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "Essentials.jar",
@@ -35,7 +47,7 @@
 			"desc": "Create permission systems.",
 			"jarName": "PermissionsEx.jar",
 			"configName": "PermissionsEx",
-      			"freePlugin": "true"
+      "freePlugin": "true"
 		},
     		{
 			"name": "AquaticPerms",
@@ -51,32 +63,30 @@
 			"configName": "Skript",
 			"requiredRank": "4"
 		},
-    		{
+    {
 			"name": "InstantRespawn",
 			"desc": "Stops the Respawn screen from showing\nand respawns straight away.",
 			"jarName": "InstantRespawn.jar",
       			"configName": "~",
 			"freePlugin": "true"
-    		},
+    },
 		{
 			"name": "No Cheat Plus",
 			"desc": "Anti-cheat system to block bad modifications. \n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
 			"jarName": "NoCheatPlus.jar",
 			"configName": "NoCheatPlus"
 		},
+    {
+			"name": "RandomTP",
+			"desc": "Allows players to easily teleport to random locations in the world.",
+			"jarName": "RandomTP.jar",
+			"configName": "~"
+		},
 		{
 			"name": "World Edit",
 			"desc": "Build tools.",
 			"jarName": "worldedit.jar",
 			"configName": "WorldEdit"
-		},
-		{
-			"name": "Fast Async WorldEdit",
-			"desc": "Optimizes WorldEdit when working with large amounts of blocks.\n&cRequires &nWorld Edit",
-			"jarName": "FastAsyncWorldEdit.jar",
-			"configName": "FastAsyncWorldEdit",
-			"freePlugin":"true",
-			"disabled": true
 		},
 		{
 			"name": "World Guard",
@@ -89,6 +99,12 @@
 			"desc": "Anti-Grief, Chat protection, Spawn Protection\nMay be a good alternative to WorldGuard.",
 			"jarName": "RedProtect.jar",
 			"configName": "RedProtect"
+		},
+		{
+			"name": "GriefPrevention",
+			"desc": "Anti-grief plugin which lets your players protect\ntheir own builds. Can also be used to\nmake admin claims.",
+			"jarName": "GriefPrevention.jar",
+			"configName": "GriefPrevention"
 		},
 		{
 			"name": "VoxelSniper",
@@ -289,6 +305,12 @@
 			"configName": "ActionAnnouncer"
 		},
 		{
+			"name": "Actionbar",
+			"desc": "Animated actionbar, join messages, etc.",
+			"jarName": "Actionbar.jar",
+			"configName": "Actionbar"
+		},
+		{
 			"name": "UltraBar",
 			"desc": "Send Boss Bar messages, Titles, and Actionbars!",
 			"jarName": "UltraBar.jar",
@@ -487,8 +509,20 @@
 			"jarName":"AutoMessage.jar",
 			"configName":"AutoMessage",
 			"requiredRank": "1"
-   		},
-    		{
+	  },
+    {
+			"name": "Tablist",
+			"desc": "Animated tablist with variables",
+			"jarName": "Tablist.jar",
+			"configName": "Tablist"
+		},
+		{
+			"name": "Titlebar",
+			"desc": "Animated titlebar",
+			"jarName": "Titlebar.jar",
+			"configName": "Titlebar"
+		},
+	  {
 			"name": "Title Welcome Message",
 			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
 			"jarName": "TitleWelcomeMessage.jar",
@@ -500,12 +534,12 @@
 			"jarName": "NametagEdit.jar",
 			"configName": "NametagEdit"
 		},
-    		{
+    {
 			"name": "Area Shop",
 			"desc": "Allows for the buying and renting of worldguard regions",
 			"jarName": "AreaShop.jar",
 			"configName": "AreaShop"
-    		},
+    },
 		{
 			"name": "CmdSigns",
 			"desc": "Fully customizable command signs",
@@ -537,13 +571,13 @@
 			"configName": "BKCommonLib",
 			"freePlugin": "true"
 		},
-    		{
+    {
 			"name": "ImageOnMap",
 			"desc": "Create map boards with images.",
 			"jarName": "ImageOnMap.jar",
 			"configName": "ImageOnMap"
 		},
-    		{
+    {
 			"name": "PhatLoots",
 			"desc": "Allows players to receive loot (money/items/exp/etc...) from Chests/Mobs.",
 			"jarName": "PhatLoots.jar",
@@ -554,12 +588,18 @@
 			"desc": "Allows easy customization of many aspects of Minecraft\nthrough the modification of NBT tags.",
 			"jarName": "NBTEditor.jar",
 			"configName": "NBTEditor"
-		}
+		},
 		{
-			"name": "RandomTP",
-			"desc": "Allows players to easily teleport to random locations in the world.",
-			"jarName": "RandomTP.jar",
-			"configName": "~"
+			"name": "RPGItems",
+			"desc": "Add special lore, abilities, and more to items.",
+			"jarName": "RPGItems.jar",
+			"configName": "RPGItems"
+    },
+    {
+			"name": "PlayerVaults",
+			"desc": "Allows players to use an unlimited (or set)\namount of personal storage vaults.",
+			"jarName": "PlayerVaults.jar",
+			"configName": "PlayerVaults"
 		}
 	]
 }
