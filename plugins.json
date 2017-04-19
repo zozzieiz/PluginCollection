@@ -560,6 +560,12 @@
 			"desc": "Allows easy customization of many aspects of Minecraft\nthrough the modification of NBT tags.",
 			"jarName": "NBTEditor.jar",
 			"configName": "NBTEditor"
+		},
+		{
+			"name": "PlayerVaults",
+			"desc": "Allows players to use a unlimited (or set) amount of personal vaults.",
+			"jarName": "PlayerVaults.jar",
+			"configName": "PlayerVaults"
 		}
 	]
 }
