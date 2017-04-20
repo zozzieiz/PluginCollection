@@ -605,7 +605,8 @@
 			"name": "Slimefun",
 			"desc": "Adds 400+ custom items to the game and\nenchances the game to modpack level.",
 			"jarName": "Slimefun v4.1.6.jar",
-			"configName": "Slimefun"
+			"configName": "Slimefun",
+			"requiredRank": "2"
 		}
 	]
 }
