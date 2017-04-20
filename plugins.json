@@ -135,7 +135,7 @@
 		{
 			"name": "Placeholder API",
 			"desc": "API which gives plugins access to variables to display.",
-			"jarName": "PlaceholderAPI.jar",
+			"jarName": "PlaceholderAPI-2.7.1.jar",
 			"configName": "PlaceholderAPI",
 			"freePlugin":"true"
 		},
