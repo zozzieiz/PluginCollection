@@ -607,6 +607,15 @@
 			"jarName": "Slimefun v4.1.6.jar",
 			"configName": "Slimefun",
 			"requiredRank": "2"
+		},
+		{
+			"name": "ExoticGarden",
+			"desc": "<desc>\n&cRequires &c&nSlimefun &r&cto install",
+			"jarName": "ExoticGarden.jar",
+			"configName": "ExoticGarden",
+			"requiredRank": "2",
+			"freePlugin": "true"
 		}
+	
 	]
 }
