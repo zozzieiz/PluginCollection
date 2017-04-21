@@ -600,6 +600,21 @@
 			"desc": "Allows players to use an unlimited (or set)\namount of personal storage vaults.",
 			"jarName": "PlayerVaults.jar",
 			"configName": "PlayerVaults"
+		},
+		{
+			"name": "Slimefun",
+			"desc": "Adds 400+ custom items to the game and\nenchances the game to modpack level.",
+			"jarName": "Slimefun.jar",
+			"configName": "Slimefun",
+			"requiredRank": "2"
+		},
+		{
+			"name": "ExoticGarden",
+			"desc": "Exotic Garden is a Slimefun Addon which \ngenerates new plants all over your world.\n&cRequires &c&nSlimefun &r&cto install",
+			"jarName": "ExoticGarden.jar",
+			"configName": "ExoticGarden",
+			"requiredRank": "2",
+			"freePlugin": "true"
 		}
 	]
 }
