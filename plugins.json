@@ -610,7 +610,7 @@
 		},
 		{
 			"name": "ExoticGarden",
-			"desc": "<desc>\n&cRequires &c&nSlimefun &r&cto install",
+			"desc": "Exotic Garden is a Slimefun Addon which \ngenerates new plants all over your world.\n&cRequires &c&nSlimefun &r&cto install",
 			"jarName": "ExoticGarden.jar",
 			"configName": "ExoticGarden",
 			"requiredRank": "2",
