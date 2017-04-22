@@ -2,13 +2,13 @@
 	"plugins": [
 		{
 			"name": "Buycraft",
-			"desc": "Set up automatic stores for your server.",
+			"desc": "Set up automatic stores for your server.\n&cMake sure your store follows the Minecraft EULA!\n&cYou can view it here: https://account.mojang.com/documents/minecraft_eula",
 			"jarName": "BuycraftX.jar",
 			"configName": "BuycraftX"
 		},
 		{
 			"name": "Enjin",
-			"desc": "Connect an Enjin site and Donationcraft store to your server.",
+			"desc": "Connect an Enjin site and Donationcraft store to your server.\n&cMake sure your store follows the Minecraft EULA!\n&cYou can view it here: https://account.mojang.com/documents/minecraft_eula",
 			"jarName": "EnjinMinecraftPlugin.jar",
 			"configName": "EnjinMinecraftPlugin"
 		},
