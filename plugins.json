@@ -603,17 +603,24 @@
 		},
 		{
 			"name": "Slimefun",
-			"desc": "Adds 400+ custom items to the game and\nenchances the game to modpack level.",
+			"desc": "Adds 400+ custom items to the game and\nenchances the game to modpack level.\n&cRequires &nCS-CoreLib",
 			"jarName": "Slimefun.jar",
 			"configName": "Slimefun",
 			"requiredRank": "2"
 		},
 		{
 			"name": "ExoticGarden",
-			"desc": "Exotic Garden is a Slimefun Addon which \ngenerates new plants all over your world.\n&cRequires &c&nSlimefun &r&cto install",
+			"desc": "Exotic Garden is a Slimefun Addon which \ngenerates new plants all over your world.\n&cRequires &c&nSlimefun&c and &nCS-CoreLib",
 			"jarName": "ExoticGarden.jar",
 			"configName": "ExoticGarden",
 			"requiredRank": "2",
+			"freePlugin": "true"
+		},
+		{
+			"name": "CS-CoreLib",
+			"desc": "Library for Slimefun and Exotic Garden",
+			"jarName": "CSCoreLib.jar",
+			"configName": "CS-CoreLib",
 			"freePlugin": "true"
 		}
 	]
