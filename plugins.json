@@ -49,13 +49,13 @@
 			"configName": "PermissionsEx",
       "freePlugin": "true"
 		},
-    		{
+    {
 			"name": "AquaticPerms",
 			"desc": "A super simple per-user permissions plugin",
 			"jarName": "AquaticPerms.jar",
 			"configName": "AquaticPerms",
 			"freePlugin": "true"
-    		},
+    },
 		{
 			"name": "Skript",
 			"desc": "Modify servers through a scripting interface.",
@@ -63,11 +63,18 @@
 			"configName": "Skript",
 			"requiredRank": "4"
 		},
+		{
+			"name": "PandaWire",
+			"desc": "Increases the efficiency and performance of redstone",
+			"jarName": "PandaWire.jar",
+			"configName": "PandaWire",
+			"freePlugin": "true"
+		},
     {
 			"name": "InstantRespawn",
 			"desc": "Stops the Respawn screen from showing\nand respawns straight away.",
 			"jarName": "InstantRespawn.jar",
-      			"configName": "~",
+      "configName": "~",
 			"freePlugin": "true"
     },
 		{
