@@ -47,21 +47,22 @@
 			"desc": "Create permission systems.",
 			"jarName": "PermissionsEx.jar",
 			"configName": "PermissionsEx",
-      "freePlugin": "true"
+      			"freePlugin": "true"
 		},
-    {
+    		{
 			"name": "AquaticPerms",
 			"desc": "A super simple per-user permissions plugin",
 			"jarName": "AquaticPerms.jar",
 			"configName": "AquaticPerms",
 			"freePlugin": "true"
-    },
+    		},
 		{
 			"name": "Skript",
 			"desc": "Modify servers through a scripting interface.",
 			"jarName": "Skript.jar",
 			"configName": "Skript",
-			"requiredRank": "4"
+			"requiredRank": "4",
+			"disabled": true
 		},
 		{
 			"name": "PandaWire",
@@ -70,20 +71,20 @@
 			"configName": "PandaWire",
 			"freePlugin": "true"
 		},
-    {
+    		{
 			"name": "InstantRespawn",
 			"desc": "Stops the Respawn screen from showing\nand respawns straight away.",
 			"jarName": "InstantRespawn.jar",
-      "configName": "~",
+      			"configName": "~",
 			"freePlugin": "true"
-    },
+    		},
 		{
 			"name": "No Cheat Plus",
 			"desc": "Anti-cheat system to block bad modifications. \n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
 			"jarName": "NoCheatPlus.jar",
 			"configName": "NoCheatPlus"
 		},
-    {
+    		{
 			"name": "RandomTP",
 			"desc": "Allows players to easily teleport to random locations in the world.",
 			"jarName": "RandomTP.jar",
@@ -516,8 +517,8 @@
 			"jarName":"AutoMessage.jar",
 			"configName":"AutoMessage",
 			"requiredRank": "1"
-	  },
-    {
+	  	},
+    		{
 			"name": "Tablist",
 			"desc": "Animated tablist with variables",
 			"jarName": "Tablist.jar",
@@ -529,7 +530,7 @@
 			"jarName": "Titlebar.jar",
 			"configName": "Titlebar"
 		},
-	  {
+	  	{
 			"name": "Title Welcome Message",
 			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
 			"jarName": "TitleWelcomeMessage.jar",
@@ -541,12 +542,12 @@
 			"jarName": "NametagEdit.jar",
 			"configName": "NametagEdit"
 		},
-    {
+    		{
 			"name": "Area Shop",
 			"desc": "Allows for the buying and renting of worldguard regions",
 			"jarName": "AreaShop.jar",
 			"configName": "AreaShop"
-    },
+    		},
 		{
 			"name": "CmdSigns",
 			"desc": "Fully customizable command signs",
@@ -578,13 +579,13 @@
 			"configName": "BKCommonLib",
 			"freePlugin": "true"
 		},
-    {
+    		{
 			"name": "ImageOnMap",
 			"desc": "Create map boards with images.",
 			"jarName": "ImageOnMap.jar",
 			"configName": "ImageOnMap"
 		},
-    {
+    		{
 			"name": "PhatLoots",
 			"desc": "Allows players to receive loot (money/items/exp/etc...) from Chests/Mobs.",
 			"jarName": "PhatLoots.jar",
@@ -601,8 +602,8 @@
 			"desc": "Add special lore, abilities, and more to items.",
 			"jarName": "RPGItems.jar",
 			"configName": "RPGItems"
-    },
-    {
+    		},
+    		{
 			"name": "PlayerVaults",
 			"desc": "Allows players to use an unlimited (or set)\namount of personal storage vaults.",
 			"jarName": "PlayerVaults.jar",
