@@ -61,8 +61,7 @@
 			"desc": "Modify servers through a scripting interface.",
 			"jarName": "Skript.jar",
 			"configName": "Skript",
-			"requiredRank": "4",
-			"disabled": true
+			"requiredRank": "4"
 		},
 		{
 			"name": "PandaWire",
