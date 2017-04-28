@@ -445,6 +445,12 @@
 			"configName": "JoeMarriage"
 		},
 		{
+			"name": "Marriage Master",
+			"desc": "Allows you to marry other players with many special features",
+			"jarName": "MarriageMaster.jar",
+			"configName": "MarriageMaster"
+		},
+		{
 			"name": "Loot Protect",
 			"desc": "Protects loot dropped upon death.",
 			"jarName": "LootProtect.jar",
