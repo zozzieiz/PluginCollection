@@ -635,6 +635,18 @@
 			"jarName": "CSCoreLib.jar",
 			"configName": "CS-CoreLib",
 			"freePlugin": "true"
+		},
+		{
+			"name": "MinePacks",
+			"desc": "Adds backpacks for your players to store items in",
+			"jarName": "MinePacks.jar",
+			"configName": "MinePacks"
+		},
+		{
+			"name": "Vein Miner",
+			"desc": "Mine entire veins of ores with a simple break of a block",
+			"jarName": "VeinMiner.jar",
+			"configName": "VeinMiner"
 		}
 	]
 }
