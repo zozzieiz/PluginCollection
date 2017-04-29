@@ -168,18 +168,53 @@
 			"requiredRank": "2"
 		},
 		{
-			"name": "MCAuthenticator",
-			"desc": "Enables you to secure your server using 2FA.",
-			"jarName": "MCAuthenticator.jar",
-			"configName": "MCAuthenticator",
-			"disabled": true
-		},
-		{
 			"name":"CreeperHeal",
 			"desc": "Automatically heal explosion damage!",
 			"jarName": "CreeperHeal.jar",
 			"configName": "CreeperHeal",
 			"requiredRank": "2"
+		},
+		{
+			"name": "GunGame",
+			"desc": "A gamemode where you earn upgrades to gear\nby getting kills!",
+			"jarName": "GunGame.jar",
+			"configName": "GunGame",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Bed Wars",
+			"desc": "The complete Bed Wars experience in one plugin",
+			"jarName": "BedWars.jar",
+			"configName": "BedWars",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Sky Wars",
+			"desc": "An automated, fully-featured Sky Wars plugin",
+			"jarName": "SkyWars.jar",
+			"configName": "SkyWars",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Murder",
+			"desc": "Garry's Mod gamemode, Murder, put into Minecraft!",
+			"jarName": "MCMurder.jar",
+			"configName": "MCMurder",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Trouble in Terrorist Town (TTT)",
+			"desc": "Garry's Mod gamemode, TTT, put into Minecraft!",
+			"jarName": "TTT.jar",
+			"configName": "MTTT",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Friday the 13th",
+			"desc": "A fun minigame where one player plays as Jason\nand the rest have to run and hide!",
+			"jarName": "FridayThe13th.jar",
+			"configName": "FridayThe13th",
+			"requiredRank": "5"
 		},
 		{
 			"name": "Combat Log",
