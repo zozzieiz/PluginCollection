@@ -89,7 +89,6 @@
 			"jarName": "PAC.jar",
 			"configName": "PAC"
 		},
-
     {
 			"name": "RandomTP",
 			"desc": "Allows players to easily teleport to random locations in the world.",
@@ -97,10 +96,28 @@
 			"configName": "~"
 		},
 		{
+			"name": "ArmorStand Editor",
+			"desc": "Easily edit armorstand poses and attributes in-game",
+			"jarName": "ArmorStandEditor.jar",
+			"configName": "ArmorStandEditor"
+		},
+		{
 			"name": "World Edit",
 			"desc": "Build tools.",
 			"jarName": "worldedit.jar",
 			"configName": "WorldEdit"
+		},
+		{
+			"name": "Async WorldEdit",
+			"desc": "Makes large worldedit operations more performant\n&cRequires &nAsync WorldEdit Injector&c and &nWorldEdit",
+			"jarName": "AsyncWorldEdit.jar",
+			"configName": "AsyncWorldEdit"
+		},
+		{
+			"name": "Async WorldEdit Injector",
+			"desc": "Injects Async WorldEdit into WorldEdit",
+			"jarName": "AsyncWorldEditInjector.jar",
+			"configName": "AsyncWorldEditInjector"
 		},
 		{
 			"name": "World Guard",
