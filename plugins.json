@@ -70,20 +70,27 @@
 			"configName": "PandaWire",
 			"freePlugin": "true"
 		},
-    		{
+    {
 			"name": "InstantRespawn",
 			"desc": "Stops the Respawn screen from showing\nand respawns straight away.",
 			"jarName": "InstantRespawn.jar",
       			"configName": "~",
 			"freePlugin": "true"
-    		},
+    },
 		{
 			"name": "No Cheat Plus",
-			"desc": "Anti-cheat system to block bad modifications. \n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
+			"desc": "Anti-cheat system to block bad modifications.\n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
 			"jarName": "NoCheatPlus.jar",
 			"configName": "NoCheatPlus"
 		},
-    		{
+		{
+			"name": "Phoenix Anti-Cheat",
+			"desc": "Anti-cheat to block client modifications.\n&cRequires &nProtocolLib",
+			"jarName": "PAC.jar",
+			"configName": "PAC"
+		},
+
+    {
 			"name": "RandomTP",
 			"desc": "Allows players to easily teleport to random locations in the world.",
 			"jarName": "RandomTP.jar",
@@ -114,9 +121,9 @@
 			"configName": "GriefPrevention"
 		},
 		{
-			"name": "VoxelSniper",
+			"name": "Voxel Sniper",
 			"desc": "Long range map editing tool for terraforming.",
-			"jarName": "VoxelSniper-7.1.0-SNAPSHOT-all.jar",
+			"jarName": "VoxelSniper.jar",
 			"configName": "VoxelSniper"
 		},
 		{
@@ -219,8 +226,14 @@
 		{
 			"name": "Combat Log",
 			"desc": "Punish players who log out during combat!",
-			"jarName": "CombatLog-1.8.11-fix.jar",
-			"configName": "CombatLog-1.8.11-fix"
+			"jarName": "CombatLog.jar",
+			"configName": "CombatLog"
+		},
+		{
+			"name": "Shop Chest",
+			"desc": "A new plugin for players to sell items from chests",
+			"jarName": "ShopChest.jar",
+			"configName": "ShopChest"
 		},
 		{
 			"name": "ChestShop",
@@ -262,7 +275,7 @@
 		{
 			"name": "Chat Control",
 			"desc": "Control aspects of the chat and prevent swearing/spamming.",
-      			"jarName": "AntiSwear.jar",
+      "jarName": "ChatControl.jar",
 			"configName": "ChatControl"
 		},
 		{
@@ -292,7 +305,7 @@
 		{
 			"name": "Create Your Own Menus",
 			"desc": "Allows you to create your own GUI menus!\n&cNote: May be somewhat vulnerable to exploits within certain hack clients.",
-			"jarName": "CreateYourOwnMenus-0.5.9.jar",
+			"jarName": "CreateYourOwnMenus.jar",
 			"configName": "CreateYourOwnMenus"
 		},
 		{
@@ -396,6 +409,21 @@
 			"jarName": "mcMMO.jar",
 			"configName": "mcMMO",
 			"requiredRank": "1"
+		},
+		{
+			"name": "Massive Factions",
+			"desc": "An alternative factions plugin by MassiveCraft\n&cRequired &nMassive Core",
+			"jarName": "MassiveFactions.jar",
+			"configName": "MassiveFactions",
+			"requiredRank": "2"
+		},
+		{
+			"name": "Massive Core",
+			"desc": "Core plugin required for Massive Factions",
+			"jarName": "MassiveCore.jar",
+			"configName": "MassiveCore",
+			"requiredRank": "2",
+			"freePlugin": "true"
 		},
 		{
 			"name": "Factions",
@@ -582,18 +610,12 @@
 			"jarName": "NametagEdit.jar",
 			"configName": "NametagEdit"
 		},
-    		{
+    {
 			"name": "Area Shop",
 			"desc": "Allows for the buying and renting of worldguard regions",
 			"jarName": "AreaShop.jar",
 			"configName": "AreaShop"
-    		},
-		{
-			"name": "CmdSigns",
-			"desc": "Fully customizable command signs",
-			"jarName": "CmdSigns.jar",
-			"configName": "CmdSigns"
-		},
+    },
 		{
 			"name": "AutoColor",
 			"desc": "Permission based auto chat color",
