@@ -168,7 +168,8 @@
 			"desc": "API which gives plugins access to variables to display.",
 			"jarName": "PlaceholderAPI.jar",
 			"configName": "PlaceholderAPI",
-			"freePlugin":"true"
+			"freePlugin": "true",
+			"disabled": true
 		},
 		{
 			"name": "ProtocolLib",
