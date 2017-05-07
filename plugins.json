@@ -51,7 +51,7 @@
 		},
     		{
 			"name": "AquaticPerms",
-			"desc": "A super simple per-user permissions plugin",
+			"desc": "A super simple per-user permissions plugin.\nMade by Minehut user &nDividedWeFall",
 			"jarName": "AquaticPerms.jar",
 			"configName": "AquaticPerms",
 			"freePlugin": "true"
@@ -91,7 +91,7 @@
 		},
     {
 			"name": "RandomTP",
-			"desc": "Allows players to easily teleport to random locations in the world.",
+			"desc": "Allows players to easily teleport to random locations in the world.\nMade by Minehut user &niTurtleDerp",
 			"jarName": "RandomTP.jar",
 			"configName": "~"
 		},
@@ -295,6 +295,12 @@
 			"desc": "Control aspects of the chat and prevent swearing/spamming.",
       "jarName": "ChatControl.jar",
 			"configName": "ChatControl"
+		},
+		{
+			"name": "NoodleChat",
+			"desc": "Block specific words from being used in chat.\nMade by Minehut user &nPerfectNoodles",
+			"jarName": "NoodleChat.jar",
+			"configName": "NoodleChat"
 		},
 		{
 			"name": "Lockette",
@@ -507,8 +513,8 @@
 			"requiredRank": "2"
 		},
 		{
-			"name": "Log by Bayside308",
-			"desc": "Log block changes in your world.",
+			"name": "Log",
+			"desc": "Log block changes in your world.\nMade by Minehut user &nDividedWeFall",
 			"jarName": "Log.jar",
 			"configName": "Log",
 			"requiredRank": "2"
