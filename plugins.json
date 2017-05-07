@@ -26,7 +26,7 @@
 		},
 		{
 			"name": "Essentials Chat",
-			"desc": "Format the chat to make it look nicer.\n&aAll Essentials plugins count as 1 plugin.",
+			"desc": "Format the chat to make it look nicer.\n&cRequires &nVault&c.\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "EssentialsChat.jar",
 			"configName": "~"
 		},
@@ -38,24 +38,24 @@
 		},
 		{
 			"name": "Essentials Group Manager",
-			"desc": "Create permission systems.\n&aAll Essentials plugins count as 1 plugin.",
+			"desc": "Create permission systems.\n&cRequires &nEssentials Chat&c for prefixes.\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "GroupManager.jar",
 			"configName": "GroupManager"
 		},
 		{
 			"name": "Permissions Ex",
-			"desc": "Create permission systems.",
+			"desc": "Create permission systems.\n&cRequires &nEssentials Chat&c for prefixes.",
 			"jarName": "PermissionsEx.jar",
 			"configName": "PermissionsEx",
-      			"freePlugin": "true"
+      "freePlugin": "true"
 		},
-    		{
+    {
 			"name": "AquaticPerms",
-			"desc": "A super simple per-user permissions plugin.\nMade by Minehut user &nDividedWeFall",
+			"desc": "A super simple per-user permissions plugin.\nMade by Minehut user &nDividedWeFall&r.",
 			"jarName": "AquaticPerms.jar",
 			"configName": "AquaticPerms",
 			"freePlugin": "true"
-    		},
+    },
 		{
 			"name": "Skript",
 			"desc": "Modify servers through a scripting interface.",
@@ -85,13 +85,13 @@
 		},
 		{
 			"name": "Phoenix Anti-Cheat",
-			"desc": "Anti-cheat to block client modifications.\n&cRequires &nProtocolLib",
+			"desc": "Anti-cheat to block client modifications.\n&cRequires &nProtocolLib&c.",
 			"jarName": "PAC.jar",
 			"configName": "PAC"
 		},
     {
 			"name": "RandomTP",
-			"desc": "Allows players to easily teleport to random locations in the world.\nMade by Minehut user &niTurtleDerp",
+			"desc": "Allows players to easily teleport to random locations in the world.\nMade by Minehut user &niTurtleDerp&r.",
 			"jarName": "RandomTP.jar",
 			"configName": "~"
 		},
@@ -109,7 +109,7 @@
 		},
 		{
 			"name": "Async WorldEdit",
-			"desc": "Makes large worldedit operations more performant\n&cRequires &nAsync WorldEdit Injector&c and &nWorldEdit",
+			"desc": "Makes large worldedit operations more performant\n&cRequires &nAsync WorldEdit Injector&c and &nWorldEdit&c.",
 			"jarName": "AsyncWorldEdit.jar",
 			"configName": "AsyncWorldEdit"
 		},
@@ -186,7 +186,7 @@
 		},
 		{
 			"name": "GitSchematic",
-			"desc": "Import and share WorldEdit schematics\n&cRequires &nWorldEdit&c to install.",
+			"desc": "Import and share WorldEdit schematics\n&cRequires &nWorldEdit&c.",
 			"jarName": "GitSchematic.jar",
 			"configName": "GitSchematic",
 			"requiredRank": "2"
@@ -284,7 +284,7 @@
 		},
 		{
 			"name": "Orebfuscator",
-			"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cRequires &nProtocolLib",
+			"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cRequires &nProtocolLib&c.",
 			"jarName": "Orebfuscator.jar",
 			"configName":"Orebfuscator4",
 			"requiredRank":"3"
@@ -321,7 +321,7 @@
 		},
 		{
 			"name": "Libs Disguises",
-			"desc": "Disguise as mobs!\n&cRequires &nProtocolLib&r",
+			"desc": "Disguise as mobs!\n&cRequires &nProtocolLib&c.",
 			"jarName": "LibsDisguises.jar",
 			"configName": "LibsDisguises"
 		},
@@ -538,7 +538,7 @@
 		},
 		{
 			"name": "Loot Protect",
-			"desc": "Protects loot dropped upon death.",
+			"desc": "Protects loot dropped upon death.\nMade by Minehut user &nGamer&r.",
 			"jarName": "LootProtect.jar",
 			"configName": "LootProtect"
 		},
