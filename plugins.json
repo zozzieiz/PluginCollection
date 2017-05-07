@@ -64,6 +64,76 @@
 			"requiredRank": "4"
 		},
 		{
+			"name": "Skript Addon: skQuery",
+			"desc": "Adds a TON of new features to script.",
+			"jarName": "skQuery.jar",
+			"configName": "SkQuery",
+			"requiredRank": "4"
+		},
+		{
+			"name": "Skript Addon: skRayFall",
+			"desc": "Make inventory menus, quests, and more in skript.",
+			"jarName": "skRayFall.jar",
+			"configName": "SkRayFall",
+			"requiredRank": "4"
+		},
+		{
+			"name": "Skript Addon: ExtrasSK",
+			"desc": "Adds extra features to skript",
+			"jarName": "ExtrasSK.jar",
+			"configName": "ExtrasSK",
+			"requiredRank": "4",
+			"freePlugin": "true"
+		},
+		{
+			"name": "Skript Addon: LargeSK",
+			"desc": "Adds a few basic extras to skript",
+			"jarName": "LargeSK.jar",
+			"configName": "LargeSK",
+			"requiredRank": "4",
+			"freePlugin": "true"
+		},
+		{
+			"name": "Skript Addon: MundoSK",
+			"desc": "Allows you some world editing features,\nbooks and enchantments, and more with Skript.",
+			"jarName": "MundoSK.jar",
+			"configName": "MundoSK",
+			"requiredRank": "4",
+			"freePlugin": "true"
+		},
+		{
+			"name": "Skript Addon: RandomSK",
+			"desc": "Adds some animation and other features to skript.",
+			"jarName": "RandomSK.jar",
+			"configName": "RandomSK",
+			"requiredRank": "4",
+			"freePlugin": "true"
+		},
+		{
+			"name": "Skript Addon: skDragon",
+			"desc": "Adds particle effects and dragon travel\nfeatures to skript.",
+			"jarName": "skDragon.jar",
+			"configName": "skDragon",
+			"requiredRank": "4",
+			"freePlugin": "true"
+		},
+		{
+			"name": "Skript Addon: skRambled",
+			"desc": "Allows you to hook into other plugins\nsuch as mcMMO and WorldGuard with skript.",
+			"jarName": "skRambled.jar",
+			"configName": "skRambled",
+			"requiredRank": "4",
+			"freePlugin": "true"
+		},
+		{
+			"name": "Skript Addon: TuSKe",
+			"desc": "Allows some plugin hooks and some\nother interesting features in skript.",
+			"jarName": "TuSKe.jar",
+			"configName": "TuSKe",
+			"requiredRank": "4",
+			"freePlugin": "true"
+		},
+		{
 			"name": "PandaWire",
 			"desc": "Increases the efficiency and performance of redstone",
 			"jarName": "PandaWire.jar",
@@ -74,7 +144,7 @@
 			"name": "InstantRespawn",
 			"desc": "Stops the Respawn screen from showing\nand respawns straight away.",
 			"jarName": "InstantRespawn.jar",
-      			"configName": "~",
+      "configName": "~",
 			"freePlugin": "true"
     },
 		{
