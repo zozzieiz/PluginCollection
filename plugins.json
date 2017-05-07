@@ -297,7 +297,7 @@
 		},
 		{
 			"name": "NoodleChat",
-			"desc": "Block specific words from being used in chat.\nMade by Minehut user &nPerfectNoodles",
+			"desc": "Block specific words from being used in chat.\nMade by Minehut user &nPerfectNoodles&r.",
 			"jarName": "NoodleChat.jar",
 			"configName": "NoodleChat"
 		},
