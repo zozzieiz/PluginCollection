@@ -190,6 +190,12 @@
 			"configName": "AsyncWorldEditInjector"
 		},
 		{
+			"name": "Houses",
+			"desc": "Allow players to buy/sell/rent houses",
+			"jarName": "Houses.jar",
+			"configName": "Houses"
+		},
+		{
 			"name": "World Guard",
 			"desc": "Create and manage regions using this plugin.",
 			"jarName": "worldguard.jar",
