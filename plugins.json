@@ -191,7 +191,7 @@
 		},
 		{
 			"name": "Houses",
-			"desc": "Allow players to buy/sell/rent houses",
+			"desc": "Allow players to buy, sell, and rent houses",
 			"jarName": "Houses.jar",
 			"configName": "Houses"
 		},
