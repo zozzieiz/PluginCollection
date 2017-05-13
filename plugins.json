@@ -804,6 +804,12 @@
 			"desc": "Mine entire veins of ores with a simple break of a block",
 			"jarName": "VeinMiner.jar",
 			"configName": "VeinMiner"
+		},
+		{
+		        "name": "Herobrine",
+			"desc": "A Herobrine-ai plugin",
+			"jarname": "Herobrine-1.6.1.jar",
+			"configName": "Herobrine"
 		}
 	]
 }
