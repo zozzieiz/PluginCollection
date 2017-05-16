@@ -764,8 +764,14 @@
 			"desc": "Add special lore, abilities, and more to items.",
 			"jarName": "RPGItems.jar",
 			"configName": "RPGItems"
-    		},
-    		{
+    },
+		{
+			"name": "Itemizer",
+			"desc": "Edit the display name, lore, and other item attributes.",
+			"jarName": "Itemizer.jar",
+			"configName": "Itemizer"
+		},
+    {
 			"name": "PlayerVaults",
 			"desc": "Allows players to use an unlimited (or set)\namount of personal storage vaults.",
 			"jarName": "PlayerVaults.jar",
