@@ -741,13 +741,13 @@
 			"configName": "BKCommonLib",
 			"freePlugin": "true"
 		},
-    		{
+    {
 			"name": "ImageOnMap",
 			"desc": "Create map boards with images.",
 			"jarName": "ImageOnMap.jar",
 			"configName": "ImageOnMap"
 		},
-    		{
+    {
 			"name": "PhatLoots",
 			"desc": "Allows players to receive loot (money/items/exp/etc...) from Chests/Mobs.",
 			"jarName": "PhatLoots.jar",
