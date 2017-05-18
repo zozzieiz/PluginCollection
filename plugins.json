@@ -814,7 +814,7 @@
 		{
 		  "name": "Herobrine",
 			"desc": "Add Herobrine to your server!",
-			"jarname": "Herobrine.jar",
+			"jarName": "Herobrine.jar",
 			"configName": "Herobrine"
 		}
 	]
