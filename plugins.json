@@ -806,9 +806,9 @@
 			"configName": "VeinMiner"
 		},
 		{
-		        "name": "Herobrine",
-			"desc": "A Herobrine-ai plugin",
-			"jarname": "Herobrine-1.6.1.jar",
+		  "name": "Herobrine",
+			"desc": "Add Herobrine to your server!",
+			"jarname": "Herobrine.jar",
 			"configName": "Herobrine"
 		}
 	]
