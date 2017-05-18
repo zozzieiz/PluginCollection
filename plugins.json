@@ -810,6 +810,12 @@
 			"desc": "Mine entire veins of ores with a simple break of a block",
 			"jarName": "VeinMiner.jar",
 			"configName": "VeinMiner"
+		},
+		{
+		  "name": "Herobrine",
+			"desc": "Add Herobrine to your server!",
+			"jarname": "Herobrine.jar",
+			"configName": "Herobrine"
 		}
 	]
 }
