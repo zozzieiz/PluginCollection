@@ -13,10 +13,53 @@
 			"configName": "EnjinMinecraftPlugin"
 		},
 		{
-			"name": "Banner Maker",
-			"desc": "Create banners in a GUI",
-			"jarName": "BannerMaker.jar",
-			"configName": "BannerMaker"
+			"name": "Old Combat",
+			"desc": "Make combat like pre-1.9 Minecraft.",
+			"jarName": "OldCombatMechanics.jar",
+			"configName": "OldCombatMechanics",
+			"freePlugin": "true"
+		},
+		{
+			"name": "BetterCombat",
+			"desc": "Moves the combat style back to 1.7/1.8\nRemoves attack speed, adds block hitting, etc.",
+			"jarName": "BetterCombat.jar",
+			"configName": "BetterCombat",
+			"freePlugin": "true"
+		},
+		{
+			"name": "MC Realistic Plus",
+			"desc": "Completely overhauls the survival experience,\nmaking a lot of things more realistic.\nAdds things such as block gravity, broken bones, and temperature.",
+			"jarName": "MCRealisticPlus.jar",
+			"configName": "MCRealisticPlus",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Seasons",
+			"desc": "Bring the real world seasons into your server!",
+			"jarName": "Seasons.jar",
+			"configName": "Seasons",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Nanobots",
+			"desc": "Adds programmable self-replicating nanobots.\nThey can be used to clear out blocks and more!",
+			"jarName": "Nanobots.jar",
+			"configName": "Nanobots",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Quests",
+			"desc": "A very extensive quest system.",
+			"jarName": "Quests.jar",
+			"configName": "Quests.jar",
+			"requiredRank": "4"
+		},
+		{
+			"name": "Beauty Quests",
+			"desc": "Make quests for your players to embark on with a simple GUI.",
+			"jarName": "BeautyQuests.jar",
+			"configName": "BeautyQuests",
+			"requiredRank": "4"
 		},
 		{
 			"name": "Essentials",
@@ -62,6 +105,18 @@
 			"configName": "AquaticPerms",
 			"freePlugin": "true"
     },
+		{
+			"name": "Jobs",
+			"desc": "Let your players earn money by doing various jobs!",
+			"jarName": "Jobs.jar",
+			"configName": "Jobs"
+		},
+		{
+			"name": "Banner Maker",
+			"desc": "Create banners in a GUI",
+			"jarName": "BannerMaker.jar",
+			"configName": "BannerMaker"
+		},
 		{
 			"name": "Easy Enchant",
 			"desc": "Add enchantments to items in an easy GUI!",
@@ -304,13 +359,6 @@
 			"disabled": true
 		},
 		{
-			"name": "BetterCombat",
-			"desc": "Moves the combat style back to 1.7/1.8\nRemoves attack speed, adds block hitting, etc.",
-			"jarName": "BetterCombat.jar",
-			"configName": "BetterCombat",
-			"freePlugin":"true"
-		},
-		{
 			"name": "GitSchematic",
 			"desc": "Import and share WorldEdit schematics\n&cRequires &nWorldEdit&c.",
 			"jarName": "GitSchematic.jar",
@@ -371,6 +419,20 @@
 			"desc": "A fun minigame where one player plays as Jason\nand the rest have to run and hide!",
 			"jarName": "FridayThe13th.jar",
 			"configName": "FridayThe13th",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Color Cube",
+			"desc": "A territorial-based minigame.",
+			"jarName": "ColorCube.jar",
+			"configName": "ColorCube",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Replica",
+			"desc": "A minigame where players compete to replicate a picture.",
+			"jarName": "Replica.jar",
+			"configName": "Replica",
 			"requiredRank": "5"
 		},
 		{
