@@ -134,6 +134,12 @@
 			"freePlugin": "true"
 		},
 		{
+			"name": "Ultra Cosmetics",
+			"desc": "Fully-featured cosmetics plugin with everything\nfrom hats and particles to pets and mounts!",
+			"jarName": "UltraCosmetics.jar",
+			"requiredRank": "5"
+		},
+		{
 			"name": "PandaWire",
 			"desc": "Increases the efficiency and performance of redstone",
 			"jarName": "PandaWire.jar",
