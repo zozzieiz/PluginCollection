@@ -204,7 +204,9 @@
 		},
 		{
 			"name": "Hack Detective",
-			"desc": "Another anti-cheat to block harmful client mods.\n&cRequires &nProtocolLib&c."
+			"desc": "Another anti-cheat to block harmful client mods.\n&cRequires &nProtocolLib&c.",
+			"jarName": "HackDetective.jar",
+			"configName": "HackDetective"
 		},
 		{
 			"name": "ProtocolLib",
