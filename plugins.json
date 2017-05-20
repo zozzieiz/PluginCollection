@@ -276,6 +276,13 @@
 			"requiredRank": "2"
 		},
 		{
+			"name": "Duels",
+			"desc": "A full duel system for players to\nfight in 1v1s which is very customizable\nfrom in-game!",
+			"jarName": "Duels.jar",
+			"configName": "Duels",
+			"requiredRank": "5"
+		},
+		{
 			"name": "GunGame",
 			"desc": "A gamemode where you earn upgrades to gear\nby getting kills!",
 			"jarName": "GunGame.jar",
