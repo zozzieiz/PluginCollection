@@ -13,6 +13,12 @@
 			"configName": "EnjinMinecraftPlugin"
 		},
 		{
+			"name": "Banner Maker",
+			"desc": "Create banners in a GUI",
+			"jarName": "BannerMaker.jar",
+			"configName": "BannerMaker"
+		},
+		{
 			"name": "Essentials",
 			"desc": "Essential commands\n&aAll Essentials plugins count as 1 plugin.",
 			"jarName": "Essentials.jar",
@@ -56,6 +62,36 @@
 			"configName": "AquaticPerms",
 			"freePlugin": "true"
     },
+		{
+			"name": "Easy Enchant",
+			"desc": "Add enchantments to items in an easy GUI!",
+			"jarName": "EasyEnchant.jar",
+			"configName": "EasyEnchant"
+		},
+		{
+			"name": "Report Menu",
+			"desc": "Allow players to report rule-breakers with\na nice inventory menu.",
+			"jarName": "MenuReport.jar",
+			"configName": "MenuReport"
+		},
+		{
+			"name": "uReport",
+			"desc": "GUI for reporting rule-breakers",
+			"jarName": "UReport.jar",
+			"configName": "UReport"
+		},
+		{
+			"name": "Command Block Control",
+			"desc": "Whitelist or blacklist command usage from command blocks.",
+			"jarName": "CommandBlock.jar",
+			"configName": "CommandBlock"
+		},
+		{
+			"name": "Admin Menu",
+			"desc": "An admin menu for managing online & offline players.",
+			"jarName": "AdminPlayerMenu.jar",
+			"configName": "AdminPlayerMenu"
+		},
 		{
 			"name": "Skript",
 			"desc": "Modify servers through a scripting interface.",
@@ -137,6 +173,7 @@
 			"name": "Ultra Cosmetics",
 			"desc": "Fully-featured cosmetics plugin with everything\nfrom hats and particles to pets and mounts!",
 			"jarName": "UltraCosmetics.jar",
+			"configName": "UltraCosmetics",
 			"requiredRank": "5"
 		},
 		{
@@ -164,6 +201,17 @@
 			"desc": "Anti-cheat to block client modifications.\n&cRequires &nProtocolLib&c.",
 			"jarName": "PAC.jar",
 			"configName": "PAC"
+		},
+		{
+			"name": "Hack Detective",
+			"desc": "Another anti-cheat to block harmful client mods.\n&cRequires &nProtocolLib&c."
+		},
+		{
+			"name": "ProtocolLib",
+			"desc": "API which allows plugins to access new functions.",
+			"jarName": "ProtocolLib.jar",
+			"configName": "ProtocolLib",
+			"freePlugin":"true"
 		},
     {
 			"name": "RandomTP",
@@ -252,13 +300,6 @@
 			"configName": "PlaceholderAPI",
 			"freePlugin": "true",
 			"disabled": true
-		},
-		{
-			"name": "ProtocolLib",
-			"desc": "API which allows plugins to access new functions.",
-			"jarName": "ProtocolLib.jar",
-			"configName": "ProtocolLib",
-			"freePlugin":"true"
 		},
 		{
 			"name": "BetterCombat",
@@ -417,9 +458,15 @@
 		},
 		{
 			"name": "Create Your Own Menus",
-			"desc": "Allows you to create your own GUI menus!\n&cNote: May be somewhat vulnerable to exploits within certain hack clients.",
+			"desc": "Allows you to create your own GUI menus!\n&cNote: May be vulnerable to exploits within hack clients.\n&cUse &nItem Fixer &cwith this!",
 			"jarName": "CreateYourOwnMenus.jar",
 			"configName": "CreateYourOwnMenus"
+		},
+		{
+			"name": "Item Fixer",
+			"desc": "Blocks hack client features that abuse item nbt data",
+			"jarName": "ItemFixer.jar",
+			"configName": "ItemFixer"
 		},
 		{
 			"name": "Project Korra",
@@ -693,6 +740,12 @@
 			"requiredRank": "2"
 		},
 		{
+			"name": "Chest Cleaner",
+			"desc": "Sorts chests and inventories to make them neat.\nCan be done manually and/or on a timer.",
+			"jarName": "ChestCleaner.jar",
+			"configName": "ChestCleaner"
+		},
+		{
 			"name":"AutoMessage",
 			"desc":" A fully in-game edited automatic broadcast system.",
 			"jarName":"AutoMessage.jar",
@@ -783,6 +836,12 @@
 			"desc": "Edit the display name, lore, and other item attributes.",
 			"jarName": "Itemizer.jar",
 			"configName": "Itemizer"
+		},
+		{
+			"name": "Item Editor",
+			"desc": "Modify attributes of items in a simple menu.",
+			"jarName": "ItemEditor.jar",
+			"configName": "ItemEditor"
 		},
     {
 			"name": "PlayerVaults",
