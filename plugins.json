@@ -350,6 +350,12 @@
 			"configName": "goBrush"
 		},
 		{
+			"name": "Bank Notes",
+			"desc": "Adds functionality for withdrawing money into physical items.\n&cRequires &nVault&c.",
+			"jarName": "BankNotes.jar",
+			"configName": "BankNote"
+		},
+		{
 			"name": "Vault",
 			"desc": "Economy, Permissions, and Chat API.",
 			"jarName": "Vault.jar",
