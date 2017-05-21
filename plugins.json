@@ -136,6 +136,12 @@
 			"configName": "UReport"
 		},
 		{
+			"name": "uCars",
+			"desc": "Extremely versatile and well-made car plugin.",
+			"jarName": "uCars.jar",
+			"configName": "uCars"
+		},
+		{
 			"name": "Command Block Control",
 			"desc": "Whitelist or blacklist command usage from command blocks.",
 			"jarName": "CommandBlock.jar",
@@ -373,6 +379,21 @@
 			"requiredRank": "2"
 		},
 		{
+			"name": "Minigames",
+			"desc": "Allows you to create custom minigames of all different types!\n&cRequires &nMinigames Regions&c.",
+			"jarName": "Minigames.jar",
+			"configName": "Minigames",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Minigames Regions",
+			"desc": "Library for the Minigames plugin to create regions for maps.",
+			"jarName": "MinigamesRegions.jar",
+			"configName": "MinigamesRegions",
+			"requiredRank": "5",
+			"freePlugin": "true"
+		},
+		{
 			"name": "Duels",
 			"desc": "A full duel system for players to\nfight in 1v1s which is very customizable\nfrom in-game!",
 			"jarName": "Duels.jar",
@@ -433,6 +454,63 @@
 			"desc": "A minigame where players compete to replicate a picture.",
 			"jarName": "Replica.jar",
 			"configName": "Replica",
+			"requiredRank": "5"
+		},
+		{
+			"name": "MinigamesLib",
+			"desc": "Library that supports multiple minigame plugins.",
+			"jarName": "MinigamesLib.jar",
+			"configName": "MinigamesLib",
+			"freePlugin": "true",
+			"requiredRank": "5"
+		},
+		{
+			"name": "DeathRun",
+			"desc": "Garry's mod gamemode, DeathRun, ported to Minecraft!\n&cRequires &nMinigamesLib&c.",
+			"jarName": "MGDeathRun.jar",
+			"configName": "MGDeathRun",
+			"requiredRank": "5"
+		},
+		{
+			"name": "One in the Chamber",
+			"desc": "A fast-paced minigame where bows are one-hit kill.\n&cRequires &nMinigamesLib&c.",
+			"jarName": "MGOITC.jar",
+			"configName": "MGOITC",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Bow Bash",
+			"desc": "This is a TDM gamemode where you must avoid\nthe enemy's arrows and explosives and try to kill them all.\n&cRequires &nMinigamesLib&c.",
+			"jarName": "MGBowBash.jar",
+			"configName": "MGBowBash",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Conquer",
+			"desc": "A team gamemode where the teams compete to\ncapture checkpoints in the map.\n&cRequires &nMinigamesLib&c.",
+			"jarName": "MGConquer.jar",
+			"configName": "MGConquer",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Sea Battle",
+			"desc": "Try to hit your enemies with snowballs in boats!\n&cRequires &nMinigamesLib&c.",
+			"jarName": "MGSeaBattle.jar",
+			"configName": "MGSeaBattle",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Flying Cars",
+			"desc": "Fly in planes and try to shoot your enemies down!\n&cRequires &nMinigamesLib&c.",
+			"jarName": "MGFlyingCars.jar",
+			"configName": "MGFlyingCars",
+			"requiredRank": "5"
+		},
+		{
+			"name": "Snake",
+			"desc": "The classic game of Snake in Minecraft!\nEat food to grow, but don't run into someone's snake!\n&cRequires &nMinigamesLib&c.",
+			"jarName": "MGSnake",
+			"configName": "MGSnake",
 			"requiredRank": "5"
 		},
 		{
