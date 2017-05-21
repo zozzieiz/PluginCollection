@@ -136,12 +136,6 @@
 			"configName": "UReport"
 		},
 		{
-			"name": "uCars",
-			"desc": "Extremely versatile and well-made car plugin.",
-			"jarName": "uCars.jar",
-			"configName": "uCars"
-		},
-		{
 			"name": "Command Block Control",
 			"desc": "Whitelist or blacklist command usage from command blocks.",
 			"jarName": "CommandBlock.jar",
@@ -275,6 +269,12 @@
 			"jarName": "ProtocolLib.jar",
 			"configName": "ProtocolLib",
 			"freePlugin":"true"
+		},
+		{
+			"name": "uCars",
+			"desc": "Extremely versatile and well-made car plugin.\n&cRequires &nProtocolLib&c.",
+			"jarName": "uCars.jar",
+			"configName": "uCars"
 		},
     {
 			"name": "RandomTP",
