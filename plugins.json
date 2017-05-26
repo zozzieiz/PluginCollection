@@ -1036,6 +1036,12 @@
 			"desc": "Add Herobrine to your server!",
 			"jarName": "Herobrine.jar",
 			"configName": "Herobrine"
+		},
+		{
+			"name": "Simple Drugs",
+			"desc": "Adds items that give potion effects",
+			"jarName": "SimpleDrugs.jar",
+			"configName": "SimpleDrugs"
 		}
 	]
 }
