@@ -1,1047 +1,1045 @@
-{
-	"plugins": [
-		{
-			"name": "Buycraft",
-			"desc": "Set up automatic stores for your server.\n&cMake sure to follow the Minecraft EULA!\n&cYou can view it here:\n&chttps://account.mojang.com/documents/minecraft_eula",
-			"jarName": "BuycraftX.jar",
-			"configName": "BuycraftX"
-		},
-		{
-			"name": "Enjin",
-			"desc": "Connect an Enjin site and Donationcraft store to your server.\n&cMake sure to follow the Minecraft EULA!\n&cYou can view it here:\n&chttps://account.mojang.com/documents/minecraft_eula",
-			"jarName": "EnjinMinecraftPlugin.jar",
-			"configName": "EnjinMinecraftPlugin"
-		},
-		{
-			"name": "Old Combat",
-			"desc": "Make combat like pre-1.9 Minecraft.",
-			"jarName": "OldCombatMechanics.jar",
-			"configName": "OldCombatMechanics",
-			"freePlugin": "true"
-		},
-		{
-			"name": "BetterCombat",
-			"desc": "Moves the combat style back to 1.7/1.8\nRemoves attack speed, adds block hitting, etc.",
-			"jarName": "BetterCombat.jar",
-			"configName": "BetterCombat",
-			"freePlugin": "true"
-		},
-		{
-			"name": "MC Realistic Plus",
-			"desc": "Completely overhauls the survival experience,\nmaking a lot of things more realistic.\nAdds things such as block gravity, broken bones, and temperature.",
-			"jarName": "MCRealisticPlus.jar",
-			"configName": "MCRealisticPlus",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Seasons",
-			"desc": "Bring the real world seasons into your server!",
-			"jarName": "Seasons.jar",
-			"configName": "Seasons",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Nanobots",
-			"desc": "Adds programmable self-replicating nanobots.\nThey can be used to clear out blocks and more!",
-			"jarName": "Nanobots.jar",
-			"configName": "Nanobots",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Quests",
-			"desc": "A very extensive quest system.",
-			"jarName": "Quests.jar",
-			"configName": "Quests.jar",
-			"requiredRank": "4"
-		},
-		{
-			"name": "Beauty Quests",
-			"desc": "Make quests for your players to embark on with a simple GUI.",
-			"jarName": "BeautyQuests.jar",
-			"configName": "BeautyQuests",
-			"requiredRank": "4"
-		},
-		{
-			"name": "Essentials",
-			"desc": "Essential commands\n&aAll Essentials plugins count as 1 plugin.",
-			"jarName": "Essentials.jar",
-			"configName": "Essentials"
-		},
-		{
-			"name": "Essentials Spawn",
-			"desc": "Setup a server spawn point.\n&aAll Essentials plugins count as 1 plugin.",
-			"jarName": "EssentialsSpawn.jar",
-			"configName": "~"
-		},
-		{
-			"name": "Essentials Chat",
-			"desc": "Format the chat to make it look nicer.\n&cRequires &nVault&c.\n&aAll Essentials plugins count as 1 plugin.",
-			"jarName": "EssentialsChat.jar",
-			"configName": "~"
-		},
-		{
-			"name": "Essentials Kit Adder",
-			"desc": "Add kits with commands\n&aAll Essentials plugins count as 1 plugin.",
-			"jarName": "KitAdder.jar",
-			"configName": "KitAdder"
-		},
-		{
-			"name": "Essentials Group Manager",
-			"desc": "Create permission systems.\n&cRequires &nEssentials Chat&c for prefixes.\n&aAll Essentials plugins count as 1 plugin.",
-			"jarName": "GroupManager.jar",
-			"configName": "GroupManager"
-		},
-		{
-			"name": "Permissions Ex",
-			"desc": "Create permission systems.\n&cRequires &nEssentials Chat&c for prefixes.",
-			"jarName": "PermissionsEx.jar",
-			"configName": "PermissionsEx",
-      "freePlugin": "true"
-		},
-    {
-			"name": "AquaticPerms",
-			"desc": "A super simple per-user permissions plugin.\nMade by Minehut user &nDividedWeFall&r.",
-			"jarName": "AquaticPerms.jar",
-			"configName": "AquaticPerms",
-			"freePlugin": "true"
-    },
-		{
-			"name": "Jobs",
-			"desc": "Let your players earn money by doing various jobs!",
-			"jarName": "Jobs.jar",
-			"configName": "Jobs"
-		},
-		{
-			"name": "Banner Maker",
-			"desc": "Create banners in a GUI",
-			"jarName": "BannerMaker.jar",
-			"configName": "BannerMaker"
-		},
-		{
-			"name": "Easy Enchant",
-			"desc": "Add enchantments to items in an easy GUI!",
-			"jarName": "EasyEnchant.jar",
-			"configName": "EasyEnchant"
-		},
-		{
-			"name": "Report Menu",
-			"desc": "Allow players to report rule-breakers with\na nice inventory menu.",
-			"jarName": "MenuReport.jar",
-			"configName": "MenuReport"
-		},
-		{
-			"name": "uReport",
-			"desc": "GUI for reporting rule-breakers",
-			"jarName": "UReport.jar",
-			"configName": "UReport"
-		},
-		{
-			"name": "Command Block Control",
-			"desc": "Whitelist or blacklist command usage from command blocks.",
-			"jarName": "CommandBlock.jar",
-			"configName": "CommandBlock"
-		},
-		{
-			"name": "Admin Menu",
-			"desc": "An admin menu for managing online & offline players.",
-			"jarName": "AdminPlayerMenu.jar",
-			"configName": "AdminPlayerMenu"
-		},
-		{
-			"name": "Skript",
-			"desc": "Modify servers through a scripting interface.",
-			"jarName": "Skript.jar",
-			"configName": "Skript",
-			"requiredRank": "4"
-		},
-		{
-			"name": "Skript Addon: skQuery",
-			"desc": "Adds a TON of new features to script.",
-			"jarName": "skQuery.jar",
-			"configName": "SkQuery",
-			"requiredRank": "4"
-		},
-		{
-			"name": "Skript Addon: skRayFall",
-			"desc": "Make inventory menus, quests, and more in skript.",
-			"jarName": "skRayFall.jar",
-			"configName": "SkRayFall",
-			"requiredRank": "4"
-		},
-		{
-			"name": "Skript Addon: ExtrasSK",
-			"desc": "Adds extra features to skript",
-			"jarName": "ExtrasSK.jar",
-			"configName": "ExtrasSK",
-			"requiredRank": "4",
-			"freePlugin": "true"
-		},
-		{
-			"name": "Skript Addon: LargeSK",
-			"desc": "Adds a few basic extras to skript",
-			"jarName": "LargeSK.jar",
-			"configName": "LargeSK",
-			"requiredRank": "4",
-			"freePlugin": "true"
-		},
-		{
-			"name": "Skript Addon: MundoSK",
-			"desc": "Allows you some world editing features,\nbooks and enchantments, and more with Skript.",
-			"jarName": "MundoSK.jar",
-			"configName": "MundoSK",
-			"requiredRank": "4",
-			"freePlugin": "true"
-		},
-		{
-			"name": "Skript Addon: RandomSK",
-			"desc": "Adds some animation and other features to skript.",
-			"jarName": "RandomSK.jar",
-			"configName": "RandomSK",
-			"requiredRank": "4",
-			"freePlugin": "true"
-		},
-		{
-			"name": "Skript Addon: skDragon",
-			"desc": "Adds particle effects and dragon travel\nfeatures to skript.",
-			"jarName": "skDragon.jar",
-			"configName": "skDragon",
-			"requiredRank": "4",
-			"freePlugin": "true"
-		},
-		{
-			"name": "Skript Addon: skRambled",
-			"desc": "Allows you to hook into other plugins\nsuch as mcMMO and WorldGuard with skript.",
-			"jarName": "skRambled.jar",
-			"configName": "skRambled",
-			"requiredRank": "4",
-			"freePlugin": "true"
-		},
-		{
-			"name": "Skript Addon: TuSKe",
-			"desc": "Allows some plugin hooks and some\nother interesting features in skript.",
-			"jarName": "TuSKe.jar",
-			"configName": "TuSKe",
-			"requiredRank": "4",
-			"freePlugin": "true"
-		},
-		{
-			"name": "Ultra Cosmetics",
-			"desc": "Fully-featured cosmetics plugin with everything\nfrom hats and particles to pets and mounts!",
-			"jarName": "UltraCosmetics.jar",
-			"configName": "UltraCosmetics",
-			"requiredRank": "5"
-		},
-		{
-			"name": "PandaWire",
-			"desc": "Increases the efficiency and performance of redstone",
-			"jarName": "PandaWire.jar",
-			"configName": "PandaWire",
-			"freePlugin": "true"
-		},
-    {
-			"name": "InstantRespawn",
-			"desc": "Stops the Respawn screen from showing\nand respawns straight away.",
-			"jarName": "InstantRespawn.jar",
-      "configName": "~",
-			"freePlugin": "true"
-    },
-		{
-			"name": "No Cheat Plus",
-			"desc": "Anti-cheat system to block bad modifications.\n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
-			"jarName": "NoCheatPlus.jar",
-			"configName": "NoCheatPlus"
-		},
-		{
-			"name": "Phoenix Anti-Cheat",
-			"desc": "Anti-cheat to block client modifications.\n&cRequires &nProtocolLib&c.",
-			"jarName": "PAC.jar",
-			"configName": "PAC"
-		},
-		{
-			"name": "Hack Detective",
-			"desc": "Another anti-cheat to block harmful client mods.\n&cRequires &nProtocolLib&c.",
-			"jarName": "HackDetective.jar",
-			"configName": "HackDetective"
-		},
-		{
-			"name": "ProtocolLib",
-			"desc": "API which allows plugins to access new functions.",
-			"jarName": "ProtocolLib.jar",
-			"configName": "ProtocolLib",
-			"freePlugin":"true"
-		},
-		{
-			"name": "uCars",
-			"desc": "Extremely versatile and well-made car plugin.\n&cRequires &nProtocolLib&c.",
-			"jarName": "uCars.jar",
-			"configName": "uCars"
-		},
-    {
-			"name": "RandomTP",
-			"desc": "Allows players to easily teleport to random locations in the world.\nMade by Minehut user &niTurtleDerp&r.",
-			"jarName": "RandomTP.jar",
-			"configName": "~"
-		},
-		{
-			"name": "ArmorStand Editor",
-			"desc": "Easily edit armorstand poses and attributes in-game",
-			"jarName": "ArmorStandEditor.jar",
-			"configName": "ArmorStandEditor"
-		},
-		{
-			"name": "World Edit",
-			"desc": "Build tools.",
-			"jarName": "worldedit.jar",
-			"configName": "WorldEdit"
-		},
-		{
-			"name": "Async WorldEdit",
-			"desc": "Makes large worldedit operations more performant\n&cRequires &nAsync WorldEdit Injector&c and &nWorldEdit&c.",
-			"jarName": "AsyncWorldEdit.jar",
-			"configName": "AsyncWorldEdit"
-		},
-		{
-			"name": "Async WorldEdit Injector",
-			"desc": "Injects Async WorldEdit into WorldEdit",
-			"jarName": "AsyncWorldEditInjector.jar",
-			"configName": "AsyncWorldEditInjector"
-		},
-		{
-			"name": "Houses",
-			"desc": "Allow players to buy, sell, and rent houses",
-			"jarName": "Houses.jar",
-			"configName": "Houses"
-		},
-		{
-			"name": "World Guard",
-			"desc": "Create and manage regions using this plugin.",
-			"jarName": "worldguard.jar",
-			"configName": "WorldGuard"
-		},
-		{
-			"name": "Red Protect",
-			"desc": "Anti-Grief, Chat protection, Spawn Protection\nMay be a good alternative to WorldGuard.",
-			"jarName": "RedProtect.jar",
-			"configName": "RedProtect"
-		},
-		{
-			"name": "GriefPrevention",
-			"desc": "Anti-grief plugin which lets your players protect\ntheir own builds. Can also be used to\nmake admin claims.",
-			"jarName": "GriefPrevention.jar",
-			"configName": "GriefPrevention"
-		},
-		{
-			"name": "Voxel Sniper",
-			"desc": "Long range map editing tool for terraforming.",
-			"jarName": "VoxelSniper.jar",
-			"configName": "VoxelSniper"
-		},
-		{
-			"name": "Fast Async VoxelSniper",
-			"desc": "Optimizes VoxelSniper.",
-			"jarName": "FastAsyncVoxelSniper.jar",
-			"configName": "~",
-			"freePlugin":"true"
-		},
-		{
-			"name": "goBrush",
-			"desc": "A plugin with brushes and height maps for terraforming.",
-			"jarName": "goBrush.jar",
-			"configName": "goBrush"
-		},
-		{
-			"name": "Bank Notes",
-			"desc": "Adds functionality for withdrawing money into physical items.\n&cRequires &nVault&c.",
-			"jarName": "BankNotes.jar",
-			"configName": "BankNote"
-		},
-		{
-			"name": "Vault",
-			"desc": "Economy, Permissions, and Chat API.",
-			"jarName": "Vault.jar",
-			"configName": "Vault",
-			"freePlugin":"true"
-		},
-		{
-			"name": "Placeholder API",
-			"desc": "API which gives plugins access to variables to display.",
-			"jarName": "PlaceholderAPI.jar",
-			"configName": "PlaceholderAPI",
-			"freePlugin": "true",
-			"disabled": true
-		},
-		{
-			"name": "GitSchematic",
-			"desc": "Import and share WorldEdit schematics\n&cRequires &nWorldEdit&c.",
-			"jarName": "GitSchematic.jar",
-			"configName": "GitSchematic",
-			"requiredRank": "2"
-		},
-		{
-			"name":"CreeperHeal",
-			"desc": "Automatically heal explosion damage!",
-			"jarName": "CreeperHeal.jar",
-			"configName": "CreeperHeal",
-			"requiredRank": "2"
-		},
-		{
-			"name": "Minigames",
-			"desc": "Allows you to create custom minigames of all different types!\n&cRequires &nMinigames Regions&c.",
-			"jarName": "Minigames.jar",
-			"configName": "Minigames",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Minigames Regions",
-			"desc": "Library for the Minigames plugin to create regions for maps.",
-			"jarName": "MinigamesRegions.jar",
-			"configName": "MinigamesRegions",
-			"requiredRank": "5",
-			"freePlugin": "true"
-		},
-		{
-			"name": "Duels",
-			"desc": "A full duel system for players to\nfight in 1v1s which is very customizable\nfrom in-game!",
-			"jarName": "Duels.jar",
-			"configName": "Duels",
-			"requiredRank": "5"
-		},
-		{
-			"name": "GunGame",
-			"desc": "A gamemode where you earn upgrades to gear\nby getting kills!",
-			"jarName": "GunGame.jar",
-			"configName": "GunGame",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Bed Wars",
-			"desc": "The complete Bed Wars experience in one plugin",
-			"jarName": "BedWars.jar",
-			"configName": "BedWars",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Sky Wars",
-			"desc": "An automated, fully-featured Sky Wars plugin",
-			"jarName": "SkyWars.jar",
-			"configName": "SkyWars",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Murder",
-			"desc": "Garry's Mod gamemode, Murder, put into Minecraft!",
-			"jarName": "MCMurder.jar",
-			"configName": "MCMurder",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Trouble in Terrorist Town (TTT)",
-			"desc": "Garry's Mod gamemode, TTT, put into Minecraft!",
-			"jarName": "TTT.jar",
-			"configName": "MTTT",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Friday the 13th",
-			"desc": "A fun minigame where one player plays as Jason\nand the rest have to run and hide!",
-			"jarName": "FridayThe13th.jar",
-			"configName": "FridayThe13th",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Color Cube",
-			"desc": "A territorial-based minigame.",
-			"jarName": "ColorCube.jar",
-			"configName": "ColorCube",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Replica",
-			"desc": "A minigame where players compete to replicate a picture.",
-			"jarName": "Replica.jar",
-			"configName": "Replica",
-			"requiredRank": "5"
-		},
-		{
-			"name": "MinigamesLib",
-			"desc": "Library that supports multiple minigame plugins.",
-			"jarName": "MinigamesLib.jar",
-			"configName": "MinigamesLib",
-			"freePlugin": "true",
-			"requiredRank": "5"
-		},
-		{
-			"name": "DeathRun",
-			"desc": "Garry's mod gamemode, DeathRun, ported to Minecraft!\n&cRequires &nMinigamesLib&c.",
-			"jarName": "MGDeathRun.jar",
-			"configName": "MGDeathRun",
-			"requiredRank": "5"
-		},
-		{
-			"name": "One in the Chamber",
-			"desc": "A fast-paced minigame where bows are one-hit kill.\n&cRequires &nMinigamesLib&c.",
-			"jarName": "MGOITC.jar",
-			"configName": "MGOITC",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Bow Bash",
-			"desc": "This is a TDM gamemode where you must avoid\nthe enemy's arrows and explosives and try to kill them all.\n&cRequires &nMinigamesLib&c.",
-			"jarName": "MGBowBash.jar",
-			"configName": "MGBowBash",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Conquer",
-			"desc": "A team gamemode where the teams compete to\ncapture checkpoints in the map.\n&cRequires &nMinigamesLib&c.",
-			"jarName": "MGConquer.jar",
-			"configName": "MGConquer",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Sea Battle",
-			"desc": "Try to hit your enemies with snowballs in boats!\n&cRequires &nMinigamesLib&c.",
-			"jarName": "MGSeaBattle.jar",
-			"configName": "MGSeaBattle",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Flying Cars",
-			"desc": "Fly in planes and try to shoot your enemies down!\n&cRequires &nMinigamesLib&c.",
-			"jarName": "MGFlyingCars.jar",
-			"configName": "MGFlyingCars",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Snake",
-			"desc": "The classic game of Snake in Minecraft!\nEat food to grow, but don't run into someone's snake!\n&cRequires &nMinigamesLib&c.",
-			"jarName": "MGSnake",
-			"configName": "MGSnake",
-			"requiredRank": "5"
-		},
-		{
-			"name": "Combat Log",
-			"desc": "Punish players who log out during combat!",
-			"jarName": "CombatLog.jar",
-			"configName": "CombatLog"
-		},
-		{
-			"name": "Shop Chest",
-			"desc": "A new plugin for players to sell items from chests",
-			"jarName": "ShopChest.jar",
-			"configName": "ShopChest"
-		},
-		{
-			"name": "ChestShop",
-			"desc": "Chestshops that allow players to sell/buy items.",
-			"jarName": "ChestShop.jar",
-			"configName": "ChestShop"
-		},
-		{
-			"name": "Crack Shot",
-			"desc": "Guns in Minecraft.",
-			"jarName": "CrackShot.jar",
-			"configName": "CrackShot"
-		},
-		{
-			"name": "Crates Plus",
-			"desc": "Crates to give out rewards to players with keys.",
-			"jarName": "CratesPlus.jar",
-			"configName": "CratesPlus"
-		},
-		{
-			"name": "Shopkeepers",
-			"desc": "Create customizable villager shops with this plugin.",
-			"jarName": "Shopkeepers.jar",
-			"configName": "Shopkeepers"
-		},
-		{
-			"name": "Silk Spawners",
-			"desc": "Create and pick up custom mob spawners.",
-			"jarName": "SilkSpawners.jar",
-			"configName": "SilkSpawners"
-		},
-		{
-			"name": "Orebfuscator",
-			"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cRequires &nProtocolLib&c.",
-			"jarName": "Orebfuscator.jar",
-			"configName":"Orebfuscator4",
-			"requiredRank":"3"
-		},
-		{
-			"name": "Chat Control",
-			"desc": "Control aspects of the chat and prevent swearing/spamming.",
-      "jarName": "ChatControl.jar",
-			"configName": "ChatControl"
-		},
-		{
-			"name": "NoodleChat",
-			"desc": "Block specific words from being used in chat.\nMade by Minehut user &nPerfectNoodles&r.",
-			"jarName": "NoodleChat.jar",
-			"configName": "NoodleChat"
-		},
-		{
-			"name": "Lockette",
-			"desc": "Personal chest protection system.",
-			"jarName": "Lockette.jar",
-			"configName": "Lockette"
-		},
-		{
-			"name": "EZRanksPro",
-			"desc": "Simple auto rankup plugin.\n&cRequires Vault and a permissions plugin.\n&cScoreboards will reset when installed.",
-			"jarName": "EZRanksPro.jar",
-			"configName": "EZRanksPro"
-		},
-    		{
-			"name": "MineResetLite",
-			"desc": "Create mines that will reset.",
-			"jarName": "MineResetLite.jar",
-			"configName": "MineResetLite"
-		},
-		{
-			"name": "Libs Disguises",
-			"desc": "Disguise as mobs!\n&cRequires &nProtocolLib&c.",
-			"jarName": "LibsDisguises.jar",
-			"configName": "LibsDisguises"
-		},
-		{
-			"name": "Create Your Own Menus",
-			"desc": "Allows you to create your own GUI menus!\n&cNote: May be vulnerable to exploits within hack clients.\n&cUse &nItem Fixer &cwith this!",
-			"jarName": "CreateYourOwnMenus.jar",
-			"configName": "CreateYourOwnMenus"
-		},
-		{
-			"name": "Item Fixer",
-			"desc": "Blocks hack client features that abuse item nbt data",
-			"jarName": "ItemFixer.jar",
-			"configName": "ItemFixer"
-		},
-		{
-			"name": "Project Korra",
-			"desc": "Bring the elemental powers of Avatar: the Last Airbender into your server.",
-			"jarName": "ProjectKorra.jar",
-			"configName": "ProjectKorra",
-			"requiredRank": "3"
-		},
-		{
-			"name": "EchoPet",
-			"desc": "EchoPet is no longer supported for 1.9+. It will not work!",
-			"jarName": "EchoPet_v2.8.0.jar",
-			"configName": "EchoPet_v2.8.0",
-			"disabled": true
-		},
-		{
-			"name": "SimplePets",
-			"desc": "A simple pets plugin (EchoPets replacement)\n&cRequires &nSimpleAPI&c.\n&c&nThis may conflict with Citizens!",
-			"jarName": "SimplePets.jar",
-			"configName": "SimplePets"
-		},
-		{
-			"name": "SimpleAPI",
-			"desc": "A simple, lightweight set of APIs",
-			"jarName": "SimpleAPI.jar",
-			"configName": "SimpleAPI",
-			"freePlugin": "true"
-		},
-		{
-			"name": "Auctions",
-			"desc": "An elegant auctioning solution that\nallows text tooltips for auctioned items\n&cRequires &nVault&c.",
-			"jarName": "Auctions.jar",
-			"configName": "Auctions"
-		},
-		{
-			"name": "ObsidianAuctions",
-			"desc": "Unique chat based auction system.\n&cRequires &nVault&c.",
-			"jarName": "ObsidianAuctions.jar",
-			"configName": "ObsidianAuctions"
-		},
-		{
-			"name": "Trade+",
-			"desc": "Lets players easily and safely trade items via a GUI.\nMade by Minehut user &nGamer&r.",
-			"jarName": "TradePlus.jar",
-			"configName": "TradePlus"
-		},
-		{
-			"name": "Action Announcer",
-			"desc": "Create timed broadcasts for your server through the action bar.",
-			"jarName": "ActionAnnouncer.jar",
-			"configName": "ActionAnnouncer"
-		},
-		{
-			"name": "Actionbar",
-			"desc": "Animated actionbar, join messages, etc.",
-			"jarName": "Actionbar.jar",
-			"configName": "Actionbar"
-		},
-		{
-			"name": "UltraBar",
-			"desc": "Send Boss Bar messages, Titles, and Actionbars!",
-			"jarName": "UltraBar.jar",
-			"configName": "UltraBar"
-		},
-		{
-			"name": "Holographic Displays",
-			"desc": "Make floating messages around your world.",
-			"jarName": "HolographicDisplays.jar",
-			"configName": "HolographicDisplays"
-		},
-		{
-			"name": "SuperTrails",
-			"desc": "Colorful cosmetic trails to get around fabulously.",
-			"jarName": "SuperTrails.jar",
-			"configName": "SuperTrails"
-		},
-		{
-			"name": "CustomEnchants",
-			"desc": "Custom enchantments and levels!",
-			"jarName": "CustomEnchantments.jar",
-			"configName": "CustomEnchantments"
-		},
-		{
-			"name": "Citizens",
-			"desc": "Create custom and interactive NPCs.\n&cCan cause extreme lag. Lots of free RAM is required!",
-			"jarName": "Citizens.jar",
-			"configName": "Citizens",
-			"requiredRank": "1"
-		},
-		{
-			"name": "CommandNPC",
-			"desc": "Add right-clickable commands to your NPCs.\n&cRequires &nCitizens&c.",
-			"jarName": "CommandNPC.jar",
-			"configName": "CommandNPC",
-			"requiredRank": "1"
-		},
-		{
-			"name": "McMMO",
-			"desc": "RPG experience in Minecraft!",
-			"jarName": "mcMMO.jar",
-			"configName": "mcMMO",
-			"requiredRank": "1"
-		},
-		{
-			"name": "Massive Factions",
-			"desc": "An alternative factions plugin by MassiveCraft\n&cRequired &nMassive Core",
-			"jarName": "MassiveFactions.jar",
-			"configName": "MassiveFactions",
-			"requiredRank": "2"
-		},
-		{
-			"name": "Massive Core",
-			"desc": "Core plugin required for Massive Factions",
-			"jarName": "MassiveCore.jar",
-			"configName": "MassiveCore",
-			"requiredRank": "2",
-			"freePlugin": "true"
-		},
-		{
-			"name": "Factions",
-			"desc": "Claim land, build a base and wage war!",
-			"jarName": "Factions.jar",
-			"configName": "Factions",
-			"requiredRank": "2"
-		},
-		{
-			"name": "Obsidian Breaker",
-			"desc": "Allows explosions to break Obsidian!\n&aWorks well with Factions raiding.",
-			"jarName": "ObsidianBreaker.jar",
-			"configName": "ObsidianBreaker",
-			"requiredRank": "2"
-		},
-		{
-			"name": "ASkyBlock",
-			"desc": "Survive on Skyblock islands.\n&cRequires &nVault&c.",
-			"jarName": "askyblock.jar",
-			"configName": "ASkyBlock",
-			"requiredRank": "2"
-		},
-		{
-			"name": "ASkyGrid",
-			"desc": "Survive in a grid of blocks.\n&cRequires &nVault&c.",
-			"jarName": "askygrid.jar",
-			"configName": "ASkyGrid",
-			"requiredRank": "2"
-		},
-		{
-			"name": "Towny",
-			"desc": "Towny is a versatile, player-controlled land management plugin.",
-			"jarName": "Towny.jar",
-			"configName": "Towny",
-			"requiredRank": "4"
-		},
-		{
-			"name": "TownyChat",
-			"desc": "This is required if you want to let Towny modify chat.",
-			"jarName": "TownyChat.jar",
-			"configName": "TownyChat",
-			"requiredRank": "4"
-		},
-		{
-			"name": "VoidWorld",
-			"desc": "Create void-worlds with this and Multiverse-Core.",
-			"jarName": "VoidWorld.jar",
-			"configName": "VoidWorld",
-			"requiredRank": "4"
-		},
-		{
-			"name": "PlotSquared",
-			"desc": "PlotSquared is a land management plugin.",
-			"jarName": "PlotSquared.jar",
-			"configName": "PlotSquared",
-			"requiredRank": "4"
-		},
-		{
-			"name": "Core Protect",
-			"desc": "Fast, efficient block logging and anti-griefing tool.",
-			"jarName": "CoreProtect.jar",
-			"configName": "CoreProtect",
-			"requiredRank": "2"
-		},
-		{
-			"name": "Log",
-			"desc": "Log block changes in your world.\nMade by Minehut user &nDividedWeFall&r.",
-			"jarName": "Log.jar",
-			"configName": "Log",
-			"requiredRank": "2"
-		},
-		{
-			"name": "Joe's Horse Collect",
-			"desc": "Collect, transport, place and spawn horses.",
-			"jarName": "JoeHorseCollect.jar",
-			"configName": "JoeHorseCollect"
-		},
-		{
-			"name": "Joe Marriage",
-			"desc": "Added marriages and divorces to your server.",
-			"jarName": "JoeMarriage.jar",
-			"configName": "JoeMarriage"
-		},
-		{
-			"name": "Marriage Master",
-			"desc": "Allows you to marry other players with many special features",
-			"jarName": "MarriageMaster.jar",
-			"configName": "MarriageMaster"
-		},
-		{
-			"name": "Loot Protect",
-			"desc": "Protects loot dropped upon death.\nMade by Minehut user &nGamer&r.",
-			"jarName": "LootProtect.jar",
-			"configName": "LootProtect"
-		},
-		{
-			"name": "ClearLag",
-			"desc": "Helps clear the lag on your server.",
-			"jarName": "Clearlag.jar",
-			"configName": "ClearLag",
-    			"requiredRank": "1"
-		},
-		{
-    			"name": "Scaffold",
-			"desc": "A multi-world plugin developed by Minehut.\nAllows importing worlds through commands!\nThis plugin is recommended over Multiverse-Core",
-			"jarName": "Scaffold.jar",
-			"configName": "Scaffold",
-			"requiredRank": "4"
-   		},
-    		{
-			"name": "Multiverse",
-			"desc": "Multi-world management.",
-			"jarName": "Multiverse-Core.jar",
-			"configName": "Multiverse-Core",
-			"requiredRank": "4"
-		},
-		{
-			"name": "Multiverse Portals",
-			"desc": "Multiverse addon for world portal creation",
-			"jarName": "Multiverse-Portals.jar",
-			"configName": "Multiverse-Portals",
-			"requiredRank": "4",
-			"freePlugin": "true"
-		},
-		{
-			"name": "Multiverse Nether Portals",
-			"desc": "Multiverse addon for teleportation between worlds using nether portals",
-			"jarName": "Multiverse-NetherPortals.jar",
-			"configName": "Multiverse-NetherPortals",
-			"requiredRank": "4",
-			"freePlugin": "true"
-		},
-		{
-			"name": "Multiverse Sign Portals",
-			"desc": "Multiverse addon for teleportation between worlds using signs",
-			"jarName": "Multiverse-SignPortals.jar",
-			"configName": "Multiverse-SignPortals",
-			"requiredRank": "4",
-			"freePlugin": "true"
-		},
-		{
-			"name": "Multiverse Adventure",
-			"desc": "Multiverse addon for adventure map makers!\nResets worlds automatically between plays.",
-			"jarName": "Multiverse-Adventure.jar",
-			"configName": "Multiverse-Adventure",
-			"requiredRank": "4",
-			"freePlugin": "true"
-		},
-		{
-			"name":"Punishment",
-			"desc": "Punish your players more effectively! \n&cNote: May prevent scoreboards from properly displaying.",
-			"jarName": "Punishment.jar",
-			"configName": "Punishment",
-			"requiredRank": "2"
-		},
-		{
-			"name": "Chest Cleaner",
-			"desc": "Sorts chests and inventories to make them neat.\nCan be done manually and/or on a timer.",
-			"jarName": "ChestCleaner.jar",
-			"configName": "ChestCleaner"
-		},
-		{
-			"name":"AutoMessage",
-			"desc":" A fully in-game edited automatic broadcast system.",
-			"jarName":"AutoMessage.jar",
-			"configName":"AutoMessage",
-			"requiredRank": "1"
-	  	},
-    		{
-			"name": "Tablist",
-			"desc": "Animated tablist with variables",
-			"jarName": "Tablist.jar",
-			"configName": "Tablist"
-		},
-		{
-			"name": "Titlebar",
-			"desc": "Animated titlebar",
-			"jarName": "Titlebar.jar",
-			"configName": "Titlebar"
-		},
-	  	{
-			"name": "Title Welcome Message",
-			"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
-			"jarName": "TitleWelcomeMessage.jar",
-			"configName": "TitleWelcomeMessage"
-		},
-		{
-			"name": "Nametag Edit",
-			"desc": "Edit tablist/scoreboard prefixes and suffixes",
-			"jarName": "NametagEdit.jar",
-			"configName": "NametagEdit"
-		},
-    {
-			"name": "Area Shop",
-			"desc": "Allows for the buying and renting of worldguard regions",
-			"jarName": "AreaShop.jar",
-			"configName": "AreaShop"
-    },
-		{
-			"name": "AutoColor",
-			"desc": "Permission based auto chat color",
-			"jarName": "AutoColor.jar",
-			"configName": "AutoColor"
-		},
-		{
-			"name": "ChatColor+",
-			"desc": "Allows your users with permissions\nto change their name/chat color!",
-			"jarName": "ChatColor.jar",
-			"configName": "ChatColor+"
-		},
-		{
-			"name": "TrainCarts",
-			"desc": "Link minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&cRequires &nBKCommonLib&c.",
-			"jarName": "TrainCarts.jar",
-			"configName": "TrainCarts"
-		},
-		{
-			"name": "BKCommonLib",
-			"desc": "Dependency for TrainCarts",
-			"jarName": "BKCommonLib.jar",
-			"configName": "BKCommonLib",
-			"freePlugin": "true"
-		},
-    {
-			"name": "ImageOnMap",
-			"desc": "Create map boards with images.",
-			"jarName": "ImageOnMap.jar",
-			"configName": "ImageOnMap"
-		},
-    {
-			"name": "PhatLoots",
-			"desc": "Allows players to receive loot (money/items/exp/etc...) from Chests/Mobs.",
-			"jarName": "PhatLoots.jar",
-			"configName": "PhatLoots"
-		},
-		{
-			"name": "NBTEditor",
-			"desc": "Allows easy customization of many aspects of Minecraft\nthrough the modification of NBT tags.",
-			"jarName": "NBTEditor.jar",
-			"configName": "NBTEditor"
-		},
-		{
-			"name": "RPGItems",
-			"desc": "Add special lore, abilities, and more to items.",
-			"jarName": "RPGItems.jar",
-			"configName": "RPGItems"
-    },
-		{
-			"name": "Itemizer",
-			"desc": "Edit the display name, lore, and other item attributes.",
-			"jarName": "Itemizer.jar",
-			"configName": "Itemizer"
-		},
-		{
-			"name": "Item Editor",
-			"desc": "Modify attributes of items in a simple menu.",
-			"jarName": "ItemEditor.jar",
-			"configName": "ItemEditor"
-		},
-    {
-			"name": "PlayerVaults",
-			"desc": "Allows players to use an unlimited (or set)\namount of personal storage vaults.",
-			"jarName": "PlayerVaults.jar",
-			"configName": "PlayerVaults"
-		},
-		{
-			"name": "Slimefun",
-			"desc": "Adds 400+ custom items to the game and\nenchances the game to modpack level.\n&cRequires &nCS-CoreLib",
-			"jarName": "Slimefun.jar",
-			"configName": "Slimefun",
-			"requiredRank": "2"
-		},
-		{
-			"name": "ExoticGarden",
-			"desc": "Exotic Garden is a Slimefun Addon which \ngenerates new plants all over your world.\n&cRequires &c&nSlimefun&c and &nCS-CoreLib",
-			"jarName": "ExoticGarden.jar",
-			"configName": "ExoticGarden",
-			"requiredRank": "2",
-			"freePlugin": "true"
-		},
-		{
-			"name": "CS-CoreLib",
-			"desc": "Library for Slimefun and Exotic Garden",
-			"jarName": "CSCoreLib.jar",
-			"configName": "CS-CoreLib",
-			"freePlugin": "true"
-		},
-		{
-			"name": "MinePacks",
-			"desc": "Adds backpacks for your players to store items in",
-			"jarName": "MinePacks.jar",
-			"configName": "MinePacks"
-		},
-		{
-			"name": "Vein Miner",
-			"desc": "Mine entire veins of ores with a simple break of a block",
-			"jarName": "VeinMiner.jar",
-			"configName": "VeinMiner"
-		},
-		{
-		  "name": "Herobrine",
-			"desc": "Add Herobrine to your server!",
-			"jarName": "Herobrine.jar",
-			"configName": "Herobrine"
-		},
-		{
-			"name": "Simple Drugs",
-			"desc": "Adds items that give potion effects",
-			"jarName": "SimpleDrugs.jar",
-			"configName": "SimpleDrugs"
-		}
-	]
-}
+[
+	{
+		"name": "Buycraft",
+		"desc": "Set up automatic stores for your server.\n&cMake sure to follow the Minecraft EULA!\n&cYou can view it here:\n&chttps://account.mojang.com/documents/minecraft_eula",
+		"jarName": "BuycraftX.jar",
+		"configName": "BuycraftX"
+	},
+	{
+		"name": "Enjin",
+		"desc": "Connect an Enjin site and Donationcraft store to your server.\n&cMake sure to follow the Minecraft EULA!\n&cYou can view it here:\n&chttps://account.mojang.com/documents/minecraft_eula",
+		"jarName": "EnjinMinecraftPlugin.jar",
+		"configName": "EnjinMinecraftPlugin"
+	},
+	{
+		"name": "Old Combat",
+		"desc": "Make combat like pre-1.9 Minecraft.",
+		"jarName": "OldCombatMechanics.jar",
+		"configName": "OldCombatMechanics",
+		"freePlugin": "true"
+	},
+	{
+		"name": "BetterCombat",
+		"desc": "Moves the combat style back to 1.7/1.8\nRemoves attack speed, adds block hitting, etc.",
+		"jarName": "BetterCombat.jar",
+		"configName": "BetterCombat",
+		"freePlugin": "true"
+	},
+	{
+		"name": "MC Realistic Plus",
+		"desc": "Completely overhauls the survival experience,\nmaking a lot of things more realistic.\nAdds things such as block gravity, broken bones, and temperature.",
+		"jarName": "MCRealisticPlus.jar",
+		"configName": "MCRealisticPlus",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Seasons",
+		"desc": "Bring the real world seasons into your server!",
+		"jarName": "Seasons.jar",
+		"configName": "Seasons",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Nanobots",
+		"desc": "Adds programmable self-replicating nanobots.\nThey can be used to clear out blocks and more!",
+		"jarName": "Nanobots.jar",
+		"configName": "Nanobots",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Quests",
+		"desc": "A very extensive quest system.",
+		"jarName": "Quests.jar",
+		"configName": "Quests.jar",
+		"requiredRank": "4"
+	},
+	{
+		"name": "Beauty Quests",
+		"desc": "Make quests for your players to embark on with a simple GUI.",
+		"jarName": "BeautyQuests.jar",
+		"configName": "BeautyQuests",
+		"requiredRank": "4"
+	},
+	{
+		"name": "Essentials",
+		"desc": "Essential commands\n&aAll Essentials plugins count as 1 plugin.",
+		"jarName": "Essentials.jar",
+		"configName": "Essentials"
+	},
+	{
+		"name": "Essentials Spawn",
+		"desc": "Setup a server spawn point.\n&aAll Essentials plugins count as 1 plugin.",
+		"jarName": "EssentialsSpawn.jar",
+		"configName": "~"
+	},
+	{
+		"name": "Essentials Chat",
+		"desc": "Format the chat to make it look nicer.\n&cRequires &nVault&c.\n&aAll Essentials plugins count as 1 plugin.",
+		"jarName": "EssentialsChat.jar",
+		"configName": "~"
+	},
+	{
+		"name": "Essentials Kit Adder",
+		"desc": "Add kits with commands\n&aAll Essentials plugins count as 1 plugin.",
+		"jarName": "KitAdder.jar",
+		"configName": "KitAdder"
+	},
+	{
+		"name": "Essentials Group Manager",
+		"desc": "Create permission systems.\n&cRequires &nEssentials Chat&c for prefixes.\n&aAll Essentials plugins count as 1 plugin.",
+		"jarName": "GroupManager.jar",
+		"configName": "GroupManager"
+	},
+	{
+		"name": "Permissions Ex",
+		"desc": "Create permission systems.\n&cRequires &nEssentials Chat&c for prefixes.",
+		"jarName": "PermissionsEx.jar",
+		"configName": "PermissionsEx",
+    "freePlugin": "true"
+	},
+  {
+		"name": "AquaticPerms",
+		"desc": "A super simple per-user permissions plugin.\nMade by Minehut user &nDividedWeFall&r.",
+		"jarName": "AquaticPerms.jar",
+		"configName": "AquaticPerms",
+		"freePlugin": "true"
+  },
+	{
+		"name": "Jobs",
+		"desc": "Let your players earn money by doing various jobs!",
+		"jarName": "Jobs.jar",
+		"configName": "Jobs"
+	},
+	{
+		"name": "Banner Maker",
+		"desc": "Create banners in a GUI",
+		"jarName": "BannerMaker.jar",
+		"configName": "BannerMaker"
+	},
+	{
+		"name": "Easy Enchant",
+		"desc": "Add enchantments to items in an easy GUI!",
+		"jarName": "EasyEnchant.jar",
+		"configName": "EasyEnchant"
+	},
+	{
+		"name": "Report Menu",
+		"desc": "Allow players to report rule-breakers with\na nice inventory menu.",
+		"jarName": "MenuReport.jar",
+		"configName": "MenuReport"
+	},
+	{
+		"name": "uReport",
+		"desc": "GUI for reporting rule-breakers",
+		"jarName": "UReport.jar",
+		"configName": "UReport"
+	},
+	{
+		"name": "Command Block Control",
+		"desc": "Whitelist or blacklist command usage from command blocks.",
+		"jarName": "CommandBlock.jar",
+		"configName": "CommandBlock"
+	},
+	{
+		"name": "Admin Menu",
+		"desc": "An admin menu for managing online & offline players.",
+		"jarName": "AdminPlayerMenu.jar",
+		"configName": "AdminPlayerMenu"
+	},
+	{
+		"name": "Skript",
+		"desc": "Modify servers through a scripting interface.",
+		"jarName": "Skript.jar",
+		"configName": "Skript",
+		"requiredRank": "4"
+	},
+	{
+		"name": "Skript Addon: skQuery",
+		"desc": "Adds a TON of new features to script.",
+		"jarName": "skQuery.jar",
+		"configName": "SkQuery",
+		"requiredRank": "4"
+	},
+	{
+		"name": "Skript Addon: skRayFall",
+		"desc": "Make inventory menus, quests, and more in skript.",
+		"jarName": "skRayFall.jar",
+		"configName": "SkRayFall",
+		"requiredRank": "4"
+	},
+	{
+		"name": "Skript Addon: ExtrasSK",
+		"desc": "Adds extra features to skript",
+		"jarName": "ExtrasSK.jar",
+		"configName": "ExtrasSK",
+		"requiredRank": "4",
+		"freePlugin": "true"
+	},
+	{
+		"name": "Skript Addon: LargeSK",
+		"desc": "Adds a few basic extras to skript",
+		"jarName": "LargeSK.jar",
+		"configName": "LargeSK",
+		"requiredRank": "4",
+		"freePlugin": "true"
+	},
+	{
+		"name": "Skript Addon: MundoSK",
+		"desc": "Allows you some world editing features,\nbooks and enchantments, and more with Skript.",
+		"jarName": "MundoSK.jar",
+		"configName": "MundoSK",
+		"requiredRank": "4",
+		"freePlugin": "true"
+	},
+	{
+		"name": "Skript Addon: RandomSK",
+		"desc": "Adds some animation and other features to skript.",
+		"jarName": "RandomSK.jar",
+		"configName": "RandomSK",
+		"requiredRank": "4",
+		"freePlugin": "true"
+	},
+	{
+		"name": "Skript Addon: skDragon",
+		"desc": "Adds particle effects and dragon travel\nfeatures to skript.",
+		"jarName": "skDragon.jar",
+		"configName": "skDragon",
+		"requiredRank": "4",
+		"freePlugin": "true"
+	},
+	{
+		"name": "Skript Addon: skRambled",
+		"desc": "Allows you to hook into other plugins\nsuch as mcMMO and WorldGuard with skript.",
+		"jarName": "skRambled.jar",
+		"configName": "skRambled",
+		"requiredRank": "4",
+		"freePlugin": "true"
+	},
+	{
+		"name": "Skript Addon: TuSKe",
+		"desc": "Allows some plugin hooks and some\nother interesting features in skript.",
+		"jarName": "TuSKe.jar",
+		"configName": "TuSKe",
+		"requiredRank": "4",
+		"freePlugin": "true"
+	},
+	{
+		"name": "Ultra Cosmetics",
+		"desc": "Fully-featured cosmetics plugin with everything\nfrom hats and particles to pets and mounts!",
+		"jarName": "UltraCosmetics.jar",
+		"configName": "UltraCosmetics",
+		"requiredRank": "5"
+	},
+	{
+		"name": "PandaWire",
+		"desc": "Increases the efficiency and performance of redstone",
+		"jarName": "PandaWire.jar",
+		"configName": "PandaWire",
+		"freePlugin": "true"
+	},
+  {
+		"name": "InstantRespawn",
+		"desc": "Stops the Respawn screen from showing\nand respawns straight away.",
+		"jarName": "InstantRespawn.jar",
+    "configName": "~",
+		"freePlugin": "true"
+  },
+	{
+		"name": "No Cheat Plus",
+		"desc": "Anti-cheat system to block bad modifications.\n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
+		"jarName": "NoCheatPlus.jar",
+		"configName": "NoCheatPlus"
+	},
+	{
+		"name": "Phoenix Anti-Cheat",
+		"desc": "Anti-cheat to block client modifications.\n&cRequires &nProtocolLib&c.",
+		"jarName": "PAC.jar",
+		"configName": "PAC"
+	},
+	{
+		"name": "Hack Detective",
+		"desc": "Another anti-cheat to block harmful client mods.\n&cRequires &nProtocolLib&c.",
+		"jarName": "HackDetective.jar",
+		"configName": "HackDetective"
+	},
+	{
+		"name": "ProtocolLib",
+		"desc": "API which allows plugins to access new functions.",
+		"jarName": "ProtocolLib.jar",
+		"configName": "ProtocolLib",
+		"freePlugin":"true"
+	},
+	{
+		"name": "uCars",
+		"desc": "Extremely versatile and well-made car plugin.\n&cRequires &nProtocolLib&c.",
+		"jarName": "uCars.jar",
+		"configName": "uCars"
+	},
+  {
+		"name": "RandomTP",
+		"desc": "Allows players to easily teleport to random locations in the world.\nMade by Minehut user &niTurtleDerp&r.",
+		"jarName": "RandomTP.jar",
+		"configName": "~"
+	},
+	{
+		"name": "ArmorStand Editor",
+		"desc": "Easily edit armorstand poses and attributes in-game",
+		"jarName": "ArmorStandEditor.jar",
+		"configName": "ArmorStandEditor"
+	},
+	{
+		"name": "World Edit",
+		"desc": "Build tools.",
+		"jarName": "worldedit.jar",
+		"configName": "WorldEdit"
+	},
+	{
+		"name": "Async WorldEdit",
+		"desc": "Makes large worldedit operations more performant\n&cRequires &nAsync WorldEdit Injector&c and &nWorldEdit&c.",
+		"jarName": "AsyncWorldEdit.jar",
+		"configName": "AsyncWorldEdit"
+	},
+	{
+		"name": "Async WorldEdit Injector",
+		"desc": "Injects Async WorldEdit into WorldEdit",
+		"jarName": "AsyncWorldEditInjector.jar",
+		"configName": "AsyncWorldEditInjector"
+	},
+	{
+		"name": "Houses",
+		"desc": "Allow players to buy, sell, and rent houses",
+		"jarName": "Houses.jar",
+		"configName": "Houses"
+	},
+	{
+		"name": "World Guard",
+		"desc": "Create and manage regions using this plugin.",
+		"jarName": "worldguard.jar",
+		"configName": "WorldGuard"
+	},
+	{
+		"name": "Red Protect",
+		"desc": "Anti-Grief, Chat protection, Spawn Protection\nMay be a good alternative to WorldGuard.",
+		"jarName": "RedProtect.jar",
+		"configName": "RedProtect"
+	},
+	{
+		"name": "GriefPrevention",
+		"desc": "Anti-grief plugin which lets your players protect\ntheir own builds. Can also be used to\nmake admin claims.",
+		"jarName": "GriefPrevention.jar",
+		"configName": "GriefPrevention"
+	},
+	{
+		"name": "Voxel Sniper",
+		"desc": "Long range map editing tool for terraforming.",
+		"jarName": "VoxelSniper.jar",
+		"configName": "VoxelSniper"
+	},
+	{
+		"name": "Fast Async VoxelSniper",
+		"desc": "Optimizes VoxelSniper.",
+		"jarName": "FastAsyncVoxelSniper.jar",
+		"configName": "~",
+		"freePlugin":"true"
+	},
+	{
+		"name": "goBrush",
+		"desc": "A plugin with brushes and height maps for terraforming.",
+		"jarName": "goBrush.jar",
+		"configName": "goBrush"
+	},
+	{
+		"name": "Bank Notes",
+		"desc": "Adds functionality for withdrawing money into physical items.\n&cRequires &nVault&c.",
+		"jarName": "BankNotes.jar",
+		"configName": "BankNote"
+	},
+	{
+		"name": "Vault",
+		"desc": "Economy, Permissions, and Chat API.",
+		"jarName": "Vault.jar",
+		"configName": "Vault",
+		"freePlugin":"true"
+	},
+	{
+		"name": "Placeholder API",
+		"desc": "API which gives plugins access to variables to display.",
+		"jarName": "PlaceholderAPI.jar",
+		"configName": "PlaceholderAPI",
+		"freePlugin": "true",
+		"disabled": true
+	},
+	{
+		"name": "GitSchematic",
+		"desc": "Import and share WorldEdit schematics\n&cRequires &nWorldEdit&c.",
+		"jarName": "GitSchematic.jar",
+		"configName": "GitSchematic",
+		"requiredRank": "2"
+	},
+	{
+		"name":"CreeperHeal",
+		"desc": "Automatically heal explosion damage!",
+		"jarName": "CreeperHeal.jar",
+		"configName": "CreeperHeal",
+		"requiredRank": "2"
+	},
+	{
+		"name": "Minigames",
+		"desc": "Allows you to create custom minigames of all different types!\n&cRequires &nMinigames Regions&c.",
+		"jarName": "Minigames.jar",
+		"configName": "Minigames",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Minigames Regions",
+		"desc": "Library for the Minigames plugin to create regions for maps.",
+		"jarName": "MinigamesRegions.jar",
+		"configName": "MinigamesRegions",
+		"requiredRank": "5",
+		"freePlugin": "true"
+	},
+	{
+		"name": "Duels",
+		"desc": "A full duel system for players to\nfight in 1v1s which is very customizable\nfrom in-game!",
+		"jarName": "Duels.jar",
+		"configName": "Duels",
+		"requiredRank": "5"
+	},
+	{
+		"name": "GunGame",
+		"desc": "A gamemode where you earn upgrades to gear\nby getting kills!",
+		"jarName": "GunGame.jar",
+		"configName": "GunGame",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Bed Wars",
+		"desc": "The complete Bed Wars experience in one plugin",
+		"jarName": "BedWars.jar",
+		"configName": "BedWars",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Sky Wars",
+		"desc": "An automated, fully-featured Sky Wars plugin",
+		"jarName": "SkyWars.jar",
+		"configName": "SkyWars",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Murder",
+		"desc": "Garry's Mod gamemode, Murder, put into Minecraft!",
+		"jarName": "MCMurder.jar",
+		"configName": "MCMurder",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Trouble in Terrorist Town (TTT)",
+		"desc": "Garry's Mod gamemode, TTT, put into Minecraft!",
+		"jarName": "TTT.jar",
+		"configName": "MTTT",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Friday the 13th",
+		"desc": "A fun minigame where one player plays as Jason\nand the rest have to run and hide!",
+		"jarName": "FridayThe13th.jar",
+		"configName": "FridayThe13th",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Color Cube",
+		"desc": "A territorial-based minigame.",
+		"jarName": "ColorCube.jar",
+		"configName": "ColorCube",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Replica",
+		"desc": "A minigame where players compete to replicate a picture.",
+		"jarName": "Replica.jar",
+		"configName": "Replica",
+		"requiredRank": "5"
+	},
+	{
+		"name": "MinigamesLib",
+		"desc": "Library that supports multiple minigame plugins.",
+		"jarName": "MinigamesLib.jar",
+		"configName": "MinigamesLib",
+		"freePlugin": "true",
+		"requiredRank": "5"
+	},
+	{
+		"name": "DeathRun",
+		"desc": "Garry's mod gamemode, DeathRun, ported to Minecraft!\n&cRequires &nMinigamesLib&c.",
+		"jarName": "MGDeathRun.jar",
+		"configName": "MGDeathRun",
+		"requiredRank": "5"
+	},
+	{
+		"name": "One in the Chamber",
+		"desc": "A fast-paced minigame where bows are one-hit kill.\n&cRequires &nMinigamesLib&c.",
+		"jarName": "MGOITC.jar",
+		"configName": "MGOITC",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Bow Bash",
+		"desc": "This is a TDM gamemode where you must avoid\nthe enemy's arrows and explosives and try to kill them all.\n&cRequires &nMinigamesLib&c.",
+		"jarName": "MGBowBash.jar",
+		"configName": "MGBowBash",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Conquer",
+		"desc": "A team gamemode where the teams compete to\ncapture checkpoints in the map.\n&cRequires &nMinigamesLib&c.",
+		"jarName": "MGConquer.jar",
+		"configName": "MGConquer",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Sea Battle",
+		"desc": "Try to hit your enemies with snowballs in boats!\n&cRequires &nMinigamesLib&c.",
+		"jarName": "MGSeaBattle.jar",
+		"configName": "MGSeaBattle",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Flying Cars",
+		"desc": "Fly in planes and try to shoot your enemies down!\n&cRequires &nMinigamesLib&c.",
+		"jarName": "MGFlyingCars.jar",
+		"configName": "MGFlyingCars",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Snake",
+		"desc": "The classic game of Snake in Minecraft!\nEat food to grow, but don't run into someone's snake!\n&cRequires &nMinigamesLib&c.",
+		"jarName": "MGSnake",
+		"configName": "MGSnake",
+		"requiredRank": "5"
+	},
+	{
+		"name": "Combat Log",
+		"desc": "Punish players who log out during combat!",
+		"jarName": "CombatLog.jar",
+		"configName": "CombatLog"
+	},
+	{
+		"name": "Shop Chest",
+		"desc": "A new plugin for players to sell items from chests",
+		"jarName": "ShopChest.jar",
+		"configName": "ShopChest"
+	},
+	{
+		"name": "ChestShop",
+		"desc": "Chestshops that allow players to sell/buy items.",
+		"jarName": "ChestShop.jar",
+		"configName": "ChestShop"
+	},
+	{
+		"name": "Crack Shot",
+		"desc": "Guns in Minecraft.",
+		"jarName": "CrackShot.jar",
+		"configName": "CrackShot"
+	},
+	{
+		"name": "Crates Plus",
+		"desc": "Crates to give out rewards to players with keys.",
+		"jarName": "CratesPlus.jar",
+		"configName": "CratesPlus"
+	},
+	{
+		"name": "Shopkeepers",
+		"desc": "Create customizable villager shops with this plugin.",
+		"jarName": "Shopkeepers.jar",
+		"configName": "Shopkeepers"
+	},
+	{
+		"name": "Silk Spawners",
+		"desc": "Create and pick up custom mob spawners.",
+		"jarName": "SilkSpawners.jar",
+		"configName": "SilkSpawners"
+	},
+	{
+		"name": "Orebfuscator",
+		"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cRequires &nProtocolLib&c.",
+		"jarName": "Orebfuscator.jar",
+		"configName":"Orebfuscator4",
+		"requiredRank":"3"
+	},
+	{
+		"name": "Chat Control",
+		"desc": "Control aspects of the chat and prevent swearing/spamming.",
+    "jarName": "ChatControl.jar",
+		"configName": "ChatControl"
+	},
+	{
+		"name": "NoodleChat",
+		"desc": "Block specific words from being used in chat.\nMade by Minehut user &nPerfectNoodles&r.",
+		"jarName": "NoodleChat.jar",
+		"configName": "NoodleChat"
+	},
+	{
+		"name": "Lockette",
+		"desc": "Personal chest protection system.",
+		"jarName": "Lockette.jar",
+		"configName": "Lockette"
+	},
+	{
+		"name": "EZRanksPro",
+		"desc": "Simple auto rankup plugin.\n&cRequires Vault and a permissions plugin.\n&cScoreboards will reset when installed.",
+		"jarName": "EZRanksPro.jar",
+		"configName": "EZRanksPro"
+	},
+  		{
+		"name": "MineResetLite",
+		"desc": "Create mines that will reset.",
+		"jarName": "MineResetLite.jar",
+		"configName": "MineResetLite"
+	},
+	{
+		"name": "Libs Disguises",
+		"desc": "Disguise as mobs!\n&cRequires &nProtocolLib&c.",
+		"jarName": "LibsDisguises.jar",
+		"configName": "LibsDisguises"
+	},
+	{
+		"name": "Create Your Own Menus",
+		"desc": "Allows you to create your own GUI menus!\n&cNote: May be vulnerable to exploits within hack clients.\n&cUse &nItem Fixer &cwith this!",
+		"jarName": "CreateYourOwnMenus.jar",
+		"configName": "CreateYourOwnMenus"
+	},
+	{
+		"name": "Item Fixer",
+		"desc": "Blocks hack client features that abuse item nbt data",
+		"jarName": "ItemFixer.jar",
+		"configName": "ItemFixer"
+	},
+	{
+		"name": "Project Korra",
+		"desc": "Bring the elemental powers of Avatar: the Last Airbender into your server.",
+		"jarName": "ProjectKorra.jar",
+		"configName": "ProjectKorra",
+		"requiredRank": "3"
+	},
+	{
+		"name": "EchoPet",
+		"desc": "EchoPet is no longer supported for 1.9+. It will not work!",
+		"jarName": "EchoPet_v2.8.0.jar",
+		"configName": "EchoPet_v2.8.0",
+		"disabled": true
+	},
+	{
+		"name": "SimplePets",
+		"desc": "A simple pets plugin (EchoPets replacement)\n&cRequires &nSimpleAPI&c.\n&c&nThis may conflict with Citizens!",
+		"jarName": "SimplePets.jar",
+		"configName": "SimplePets"
+	},
+	{
+		"name": "SimpleAPI",
+		"desc": "A simple, lightweight set of APIs",
+		"jarName": "SimpleAPI.jar",
+		"configName": "SimpleAPI",
+		"freePlugin": "true"
+	},
+	{
+		"name": "Auctions",
+		"desc": "An elegant auctioning solution that\nallows text tooltips for auctioned items\n&cRequires &nVault&c.",
+		"jarName": "Auctions.jar",
+		"configName": "Auctions"
+	},
+	{
+		"name": "ObsidianAuctions",
+		"desc": "Unique chat based auction system.\n&cRequires &nVault&c.",
+		"jarName": "ObsidianAuctions.jar",
+		"configName": "ObsidianAuctions"
+	},
+	{
+		"name": "Trade+",
+		"desc": "Lets players easily and safely trade items via a GUI.\nMade by Minehut user &nGamer&r.",
+		"jarName": "TradePlus.jar",
+		"configName": "TradePlus"
+	},
+	{
+		"name": "Action Announcer",
+		"desc": "Create timed broadcasts for your server through the action bar.",
+		"jarName": "ActionAnnouncer.jar",
+		"configName": "ActionAnnouncer"
+	},
+	{
+		"name": "Actionbar",
+		"desc": "Animated actionbar, join messages, etc.",
+		"jarName": "Actionbar.jar",
+		"configName": "Actionbar"
+	},
+	{
+		"name": "UltraBar",
+		"desc": "Send Boss Bar messages, Titles, and Actionbars!",
+		"jarName": "UltraBar.jar",
+		"configName": "UltraBar"
+	},
+	{
+		"name": "Holographic Displays",
+		"desc": "Make floating messages around your world.",
+		"jarName": "HolographicDisplays.jar",
+		"configName": "HolographicDisplays"
+	},
+	{
+		"name": "SuperTrails",
+		"desc": "Colorful cosmetic trails to get around fabulously.",
+		"jarName": "SuperTrails.jar",
+		"configName": "SuperTrails"
+	},
+	{
+		"name": "CustomEnchants",
+		"desc": "Custom enchantments and levels!",
+		"jarName": "CustomEnchantments.jar",
+		"configName": "CustomEnchantments"
+	},
+	{
+		"name": "Citizens",
+		"desc": "Create custom and interactive NPCs.\n&cCan cause extreme lag. Lots of free RAM is required!",
+		"jarName": "Citizens.jar",
+		"configName": "Citizens",
+		"requiredRank": "1"
+	},
+	{
+		"name": "CommandNPC",
+		"desc": "Add right-clickable commands to your NPCs.\n&cRequires &nCitizens&c.",
+		"jarName": "CommandNPC.jar",
+		"configName": "CommandNPC",
+		"requiredRank": "1"
+	},
+	{
+		"name": "McMMO",
+		"desc": "RPG experience in Minecraft!",
+		"jarName": "mcMMO.jar",
+		"configName": "mcMMO",
+		"requiredRank": "1"
+	},
+	{
+		"name": "Massive Factions",
+		"desc": "An alternative factions plugin by MassiveCraft\n&cRequired &nMassive Core",
+		"jarName": "MassiveFactions.jar",
+		"configName": "MassiveFactions",
+		"requiredRank": "2"
+	},
+	{
+		"name": "Massive Core",
+		"desc": "Core plugin required for Massive Factions",
+		"jarName": "MassiveCore.jar",
+		"configName": "MassiveCore",
+		"requiredRank": "2",
+		"freePlugin": "true"
+	},
+	{
+		"name": "Factions",
+		"desc": "Claim land, build a base and wage war!",
+		"jarName": "Factions.jar",
+		"configName": "Factions",
+		"requiredRank": "2"
+	},
+	{
+		"name": "Obsidian Breaker",
+		"desc": "Allows explosions to break Obsidian!\n&aWorks well with Factions raiding.",
+		"jarName": "ObsidianBreaker.jar",
+		"configName": "ObsidianBreaker",
+		"requiredRank": "2"
+	},
+	{
+		"name": "ASkyBlock",
+		"desc": "Survive on Skyblock islands.\n&cRequires &nVault&c.",
+		"jarName": "askyblock.jar",
+		"configName": "ASkyBlock",
+		"requiredRank": "2"
+	},
+	{
+		"name": "ASkyGrid",
+		"desc": "Survive in a grid of blocks.\n&cRequires &nVault&c.",
+		"jarName": "askygrid.jar",
+		"configName": "ASkyGrid",
+		"requiredRank": "2"
+	},
+	{
+		"name": "Towny",
+		"desc": "Towny is a versatile, player-controlled land management plugin.",
+		"jarName": "Towny.jar",
+		"configName": "Towny",
+		"requiredRank": "4"
+	},
+	{
+		"name": "TownyChat",
+		"desc": "This is required if you want to let Towny modify chat.",
+		"jarName": "TownyChat.jar",
+		"configName": "TownyChat",
+		"requiredRank": "4"
+	},
+	{
+		"name": "VoidWorld",
+		"desc": "Create void-worlds with this and Multiverse-Core.",
+		"jarName": "VoidWorld.jar",
+		"configName": "VoidWorld",
+		"requiredRank": "4"
+	},
+	{
+		"name": "PlotSquared",
+		"desc": "PlotSquared is a land management plugin.",
+		"jarName": "PlotSquared.jar",
+		"configName": "PlotSquared",
+		"requiredRank": "4"
+	},
+	{
+		"name": "Core Protect",
+		"desc": "Fast, efficient block logging and anti-griefing tool.",
+		"jarName": "CoreProtect.jar",
+		"configName": "CoreProtect",
+		"requiredRank": "2"
+	},
+	{
+		"name": "Log",
+		"desc": "Log block changes in your world.\nMade by Minehut user &nDividedWeFall&r.",
+		"jarName": "Log.jar",
+		"configName": "Log",
+		"requiredRank": "2"
+	},
+	{
+		"name": "Joe's Horse Collect",
+		"desc": "Collect, transport, place and spawn horses.",
+		"jarName": "JoeHorseCollect.jar",
+		"configName": "JoeHorseCollect"
+	},
+	{
+		"name": "Joe Marriage",
+		"desc": "Added marriages and divorces to your server.",
+		"jarName": "JoeMarriage.jar",
+		"configName": "JoeMarriage"
+	},
+	{
+		"name": "Marriage Master",
+		"desc": "Allows you to marry other players with many special features",
+		"jarName": "MarriageMaster.jar",
+		"configName": "MarriageMaster"
+	},
+	{
+		"name": "Loot Protect",
+		"desc": "Protects loot dropped upon death.\nMade by Minehut user &nGamer&r.",
+		"jarName": "LootProtect.jar",
+		"configName": "LootProtect"
+	},
+	{
+		"name": "ClearLag",
+		"desc": "Helps clear the lag on your server.",
+		"jarName": "Clearlag.jar",
+		"configName": "ClearLag",
+  			"requiredRank": "1"
+	},
+	{
+  			"name": "Scaffold",
+		"desc": "A multi-world plugin developed by Minehut.\nAllows importing worlds through commands!\nThis plugin is recommended over Multiverse-Core",
+		"jarName": "Scaffold.jar",
+		"configName": "Scaffold",
+		"requiredRank": "4"
+ 		},
+  		{
+		"name": "Multiverse",
+		"desc": "Multi-world management.",
+		"jarName": "Multiverse-Core.jar",
+		"configName": "Multiverse-Core",
+		"requiredRank": "4"
+	},
+	{
+		"name": "Multiverse Portals",
+		"desc": "Multiverse addon for world portal creation",
+		"jarName": "Multiverse-Portals.jar",
+		"configName": "Multiverse-Portals",
+		"requiredRank": "4",
+		"freePlugin": "true"
+	},
+	{
+		"name": "Multiverse Nether Portals",
+		"desc": "Multiverse addon for teleportation between worlds using nether portals",
+		"jarName": "Multiverse-NetherPortals.jar",
+		"configName": "Multiverse-NetherPortals",
+		"requiredRank": "4",
+		"freePlugin": "true"
+	},
+	{
+		"name": "Multiverse Sign Portals",
+		"desc": "Multiverse addon for teleportation between worlds using signs",
+		"jarName": "Multiverse-SignPortals.jar",
+		"configName": "Multiverse-SignPortals",
+		"requiredRank": "4",
+		"freePlugin": "true"
+	},
+	{
+		"name": "Multiverse Adventure",
+		"desc": "Multiverse addon for adventure map makers!\nResets worlds automatically between plays.",
+		"jarName": "Multiverse-Adventure.jar",
+		"configName": "Multiverse-Adventure",
+		"requiredRank": "4",
+		"freePlugin": "true"
+	},
+	{
+		"name":"Punishment",
+		"desc": "Punish your players more effectively! \n&cNote: May prevent scoreboards from properly displaying.",
+		"jarName": "Punishment.jar",
+		"configName": "Punishment",
+		"requiredRank": "2"
+	},
+	{
+		"name": "Chest Cleaner",
+		"desc": "Sorts chests and inventories to make them neat.\nCan be done manually and/or on a timer.",
+		"jarName": "ChestCleaner.jar",
+		"configName": "ChestCleaner"
+	},
+	{
+		"name":"AutoMessage",
+		"desc":" A fully in-game edited automatic broadcast system.",
+		"jarName":"AutoMessage.jar",
+		"configName":"AutoMessage",
+		"requiredRank": "1"
+  	},
+  		{
+		"name": "Tablist",
+		"desc": "Animated tablist with variables",
+		"jarName": "Tablist.jar",
+		"configName": "Tablist"
+	},
+	{
+		"name": "Titlebar",
+		"desc": "Animated titlebar",
+		"jarName": "Titlebar.jar",
+		"configName": "Titlebar"
+	},
+  	{
+		"name": "Title Welcome Message",
+		"desc": "Add welcome messages via titles, tablist headers/footers, etc.",
+		"jarName": "TitleWelcomeMessage.jar",
+		"configName": "TitleWelcomeMessage"
+	},
+	{
+		"name": "Nametag Edit",
+		"desc": "Edit tablist/scoreboard prefixes and suffixes",
+		"jarName": "NametagEdit.jar",
+		"configName": "NametagEdit"
+	},
+  {
+		"name": "Area Shop",
+		"desc": "Allows for the buying and renting of worldguard regions",
+		"jarName": "AreaShop.jar",
+		"configName": "AreaShop"
+  },
+	{
+		"name": "AutoColor",
+		"desc": "Permission based auto chat color",
+		"jarName": "AutoColor.jar",
+		"configName": "AutoColor"
+	},
+	{
+		"name": "ChatColor+",
+		"desc": "Allows your users with permissions\nto change their name/chat color!",
+		"jarName": "ChatColor.jar",
+		"configName": "ChatColor+"
+	},
+	{
+		"name": "TrainCarts",
+		"desc": "Link minecarts, create stations and make railway systems!\n&cWARNING: May use high amounts of RAM!\n&cRequires &nBKCommonLib&c.",
+		"jarName": "TrainCarts.jar",
+		"configName": "TrainCarts"
+	},
+	{
+		"name": "BKCommonLib",
+		"desc": "Dependency for TrainCarts",
+		"jarName": "BKCommonLib.jar",
+		"configName": "BKCommonLib",
+		"freePlugin": "true"
+	},
+  {
+		"name": "ImageOnMap",
+		"desc": "Create map boards with images.",
+		"jarName": "ImageOnMap.jar",
+		"configName": "ImageOnMap"
+	},
+  {
+		"name": "PhatLoots",
+		"desc": "Allows players to receive loot (money/items/exp/etc...) from Chests/Mobs.",
+		"jarName": "PhatLoots.jar",
+		"configName": "PhatLoots"
+	},
+	{
+		"name": "NBTEditor",
+		"desc": "Allows easy customization of many aspects of Minecraft\nthrough the modification of NBT tags.",
+		"jarName": "NBTEditor.jar",
+		"configName": "NBTEditor"
+	},
+	{
+		"name": "RPGItems",
+		"desc": "Add special lore, abilities, and more to items.",
+		"jarName": "RPGItems.jar",
+		"configName": "RPGItems"
+  },
+	{
+		"name": "Itemizer",
+		"desc": "Edit the display name, lore, and other item attributes.",
+		"jarName": "Itemizer.jar",
+		"configName": "Itemizer"
+	},
+	{
+		"name": "Item Editor",
+		"desc": "Modify attributes of items in a simple menu.",
+		"jarName": "ItemEditor.jar",
+		"configName": "ItemEditor"
+	},
+  {
+		"name": "PlayerVaults",
+		"desc": "Allows players to use an unlimited (or set)\namount of personal storage vaults.",
+		"jarName": "PlayerVaults.jar",
+		"configName": "PlayerVaults"
+	},
+	{
+		"name": "Slimefun",
+		"desc": "Adds 400+ custom items to the game and\nenchances the game to modpack level.\n&cRequires &nCS-CoreLib",
+		"jarName": "Slimefun.jar",
+		"configName": "Slimefun",
+		"requiredRank": "2"
+	},
+	{
+		"name": "ExoticGarden",
+		"desc": "Exotic Garden is a Slimefun Addon which \ngenerates new plants all over your world.\n&cRequires &c&nSlimefun&c and &nCS-CoreLib",
+		"jarName": "ExoticGarden.jar",
+		"configName": "ExoticGarden",
+		"requiredRank": "2",
+		"freePlugin": "true"
+	},
+	{
+		"name": "CS-CoreLib",
+		"desc": "Library for Slimefun and Exotic Garden",
+		"jarName": "CSCoreLib.jar",
+		"configName": "CS-CoreLib",
+		"freePlugin": "true"
+	},
+	{
+		"name": "MinePacks",
+		"desc": "Adds backpacks for your players to store items in",
+		"jarName": "MinePacks.jar",
+		"configName": "MinePacks"
+	},
+	{
+		"name": "Vein Miner",
+		"desc": "Mine entire veins of ores with a simple break of a block",
+		"jarName": "VeinMiner.jar",
+		"configName": "VeinMiner"
+	},
+	{
+	  "name": "Herobrine",
+		"desc": "Add Herobrine to your server!",
+		"jarName": "Herobrine.jar",
+		"configName": "Herobrine"
+	},
+	{
+		"name": "Simple Drugs",
+		"desc": "Adds items that give potion effects",
+		"jarName": "SimpleDrugs.jar",
+		"configName": "SimpleDrugs"
+	}
+]
