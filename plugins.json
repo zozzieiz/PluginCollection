@@ -754,6 +754,12 @@
 		"requiredRank": "2"
 	},
 	{
+		"name": "Acid Island",
+		"desc": "Survive on an island where water is acid!",
+		"jarName": "acidisland.jar",
+		"configName": "AcidIsland"
+	},
+	{
 		"name": "ASkyGrid",
 		"desc": "Survive in a grid of blocks.\n&cRequires &nVault&c.",
 		"jarName": "askygrid.jar",
