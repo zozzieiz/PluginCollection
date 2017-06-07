@@ -295,7 +295,8 @@
 		"name": "World Edit",
 		"desc": "Build tools.",
 		"jarName": "worldedit.jar",
-		"configName": "WorldEdit"
+		"configName": "WorldEdit",
+		"freePlugin": true
 	},
 	{
 		"name": "Async WorldEdit",
@@ -319,13 +320,15 @@
 		"name": "World Guard",
 		"desc": "Create and manage regions using this plugin.",
 		"jarName": "worldguard.jar",
-		"configName": "WorldGuard"
+		"configName": "WorldGuard",
+		"freePlugin": true
 	},
 	{
 		"name": "Red Protect",
 		"desc": "Anti-Grief, Chat protection, Spawn Protection\nMay be a good alternative to WorldGuard.",
 		"jarName": "RedProtect.jar",
-		"configName": "RedProtect"
+		"configName": "RedProtect",
+		"freePlugin": true
 	},
 	{
 		"name": "GriefPrevention",
