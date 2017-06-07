@@ -620,7 +620,8 @@
 		"name": "Item Fixer",
 		"desc": "Blocks hack client features that abuse item nbt data",
 		"jarName": "ItemFixer.jar",
-		"configName": "ItemFixer"
+		"configName": "ItemFixer",
+		"freePlugin": true
 	},
 	{
 		"name": "Project Korra",
