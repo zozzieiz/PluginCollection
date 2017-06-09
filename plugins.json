@@ -690,7 +690,8 @@
 		"name": "Holographic Displays",
 		"desc": "Make floating messages around your world.",
 		"jarName": "HolographicDisplays.jar",
-		"configName": "HolographicDisplays"
+		"configName": "HolographicDisplays",
+		"disabled": true
 	},
 	{
 		"name": "SuperTrails",
