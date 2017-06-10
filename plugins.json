@@ -936,7 +936,8 @@
 		"name": "Nametag Edit",
 		"desc": "Edit tablist/scoreboard prefixes and suffixes",
 		"jarName": "NametagEdit.jar",
-		"configName": "NametagEdit"
+		"configName": "NametagEdit",
+		"disabled" true
 	},
   {
 		"name": "Area Shop",
