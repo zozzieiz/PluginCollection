@@ -70,14 +70,14 @@
 		"name": "Essentials Spawn",
 		"desc": "Setup a server spawn point.",
 		"jarName": "EssentialsSpawn.jar",
-		"configName": "~",
+		"configName": "EssentialsSpawn",
 		"freePlugin": true
 	},
 	{
 		"name": "Essentials Chat",
 		"desc": "Format the chat to make it look nicer.\n&cRequires &nVault&c.",
 		"jarName": "EssentialsChat.jar",
-		"configName": "~",
+		"configName": "EssentialsChat",
 		"freePlugin": true
 	},
 	{
@@ -245,7 +245,7 @@
 		"name": "InstantRespawn",
 		"desc": "Stops the Respawn screen from showing\nand respawns straight away.",
 		"jarName": "InstantRespawn.jar",
-    "configName": "~",
+    "configName": "InstantRespawn",
 		"freePlugin": true
   },
 	{
@@ -283,7 +283,7 @@
 		"name": "RandomTP",
 		"desc": "Allows players to easily teleport to random locations in the world.\nMade by Minehut user &niTurtleDerp&r.",
 		"jarName": "RandomTP.jar",
-		"configName": "~"
+		"configName": "RandomTP"
 	},
 	{
 		"name": "ArmorStand Editor",
