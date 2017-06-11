@@ -1063,5 +1063,12 @@
 		"desc": "Fixes chat for right-to-left languages",
 		"jarName": "HebrewFix.jar",
 		"configName": "hebrewFix"
+	},
+	{
+		"name": "Fast Async WorldEdit",
+		"desc": "Optimizes WorldEdit.",
+		"jarName": "FastAsyncWorldEdit.jar",
+		"configName": "~",
+		"freePlugin":true
 	}
 ]
