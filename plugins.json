@@ -101,6 +101,13 @@
 		"configName": "PermissionsEx",
     "freePlugin": true
 	},
+	{
+		"name": "zPermissions",
+		"desc": "Simple-to-use and feature-rich permissions plugin.",
+		"jarName": "zPermissions.jar",
+		"configName": "zPermissions",
+		"freePlugin": true
+	},
   {
 		"name": "AquaticPerms",
 		"desc": "A super simple per-user permissions plugin.\nMade by Minehut user &nDividedWeFall&r.",
