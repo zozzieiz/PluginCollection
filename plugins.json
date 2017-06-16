@@ -95,6 +95,13 @@
 		"freePlugin": true
 	},
 	{
+		"name": "Essentials Group Manager X",
+		"desc": "Create permission systems.\nGroup Manager ported to 1.11+.\n&cRequires &nEssentials Chat&c for prefixes.",
+		"jarName": "GroupManagerX.jar",
+		"configName": "GroupManagerX",
+		"freePlugin": true
+	},
+	{
 		"name": "Permissions Ex",
 		"desc": "Create permission systems.\n&cRequires &nEssentials Chat&c for prefixes.",
 		"jarName": "PermissionsEx.jar",
@@ -103,7 +110,7 @@
 	},
 	{
 		"name": "zPermissions",
-		"desc": "Simple-to-use and feature-rich permissions plugin.",
+		"desc": "Simple-to-use and feature-rich permissions plugin.\n&cRequires &nEssentials Chat&c for prefixes.",
 		"jarName": "zPermissions.jar",
 		"configName": "zPermissions",
 		"freePlugin": true
