@@ -1,59 +1,13 @@
 ## Minehut.com Player-Server Plugin Repository
 Public plugin repo used in the /minehut plugin menu. 
 
-### How to Contribute
-Adding a plugin is as simple as...
+## How to Contribute
+To get a plugin added to the menu, [submit an issue](https://github.com/Minehut/PluginCollection/issues) with a link to the page where the plugin can be downloaded and a short description/rationale for adding it to the menu. 
 
-1. Paste in the .jar file.
+If you want to get a plugin made by you added, upload the source code where we can view it (such as a [GitHub repository](https://github.com/new)), and we will compile it ourselves for security purposes.
 
-2. (Optional) Paste in a pre-generated plugin folder.
-
-3. Edit the `plugins.json` file to include your plugin. 
-
-```
-    {
-		"name": "Silk Spawners",  
-		"desc": "Create Custom Mob Spawners",  
-		"jarName": "SilkSpawners.jar",  
-		"configName": "SilkSpawners"  
-	}
-```
-
---
-
-You can use `color codes` in the desc.
-```
-"desc": "&bThis will display as aqua!"
-```
-Putting `\n` will result in a new line.
-Please be sure to create multiple lines for large descriptions.
-
---
-
-In its current state, our framework does not support the practice of hard deleting plugins. To disable/remove a broken plugin, add `"disabled": true`
-Example: 
-```
-	{	
-		"name": "EchoPet",
-		"desc": "EchoPet is no longer supported for 1.9+. It will not work!",
-		"jarName": "EchoPet_v2.8.0.jar",
-		"configName": "EchoPet_v2.8.0",
-		"disabled": true
-	},
-```
-
-This will remove the plugin from servers when they startup, and will hide the plugin from the plugins page of the control panel.
-
---
-### Pull Requests
-Pull requests should have the following things:
-
-1. The commits should have a descriptive message and which is not in the past tense.
-
-  For example:  
-  `Describe the XYZ plugin with more detail.` or `Add config for XYZ.` is good, but: `Added XYZ.` isn't.
-
-2. Content should be grammatically correct and the spelling should be US English, e.g. Color not Colour.
-
--
-**Changes are instantly applied to all servers accross the network. Please be cautious of any json syntax errors.**
+Before submitting a plugin request, be aware that the plugin should be...
+* **...publicly available**, and in the case of a private plugin made by you, the source code viewable.
+* **...available for free from the original author**. This repository is publicly viewable and all files on it can be downloaded, so "premium" or non-free plugins are not allowed without explicit consent from the author(s).
+* **...updated** for the version of Minecraft which Minehut is currently running on.
+* **...free of any known bugs.** The plugin should have been tested for any bugs that break its intended function(s).
