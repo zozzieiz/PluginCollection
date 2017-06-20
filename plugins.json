@@ -88,6 +88,13 @@
 		"freePlugin": true
 	},
 	{
+		"name": "Essentials Warp GUI",
+		"desc": "Adds a menu for your essentials warps",
+		"jarName": "EssentialsWarpGUI.jar",
+		"configName": "Essentials_WarpGUI",
+		"freePlugin": true
+	},
+	{
 		"name": "Essentials Group Manager",
 		"desc": "Create permission systems.\n&cRequires &nEssentials Chat&c for prefixes.",
 		"jarName": "GroupManager.jar",
@@ -822,7 +829,8 @@
 		"desc": "Fast, efficient block logging and anti-griefing tool.",
 		"jarName": "CoreProtect.jar",
 		"configName": "CoreProtect",
-		"requiredRank": 2
+		"requiredRank": 2,
+		"disabled": true
 	},
 	{
 		"name": "Log",
