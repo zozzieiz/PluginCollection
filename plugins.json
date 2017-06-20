@@ -88,6 +88,13 @@
 		"freePlugin": true
 	},
 	{
+		"name": "Essentials Warp GUI",
+		"desc": "Adds a menu for your essentials warps",
+		"jarName": "EssentialsWarpGUI.jar",
+		"configName": "Essentials_WarpGUI",
+		"freePlugin": true
+	},
+	{
 		"name": "Essentials Group Manager",
 		"desc": "Create permission systems.\n&cRequires &nEssentials Chat&c for prefixes.",
 		"jarName": "GroupManager.jar",
