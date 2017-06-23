@@ -868,16 +868,17 @@
 		"desc": "Helps clear the lag on your server.",
 		"jarName": "Clearlag.jar",
 		"configName": "ClearLag",
-  			"requiredRank": 1
+  	"requiredRank": 1
 	},
 	{
-  			"name": "Scaffold",
+  	"name": "Scaffold",
 		"desc": "A multi-world plugin developed by Minehut.\nAllows importing worlds through commands!\nThis plugin is recommended over Multiverse-Core",
 		"jarName": "Scaffold.jar",
 		"configName": "Scaffold",
-		"requiredRank": 4
- 		},
-  		{
+		"requiredRank": 4,
+		"disabled": true
+ 	},
+  {
 		"name": "Multiverse",
 		"desc": "Multi-world management.",
 		"jarName": "Multiverse-Core.jar",
