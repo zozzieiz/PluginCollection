@@ -96,7 +96,7 @@
 	},
 	{
 		"name": "Essentials Group Manager",
-		"desc": "Create permission systems.\n&cRequires &nEssentials Chat&c for prefixes.\n\n&4&nRemoving soon. Do not install.",
+		"desc": "Create permission systems.\n&cRequires &nEssentials Chat&c for prefixes.\n\n&4&nDo not install with PermissionsEx",
 		"jarName": "GroupManager.jar",
 		"configName": "GroupManager",
 		"freePlugin": true
@@ -106,11 +106,11 @@
 		"desc": "Create permission systems.\nGroup Manager ported to 1.11+.\n&cRequires &nEssentials Chat&c for prefixes.\n\n&4&nRemoving soon. Do not install.",
 		"jarName": "GroupManagerX.jar",
 		"configName": "GroupManagerX",
-		"freePlugin": true
+		"disabled": true
 	},
 	{
 		"name": "Permissions Ex",
-		"desc": "Create permission systems.\n&cRequires &nEssentials Chat&c for prefixes.",
+		"desc": "Create permission systems.\n&cRequires &nEssentials Chat&c for prefixes.\n\n&4&nDo not install with GroupManager",
 		"jarName": "PermissionsEx.jar",
 		"configName": "PermissionsEx",
 		"freePlugin": true
