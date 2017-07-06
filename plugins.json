@@ -4,14 +4,14 @@
 		"desc": "Set up automatic stores for your server.\n&cMake sure to follow the Minecraft EULA!\n&cYou can view it here:\n&chttps://account.mojang.com/documents/minecraft_eula",
 		"jarName": "BuycraftX.jar",
 		"configName": "BuycraftX",
-		"requiredRank": 2
+		"requiredRank": "silver"
 	},
 	{
 		"name": "Enjin",
 		"desc": "Connect an Enjin site and Donationcraft store to your server.\n&cMake sure to follow the Minecraft EULA!\n&cYou can view it here:\n&chttps://account.mojang.com/documents/minecraft_eula",
 		"jarName": "EnjinMinecraftPlugin.jar",
 		"configName": "EnjinMinecraftPlugin",
-		"requiredRank": 2
+		"requiredRank": "silver"
 	},
 	{
 		"name": "Old Combat",
@@ -169,28 +169,28 @@
 		"desc": "Modify servers through a scripting interface.",
 		"jarName": "Skript.jar",
 		"configName": "Skript",
-		"requiredRank": 4
+		"requiredRank": "platinum"
 	},
 	{
 		"name": "Skript Addon: skQuery",
 		"desc": "Adds a TON of new features to script.",
 		"jarName": "skQuery.jar",
 		"configName": "SkQuery",
-		"requiredRank": 4
+		"requiredRank": "platinum"
 	},
 	{
 		"name": "Skript Addon: skRayFall",
 		"desc": "Make inventory menus, quests, and more in skript.",
 		"jarName": "skRayFall.jar",
 		"configName": "SkRayFall",
-		"requiredRank": 4
+		"requiredRank": "platinum"
 	},
 	{
 		"name": "Skript Addon: ExtrasSK",
 		"desc": "Adds extra features to skript",
 		"jarName": "ExtrasSK.jar",
 		"configName": "ExtrasSK",
-		"requiredRank": 4,
+		"requiredRank": "platinum",
 		"freePlugin": true
 	},
 	{
@@ -198,7 +198,7 @@
 		"desc": "Adds a few basic extras to skript",
 		"jarName": "LargeSK.jar",
 		"configName": "LargeSK",
-		"requiredRank": 4,
+		"requiredRank": "platinum",
 		"freePlugin": true
 	},
 	{
@@ -206,7 +206,7 @@
 		"desc": "Allows you some world editing features,\nbooks and enchantments, and more with Skript.",
 		"jarName": "MundoSK.jar",
 		"configName": "MundoSK",
-		"requiredRank": 4,
+		"requiredRank": "platinum",
 		"freePlugin": true
 	},
 	{
@@ -214,7 +214,7 @@
 		"desc": "Adds some animation and other features to skript.",
 		"jarName": "RandomSK.jar",
 		"configName": "RandomSK",
-		"requiredRank": 4,
+		"requiredRank": "platinum",
 		"freePlugin": true
 	},
 	{
@@ -222,7 +222,7 @@
 		"desc": "Adds particle effects and dragon travel\nfeatures to skript.",
 		"jarName": "skDragon.jar",
 		"configName": "skDragon",
-		"requiredRank": 4,
+		"requiredRank": "platinum",
 		"freePlugin": true
 	},
 	{
@@ -230,7 +230,7 @@
 		"desc": "Allows you to hook into other plugins\nsuch as mcMMO and WorldGuard with skript.",
 		"jarName": "skRambled.jar",
 		"configName": "skRambled",
-		"requiredRank": 4,
+		"requiredRank": "platinum",
 		"freePlugin": true
 	},
 	{
@@ -238,7 +238,7 @@
 		"desc": "Allows some plugin hooks and some\nother interesting features in skript.",
 		"jarName": "TuSKe.jar",
 		"configName": "TuSKe",
-		"requiredRank": 4,
+		"requiredRank": "platinum",
 		"freePlugin": true
 	},
 	{
@@ -246,7 +246,7 @@
 		"desc": "Fully-featured cosmetics plugin with everything\nfrom hats and particles to pets and mounts!",
 		"jarName": "UltraCosmetics.jar",
 		"configName": "UltraCosmetics",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "PandaWire",
@@ -392,21 +392,21 @@
 		"desc": "Import and share WorldEdit schematics\n&cRequires &nWorldEdit&c.",
 		"jarName": "GitSchematic.jar",
 		"configName": "GitSchematic",
-		"requiredRank": 2
+		"requiredRank": "silver"
 	},
 	{
 		"name":"CreeperHeal",
 		"desc": "Automatically heal explosion damage!",
 		"jarName": "CreeperHeal.jar",
 		"configName": "CreeperHeal",
-		"requiredRank": 2
+		"requiredRank": "silver"
 	},
 	{
 		"name": "Minigames",
 		"desc": "Allows you to create custom minigames of all different types!\n&cRequires &nMinigames Regions&c.",
 		"jarName": "Minigames.jar",
 		"configName": "Minigames",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "Minigames Regions",
@@ -420,63 +420,63 @@
 		"desc": "A full duel system for players to\nfight in 1v1s which is very customizable\nfrom in-game!",
 		"jarName": "Duels.jar",
 		"configName": "Duels",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "GunGame",
 		"desc": "A gamemode where you earn upgrades to gear\nby getting kills!",
 		"jarName": "GunGame.jar",
 		"configName": "GunGame",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "Bed Wars",
 		"desc": "The complete Bed Wars experience in one plugin",
 		"jarName": "BedWars.jar",
 		"configName": "BedWars",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "Sky Wars",
 		"desc": "An automated, fully-featured Sky Wars plugin",
 		"jarName": "SkyWars.jar",
 		"configName": "SkyWars",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "Murder",
 		"desc": "Garry's Mod gamemode, Murder, put into Minecraft!",
 		"jarName": "MCMurder.jar",
 		"configName": "MCMurder",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "Trouble in Terrorist Town (TTT)",
 		"desc": "Garry's Mod gamemode, TTT, put into Minecraft!",
 		"jarName": "TTT.jar",
 		"configName": "MTTT",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "Friday the 13th",
 		"desc": "A fun minigame where one player plays as Jason\nand the rest have to run and hide!",
 		"jarName": "FridayThe13th.jar",
 		"configName": "FridayThe13th",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "Color Cube",
 		"desc": "A territorial-based minigame.",
 		"jarName": "ColorCube.jar",
 		"configName": "ColorCube",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "Replica",
 		"desc": "A minigame where players compete to replicate a picture.",
 		"jarName": "Replica.jar",
 		"configName": "Replica",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "MinigamesLib",
@@ -484,56 +484,56 @@
 		"jarName": "MinigamesLib.jar",
 		"configName": "MinigamesLib",
 		"freePlugin": true,
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "DeathRun",
 		"desc": "Garry's mod gamemode, DeathRun, ported to Minecraft!\n&cRequires &nMinigamesLib&c.",
 		"jarName": "MGDeathRun.jar",
 		"configName": "MGDeathRun",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "One in the Chamber",
 		"desc": "A fast-paced minigame where bows are one-hit kill.\n&cRequires &nMinigamesLib&c.",
 		"jarName": "MGOITC.jar",
 		"configName": "MGOITC",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "Bow Bash",
 		"desc": "This is a TDM gamemode where you must avoid\nthe enemy's arrows and explosives and try to kill them all.\n&cRequires &nMinigamesLib&c.",
 		"jarName": "MGBowBash.jar",
 		"configName": "MGBowBash",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "Conquer",
 		"desc": "A team gamemode where the teams compete to\ncapture checkpoints in the map.\n&cRequires &nMinigamesLib&c.",
 		"jarName": "MGConquer.jar",
 		"configName": "MGConquer",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "Sea Battle",
 		"desc": "Try to hit your enemies with snowballs in boats!\n&cRequires &nMinigamesLib&c.",
 		"jarName": "MGSeaBattle.jar",
 		"configName": "MGSeaBattle",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "Flying Cars",
 		"desc": "Fly in planes and try to shoot your enemies down!\n&cRequires &nMinigamesLib&c.",
 		"jarName": "MGFlyingCars.jar",
 		"configName": "MGFlyingCars",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "Snake",
 		"desc": "The classic game of Snake in Minecraft!\nEat food to grow, but don't run into someone's snake!\n&cRequires &nMinigamesLib&c.",
 		"jarName": "MGSnake",
 		"configName": "MGSnake",
-		"requiredRank": 5
+		"requiredRank": "diamond"
 	},
 	{
 		"name": "Combat Log",
@@ -582,7 +582,7 @@
 		"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cRequires &nProtocolLib&c.",
 		"jarName": "Orebfuscator.jar",
 		"configName":"Orebfuscator4",
-		"requiredRank": 3
+		"requiredRank": "gold"
 	},
 	{
 		"name": "Chat Control",
@@ -638,7 +638,7 @@
 		"desc": "Bring the elemental powers of Avatar: the Last Airbender into your server.",
 		"jarName": "ProjectKorra.jar",
 		"configName": "ProjectKorra",
-		"requiredRank": 3
+		"requiredRank": "gold"
 	},
 	{
 		"name": "EchoPet",
@@ -719,35 +719,35 @@
 		"desc": "Create custom and interactive NPCs.\n&cCan cause extreme lag. Lots of free RAM is required!",
 		"jarName": "Citizens.jar",
 		"configName": "Citizens",
-		"requiredRank": 1
+		"requiredRank": "bronze"
 	},
 	{
 		"name": "CommandNPC",
 		"desc": "Add right-clickable commands to your NPCs.\n&cRequires &nCitizens&c.",
 		"jarName": "CommandNPC.jar",
 		"configName": "CommandNPC",
-		"requiredRank": 1
+		"requiredRank": "bronze"
 	},
 	{
 		"name": "McMMO",
 		"desc": "RPG experience in Minecraft!",
 		"jarName": "mcMMO.jar",
 		"configName": "mcMMO",
-		"requiredRank": 1
+		"requiredRank": "bronze"
 	},
 	{
 		"name": "Massive Factions",
 		"desc": "An alternative factions plugin by MassiveCraft\n&cRequired &nMassive Core",
 		"jarName": "MassiveFactions.jar",
 		"configName": "MassiveFactions",
-		"requiredRank": 2
+		"requiredRank": "silver"
 	},
 	{
 		"name": "Massive Core",
 		"desc": "Core plugin required for Massive Factions",
 		"jarName": "MassiveCore.jar",
 		"configName": "MassiveCore",
-		"requiredRank": 2,
+		"requiredRank": "silver",
 		"freePlugin": true
 	},
 	{
@@ -755,21 +755,21 @@
 		"desc": "Claim land, build a base and wage war!",
 		"jarName": "Factions.jar",
 		"configName": "Factions",
-		"requiredRank": 2
+		"requiredRank": "silver"
 	},
 	{
 		"name": "Obsidian Breaker",
 		"desc": "Allows explosions to break Obsidian!\n&aWorks well with Factions raiding.",
 		"jarName": "ObsidianBreaker.jar",
 		"configName": "ObsidianBreaker",
-		"requiredRank": 2
+		"requiredRank": "silver"
 	},
 	{
 		"name": "ASkyBlock",
 		"desc": "Survive on Skyblock islands.\n&cRequires &nVault&c.",
 		"jarName": "askyblock.jar",
 		"configName": "ASkyBlock",
-		"requiredRank": 2
+		"requiredRank": "silver"
 	},
 	{
 		"name": "Acid Island",
@@ -782,28 +782,28 @@
 		"desc": "Survive in a grid of blocks.\n&cRequires &nVault&c.",
 		"jarName": "askygrid.jar",
 		"configName": "ASkyGrid",
-		"requiredRank": 2
+		"requiredRank": "silver"
 	},
 	{
 		"name": "Towny",
 		"desc": "Towny is a versatile, player-controlled land management plugin.",
 		"jarName": "Towny.jar",
 		"configName": "Towny",
-		"requiredRank": 4
+		"requiredRank": "platinum"
 	},
 	{
 		"name": "TownyChat",
 		"desc": "This is required if you want to let Towny modify chat.",
 		"jarName": "TownyChat.jar",
 		"configName": "TownyChat",
-		"requiredRank": 4
+		"requiredRank": "platinum"
 	},
 	{
 		"name": "VoidWorld",
 		"desc": "Create void-worlds with this and Multiverse-Core.",
 		"jarName": "VoidWorld.jar",
 		"configName": "VoidWorld",
-		"requiredRank": 4
+		"requiredRank": "platinum"
 	},
 	{
 		"name": "PlotSquared",
