@@ -873,14 +873,14 @@
 		"desc": "Multi-world management.",
 		"jarName": "Multiverse-Core.jar",
 		"configName": "Multiverse-Core",
-		"requiredRank": 4
+		"requiredRank": "bronze"
 	},
 	{
 		"name": "Multiverse Portals",
 		"desc": "Multiverse addon for world portal creation",
 		"jarName": "Multiverse-Portals.jar",
 		"configName": "Multiverse-Portals",
-		"requiredRank": 4,
+		"requiredRank": "platinum",
 		"freePlugin": true
 	},
 	{
@@ -888,7 +888,7 @@
 		"desc": "Multiverse addon for teleportation between worlds using nether portals",
 		"jarName": "Multiverse-NetherPortals.jar",
 		"configName": "Multiverse-NetherPortals",
-		"requiredRank": 4,
+		"requiredRank": "platinum",
 		"freePlugin": true
 	},
 	{
@@ -896,7 +896,7 @@
 		"desc": "Multiverse addon for teleportation between worlds using signs",
 		"jarName": "Multiverse-SignPortals.jar",
 		"configName": "Multiverse-SignPortals",
-		"requiredRank": 4,
+		"requiredRank": "platinum",
 		"freePlugin": true
 	},
 	{
@@ -904,7 +904,7 @@
 		"desc": "Multiverse addon for adventure map makers!\nResets worlds automatically between plays.",
 		"jarName": "Multiverse-Adventure.jar",
 		"configName": "Multiverse-Adventure",
-		"requiredRank": 4,
+		"requiredRank": "platinum",
 		"freePlugin": true
 	},
 	{
@@ -912,7 +912,7 @@
 		"desc": "Punish your players more effectively! \n&cNote: May prevent scoreboards from properly displaying.",
 		"jarName": "Punishment.jar",
 		"configName": "Punishment",
-		"requiredRank": 2
+		"requiredRank": "silver"
 	},
 	{
 		"name": "Chest Cleaner",
@@ -925,7 +925,7 @@
 		"desc":" A fully in-game edited automatic broadcast system.",
 		"jarName":"AutoMessage.jar",
 		"configName":"AutoMessage",
-		"requiredRank": 1
+		"requiredRank": "bronze"
   	},
   	{
 		"name": "Tablist",
@@ -1029,14 +1029,14 @@
 		"desc": "Adds 400+ custom items to the game and\nenchances the game to modpack level.\n&cRequires &nCS-CoreLib",
 		"jarName": "Slimefun.jar",
 		"configName": "Slimefun",
-		"requiredRank": 2
+		"requiredRank": "bronze"
 	},
 	{
 		"name": "ExoticGarden",
 		"desc": "Exotic Garden is a Slimefun Addon which \ngenerates new plants all over your world.\n&cRequires &c&nSlimefun&c and &nCS-CoreLib",
 		"jarName": "ExoticGarden.jar",
 		"configName": "ExoticGarden",
-		"requiredRank": 2
+		"requiredRank": "bronze"
 	},
 	{
 		"name": "CS-CoreLib",
