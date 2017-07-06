@@ -3,13 +3,15 @@
 		"name": "Buycraft",
 		"desc": "Set up automatic stores for your server.\n&cMake sure to follow the Minecraft EULA!\n&cYou can view it here:\n&chttps://account.mojang.com/documents/minecraft_eula",
 		"jarName": "BuycraftX.jar",
-		"configName": "BuycraftX"
+		"configName": "BuycraftX",
+		"requiredRank": 2
 	},
 	{
 		"name": "Enjin",
 		"desc": "Connect an Enjin site and Donationcraft store to your server.\n&cMake sure to follow the Minecraft EULA!\n&cYou can view it here:\n&chttps://account.mojang.com/documents/minecraft_eula",
 		"jarName": "EnjinMinecraftPlugin.jar",
-		"configName": "EnjinMinecraftPlugin"
+		"configName": "EnjinMinecraftPlugin",
+		"requiredRank": 2
 	},
 	{
 		"name": "Old Combat",
@@ -29,42 +31,38 @@
 		"name": "MC Realistic Plus",
 		"desc": "Completely overhauls the survival experience,\nmaking a lot of things more realistic.\nAdds things such as block gravity, broken bones, and temperature.",
 		"jarName": "MCRealisticPlus.jar",
-		"configName": "MCRealisticPlus",
-		"requiredRank": 5
+		"configName": "MCRealisticPlus"
 	},
 	{
 		"name": "Seasons",
 		"desc": "Bring the real world seasons into your server!",
 		"jarName": "Seasons.jar",
-		"configName": "Seasons",
-		"requiredRank": 5
+		"configName": "Seasons"
 	},
 	{
 		"name": "Nanobots",
 		"desc": "Adds programmable self-replicating nanobots.\nThey can be used to clear out blocks and more!",
 		"jarName": "Nanobots.jar",
-		"configName": "Nanobots",
-		"requiredRank": 5
+		"configName": "Nanobots"
 	},
 	{
 		"name": "Quests",
 		"desc": "A very extensive quest system.",
 		"jarName": "Quests.jar",
-		"configName": "Quests.jar",
-		"requiredRank": 4
+		"configName": "Quests.jar"
 	},
 	{
 		"name": "Beauty Quests",
 		"desc": "Make quests for your players to embark on with a simple GUI.",
 		"jarName": "BeautyQuests.jar",
-		"configName": "BeautyQuests",
-		"requiredRank": 4
+		"configName": "BeautyQuests"
 	},
 	{
 		"name": "Essentials",
 		"desc": "Essential commands",
 		"jarName": "Essentials.jar",
-		"configName": "Essentials"
+		"configName": "Essentials",
+		"freePlugin": true
 	},
 	{
 		"name": "Essentials Spawn",
@@ -98,36 +96,31 @@
 		"name": "Essentials Group Manager",
 		"desc": "Create permission systems.\n&cRequires &nEssentials Chat&c for prefixes.\n\n&4&nDo not install with PermissionsEx",
 		"jarName": "GroupManager.jar",
-		"configName": "GroupManager",
-		"freePlugin": true
+		"configName": "GroupManager"
 	},
 	{
 		"name": "Essentials Group Manager X",
 		"desc": "Create permission systems.\nGroup Manager ported to 1.11+.\n&cRequires &nEssentials Chat&c for prefixes.\n\n&4&nRemoving soon. Do not install.",
 		"jarName": "GroupManagerX.jar",
-		"configName": "GroupManagerX",
-		"disabled": true
+		"configName": "GroupManagerX"
 	},
 	{
 		"name": "Permissions Ex",
 		"desc": "Create permission systems.\n&cRequires &nEssentials Chat&c for prefixes.\n\n&4&nDo not install with GroupManager",
 		"jarName": "PermissionsEx.jar",
-		"configName": "PermissionsEx",
-		"freePlugin": true
+		"configName": "PermissionsEx"
 	},
 	{
 		"name": "zPermissions",
 		"desc": "Simple-to-use and feature-rich permissions plugin.\n&cRequires &nEssentials Chat&c for prefixes.",
 		"jarName": "zPermissions.jar",
-		"configName": "zPermissions",
-		"freePlugin": true
+		"configName": "zPermissions"
 	},
 	{
 		"name": "AquaticPerms",
 		"desc": "A super simple per-user permissions plugin.\nMade by Minehut user &nDividedWeFall&r.",
 		"jarName": "AquaticPerms.jar",
-		"configName": "AquaticPerms",
-		"freePlugin": true
+		"configName": "AquaticPerms"
 	},
 	{
 		"name": "Jobs",
@@ -316,8 +309,7 @@
 		"name": "World Edit",
 		"desc": "Build tools.",
 		"jarName": "worldedit.jar",
-		"configName": "WorldEdit",
-		"freePlugin": true
+		"configName": "WorldEdit"
 	},
 	{
 		"name": "Async WorldEdit",
@@ -341,15 +333,13 @@
 		"name": "World Guard",
 		"desc": "Create and manage regions using this plugin.",
 		"jarName": "worldguard.jar",
-		"configName": "WorldGuard",
-		"freePlugin": true
+		"configName": "WorldGuard"
 	},
 	{
 		"name": "Red Protect",
 		"desc": "Anti-Grief, Chat protection, Spawn Protection\nMay be a good alternative to WorldGuard.",
 		"jarName": "RedProtect.jar",
-		"configName": "RedProtect",
-		"freePlugin": true
+		"configName": "RedProtect"
 	},
 	{
 		"name": "GriefPrevention",
@@ -423,7 +413,6 @@
 		"desc": "Library for the Minigames plugin to create regions for maps.",
 		"jarName": "MinigamesRegions.jar",
 		"configName": "MinigamesRegions",
-		"requiredRank": 5,
 		"freePlugin": true
 	},
 	{
@@ -593,7 +582,7 @@
 		"desc": "Counter X-Ray, resource packs, chest radars\nand other similar exploits.\n&cRequires &nProtocolLib&c.",
 		"jarName": "Orebfuscator.jar",
 		"configName":"Orebfuscator4",
-		"requiredRank":3
+		"requiredRank": 3
 	},
 	{
 		"name": "Chat Control",
@@ -1045,8 +1034,7 @@
 		"desc": "Exotic Garden is a Slimefun Addon which \ngenerates new plants all over your world.\n&cRequires &c&nSlimefun&c and &nCS-CoreLib",
 		"jarName": "ExoticGarden.jar",
 		"configName": "ExoticGarden",
-		"requiredRank": 2,
-		"freePlugin": true
+		"requiredRank": 2
 	},
 	{
 		"name": "CS-CoreLib",
