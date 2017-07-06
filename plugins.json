@@ -309,7 +309,8 @@
 		"name": "World Edit",
 		"desc": "Build tools.",
 		"jarName": "worldedit.jar",
-		"configName": "WorldEdit"
+		"configName": "WorldEdit",
+		"freePlugin": true
 	},
 	{
 		"name": "Async WorldEdit",
@@ -333,7 +334,8 @@
 		"name": "World Guard",
 		"desc": "Create and manage regions using this plugin.",
 		"jarName": "worldguard.jar",
-		"configName": "WorldGuard"
+		"configName": "WorldGuard",
+		"freePlugin": true
 	},
 	{
 		"name": "Red Protect",
