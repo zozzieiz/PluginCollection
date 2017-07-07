@@ -169,7 +169,7 @@
 		"desc": "Modify servers through a scripting interface.",
 		"jarName": "Skript.jar",
 		"configName": "Skript",
-		"requiredRank": "platinum"
+		"requiredRank": "gold"
 	},
 	{
 		"name": "Skript Addon: skQuery",
