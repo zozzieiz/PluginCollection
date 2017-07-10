@@ -316,7 +316,8 @@
 		"name": "Async WorldEdit",
 		"desc": "Makes large worldedit operations more performant\n&cRequires &nAsync WorldEdit Injector&c and &nWorldEdit&c.",
 		"jarName": "AsyncWorldEdit.jar",
-		"configName": "AsyncWorldEdit"
+		"configName": "AsyncWorldEdit",
+		"freePlugin": true
 	},
 	{
 		"name": "Async WorldEdit Injector",
