@@ -1084,5 +1084,12 @@
 		"jarName": "FastAsyncWorldEdit.jar",
 		"configName": "~",
 		"freePlugin":true
+	},
+	{
+		"name": "Exploit Patcher",
+		"desc": "Fixes the 1.12 duplication glitch",
+		"jarName": "ExploitPatcher.jar",
+		"configName": "ExploitPatcher",
+		"freePlugin":true
 	}
 ]
