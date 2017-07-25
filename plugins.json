@@ -743,7 +743,8 @@
 		"desc": "An alternative factions plugin by MassiveCraft\n&cRequired &nMassive Core",
 		"jarName": "MassiveFactions.jar",
 		"configName": "MassiveFactions",
-		"requiredRank": "silver"
+		"requiredRank": "silver",
+		"disabled": true
 	},
 	{
 		"name": "Massive Core",
@@ -751,7 +752,8 @@
 		"jarName": "MassiveCore.jar",
 		"configName": "MassiveCore",
 		"requiredRank": "silver",
-		"freePlugin": true
+		"freePlugin": true,
+		"disabled": true
 	},
 	{
 		"name": "Factions",
@@ -1081,6 +1083,13 @@
 		"desc": "Optimizes WorldEdit.",
 		"jarName": "FastAsyncWorldEdit.jar",
 		"configName": "~",
+		"freePlugin":true
+	},
+	{
+		"name": "Exploit Patcher",
+		"desc": "Fixes the 1.12 duplication glitch",
+		"jarName": "ExploitPatcher.jar",
+		"configName": "ExploitPatcher",
 		"freePlugin":true
 	}
 ]
