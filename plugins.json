@@ -136,9 +136,16 @@
 	},
 	{
 		"name": "Easy Enchant",
-		"desc": "Add enchantments to items in an easy GUI!",
+		"desc": "Add enchantments to items in an easy GUI!\n&cRequires &nCT-Core&c to work.",
 		"jarName": "EasyEnchant.jar",
 		"configName": "EasyEnchant"
+	},
+	{
+		"name": "CT-Core",
+		"desc": "Lib for some plugins",
+		"jarName": "CTCore.jar",
+		"configName": "CT-Core",
+		"freePlugin": true
 	},
 	{
 		"name": "Report Menu",
