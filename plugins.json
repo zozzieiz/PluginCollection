@@ -14,6 +14,13 @@
 		"requiredRank": "silver"
 	},
 	{
+		"name": "Protocol Support",
+		"desc": "Allow older versions of Minecraft to join.",
+		"narName": "ProtocolSupport.jar",
+		"configName": "ProtocolSupport",
+		"freePlugin": true
+	},
+	{
 		"name": "Old Combat",
 		"desc": "Make combat like pre-1.9 Minecraft.",
 		"jarName": "OldCombatMechanics.jar",
