@@ -16,7 +16,7 @@
 	{
 		"name": "Protocol Support",
 		"desc": "Allow older versions of Minecraft to join.",
-		"narName": "ProtocolSupport.jar",
+		"jarName": "ProtocolSupport.jar",
 		"configName": "ProtocolSupport",
 		"freePlugin": true
 	},
