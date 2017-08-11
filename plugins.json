@@ -792,7 +792,7 @@
 	},
 	{
 		"name": "Acid Island",
-		"desc": "Survive on an island where water is acid!",
+		"desc": "Survive on an island where water is acid!\n&cRequires &nVault&c.",
 		"jarName": "acidisland.jar",
 		"configName": "AcidIsland"
 	},
