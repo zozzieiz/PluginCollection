@@ -1105,5 +1105,11 @@
 		"jarName": "ExploitPatcher.jar",
 		"configName": "ExploitPatcher",
 		"freePlugin":true
+	},
+	{
+		"name": "CustomOreGen",
+		"desc": "Configure the spawn rate of any block\n&cRequires &c&nASkyBlock&c or &nAcidIsland",
+		"jarName": "CustomOreGen.jar",
+		"configName": "CustomOreGen"
 	}
 ]
