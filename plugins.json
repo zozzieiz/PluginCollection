@@ -1075,7 +1075,7 @@
 		"configName": "VeinMiner"
 	},
 	{
-	  "name": "Herobrine",
+		"name": "Herobrine",
 		"desc": "Add Herobrine to your server!",
 		"jarName": "Herobrine.jar",
 		"configName": "Herobrine"
@@ -1097,6 +1097,13 @@
 		"desc": "Optimizes WorldEdit.",
 		"jarName": "FastAsyncWorldEdit.jar",
 		"configName": "~",
+		"freePlugin":true
+	},
+	{
+		"name": "Exploit Patcher",
+		"desc": "Fixes a 1.12 and 1.12.1 duplication glitch\nalong with some other exploits",
+		"jarName": "ExploitPatcher.jar",
+		"configName": "ExploitPatcher",
 		"freePlugin":true
 	}
 ]
