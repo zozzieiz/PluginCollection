@@ -385,13 +385,19 @@
 	},
 	{
 		"name": "goPaint",
-		"desc": "A plugin that's designed to simplify painting landscapes with a wide range of brush types",
+		"desc": "A plugin that's designed to \nsimplify painting landscapes \nwith a wide range of brush types.",
 		"jarName": "goPaint.jar",
 		"configName": "goPaint"
 	},
 	{
+		"name": "Builders Utilities",
+		"desc": "Collection of a lot of tiny \nfeatures that help with building.",
+		"jarName": "BuildersUtilities.jar",
+		"configName": "BuildersUtilities"
+	},
+	{
 		"name": "Bank Notes",
-		"desc": "Adds functionality for withdrawing money into physical items.\n&cRequires &nVault&c.",
+		"desc": "Adds functionality for withdrawing \nmoney into physical items.\n&cRequires &nVault&c.",
 		"jarName": "BankNotes.jar",
 		"configName": "BankNote"
 	},
