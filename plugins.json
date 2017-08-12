@@ -48,7 +48,7 @@
 	},
 	{
 		"name": "Nanobots",
-		"desc": "Adds programmable self-replicating nanobots.\nThey can be used to clear out blocks and more!",
+		"desc": "Adds programmable self-replicating \nnanobots. They can be used to clear \nout blocks and more!",
 		"jarName": "Nanobots.jar",
 		"configName": "Nanobots"
 	},
@@ -264,14 +264,14 @@
 	},
 	{
 		"name": "PandaWire",
-		"desc": "Increases the efficiency and performance of redstone",
+		"desc": "Increases the efficiency and \nperformance of redstone",
 		"jarName": "PandaWire.jar",
 		"configName": "PandaWire",
 		"freePlugin": true
 	},
 	{
 		"name": "InstantRespawn",
-		"desc": "Stops the Respawn screen from showing\nand respawns straight away.",
+		"desc": "Stops the Respawn screen from \nshowing and respawns straight away.",
 		"jarName": "InstantRespawn.jar",
 		"configName": "InstantRespawn",
 		"freePlugin": true
@@ -860,7 +860,7 @@
 	},
 	{
 		"name": "Marriage Master",
-		"desc": "Allows you to marry other players with many special features",
+		"desc": "Allows you to marry other players with \nmany special features",
 		"jarName": "MarriageMaster.jar",
 		"configName": "MarriageMaster"
 	},
@@ -902,7 +902,7 @@
 	},
 	{
 		"name": "Multiverse Nether Portals",
-		"desc": "Multiverse addon for teleportation between worlds using nether portals",
+		"desc": "Multiverse addon for teleportation between \nworlds using nether portals",
 		"jarName": "Multiverse-NetherPortals.jar",
 		"configName": "Multiverse-NetherPortals",
 		"requiredRank": "platinum",
@@ -910,7 +910,7 @@
 	},
 	{
 		"name": "Multiverse Sign Portals",
-		"desc": "Multiverse addon for teleportation between worlds using signs",
+		"desc": "Multiverse addon for teleportation between \nworlds using signs",
 		"jarName": "Multiverse-SignPortals.jar",
 		"configName": "Multiverse-SignPortals",
 		"requiredRank": "platinum",
