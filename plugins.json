@@ -1111,5 +1111,12 @@
 		"desc": "Configure the spawn rate of any block\n&cRequires &c&nASkyBlock&c or &nAcidIsland",
 		"jarName": "CustomOreGen.jar",
 		"configName": "CustomOreGen"
+	},
+	{
+		"name": "Hacked Item Remover",
+		"desc": "Detects and removes hacked items not \nnormally obtainable in creative mode",
+		"jarName": "CHIR.jar",
+		"configName": "CHIR",
+		"freePlugin":true
 	}
 ]
