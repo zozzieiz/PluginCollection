@@ -379,9 +379,15 @@
 	},
 	{
 		"name": "goBrush",
-		"desc": "A plugin with brushes and \nheight maps for terraforming.\n&cRequires &nFastAsyncWorldEdit&c.", //
+		"desc": "A plugin with brushes and \nheight maps for terraforming.\n&cRequires &nFastAsyncWorldEdit&c.",
 		"jarName": "goBrush.jar",
 		"configName": "goBrush"
+	},
+	{
+		"name": "goPaint",
+		"desc": "A plugin that's designed to simplify painting landscapes with a wide range of brush types",
+		"jarName": "goPaint.jar",
+		"configName": "goPaint"
 	},
 	{
 		"name": "Bank Notes",
