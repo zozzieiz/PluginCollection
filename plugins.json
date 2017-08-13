@@ -224,14 +224,6 @@
 		"freePlugin": true
 	},
 	{
-		"name": "Skript Addon: RandomSK",
-		"desc": "Adds some animation and other features to skript.",
-		"jarName": "RandomSK.jar",
-		"configName": "RandomSK",
-		"requiredRank": "gold",
-		"freePlugin": true
-	},
-	{
 		"name": "Skript Addon: skDragon",
 		"desc": "Adds particle effects and dragon travel\nfeatures to skript.",
 		"jarName": "skDragon.jar",
@@ -1062,7 +1054,7 @@
 	},
 	{
 		"name": "ExoticGarden",
-		"desc": "Exotic Garden is a Slimefun Addon which \ngenerates new plants all over your world.\n&cRequires &c&nSlimefun&c and &nCS-CoreLib",
+		"desc": "Exotic Garden is a Slimefun Addon which\ngenerates new plants all over your world.\n&cRequires &c&nSlimefun&c and &nCS-CoreLib",
 		"jarName": "ExoticGarden.jar",
 		"configName": "ExoticGarden",
 		"requiredRank": "bronze"
@@ -1076,13 +1068,13 @@
 	},
 	{
 		"name": "MinePacks",
-		"desc": "Adds backpacks for your players to store items in",
+		"desc": "Adds backpacks for your \nplayers to store items in",
 		"jarName": "MinePacks.jar",
 		"configName": "MinePacks"
 	},
 	{
 		"name": "Vein Miner",
-		"desc": "Mine entire veins of ores with a simple break of a block",
+		"desc": "Mine entire veins of ores \nwith a simple break of a block",
 		"jarName": "VeinMiner.jar",
 		"configName": "VeinMiner"
 	},
@@ -1126,7 +1118,7 @@
 	},
 	{
 		"name": "Hacked Item Remover",
-		"desc": "Detects and removes hacked items not \nnormally obtainable in creative mode",
+		"desc": "Detects and removes hacked items not\nnormally obtainable in creative mode",
 		"jarName": "CHIR.jar",
 		"configName": "CHIR",
 		"freePlugin":true
