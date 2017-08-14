@@ -1122,5 +1122,12 @@
 		"jarName": "CHIR.jar",
 		"configName": "CHIR",
 		"freePlugin":true
+	},
+	{
+		"name": "StackMob",
+		"desc": "An efficient plugin that\nenhances server performance\nby 'stacking' entities.",
+		"jarName": "StackMob.jar",
+		"configName": "StackMob",
+		"freePlugin": true
 	}
 ]
