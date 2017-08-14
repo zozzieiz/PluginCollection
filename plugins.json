@@ -580,6 +580,13 @@
 		"configName": "CratesPlus"
 	},
 	{
+		"name": "CratesPlus CSGO Addon",
+		"desc": "CratesPlus opener of a CSGO like GUI.",
+		"jarName": "CSGO-CratesPlus.jar",
+		"configName": "CSGO-CratesPlus",
+		"freePlugin": true
+	},
+	{
 		"name": "Shopkeepers",
 		"desc": "Create customizable villager shops with this plugin.",
 		"jarName": "Shopkeepers.jar",
