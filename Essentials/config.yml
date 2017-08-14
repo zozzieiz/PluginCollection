@@ -64,6 +64,9 @@ teleport-delay: 0
 # This will also prevent the player attacking other players.
 teleport-invulnerability: 4
 
+# Whether to make all teleportations go to the center of the block; where the x and z coordinates decimal become .5
+teleport-to-center: true
+
 # The delay, in seconds, required between /heal or /feed attempts.
 heal-cooldown: 60
 
@@ -106,6 +109,10 @@ drop-items-if-full: false
 # Should we notify players if they have no new mail?
 notify-no-new-mail: true
 
+# Specifies the duration (in seconds) between each time a player is notified of mail they have.
+# Useful for servers with a lot of mail traffic.
+notify-player-of-mail-cooldown: 60
+
 # The motd and rules are now configured in the files motd.txt and rules.txt.
 
 # When a command conflicts with another plugin, by default, Essentials will try to force the OTHER plugin to take priority.
@@ -126,10 +133,7 @@ overridden-commands:
 disabled-commands:
 #  - nick
 #  - clear
-  - ipban
-  - whois
-  - seen
-  - unbanip
+
 # These commands will be shown to players with socialSpy enabled.
 # You can add commands from other plugins you may want to track or
 # remove commands that are used for something you dont want to spy on.
@@ -157,6 +161,10 @@ socialspy-commands:
   - ewhisper
   - pm
 
+# Whether the private and public messages from muted players should appear in the social spy.
+# If so, they will be differentiated from those sent by normal players.
+socialspy-listen-muted-players: true
+  
 # Mute Commands
 # These commands will be disabled when a player is muted.
 # Use '*' to disable every command.
@@ -325,6 +333,15 @@ enabledSigns:
 # Lower numbers will reduce the possibility of lag, but may annoy players.
 sign-use-per-second: 4
 
+# List of sign names Essentials should not protect. This feature is especially useful when
+# another plugin provides a sign that EssentialsX provides, but Essentials overrides.
+# For example, if a plugin provides a [kit] sign, and you wish to use theirs instead of
+# Essentials's, then simply add kit below and Essentials will not protect it.
+#
+# See https://github.com/drtshock/Essentials/pull/699 for more information.
+unprotected-sign-names:
+  #- kit
+
 # Backup runs a batch/bash command while saving is disabled.
 backup:
   # Interval in minutes.
@@ -476,9 +493,6 @@ last-message-reply-recipient-timeout: 180
 # Toggles whether or not right clicking mobs with a milk bucket turns them into a baby.
 milk-bucket-easter-egg: false
 
-# Become the new Compilex! They multiply the output of the server TPS command by 2 to make their clients think that they are l33t optimizers with a special combat TPS and such.
-# compilex-mode: false
-
 # Toggles whether or not the fly status message should be sent to players on join
 send-fly-enable-on-join: true
 
@@ -486,6 +500,43 @@ send-fly-enable-on-join: true
 # This applies to /time, /day, /eday, /night, /enight, /etime.
 # Give someone permission to teleport to a world with essentials.time.world.<worldname>.
 world-time-permissions: false
+
+# Specify cooldown for both Essentials commands and external commands as well.
+# All commands do not start with a Forward Slash (/). Instead of /msg, write msg
+#
+# Wildcards are supported. E.g.
+# - '*i*': 50
+# adds a 50 second cooldown to all commands that include the letter i
+#
+# EssentialsX supports regex by starting the command with a caret ^
+# For example, to target commands starting with ban and not banip the following would be used:
+#  '^ban([^ip])( .*)?': 60 # 60 seconds /ban cooldown.
+# Note: If you have a command that starts with ^, then you can escape it using backslash (\). e.g. \^command: 123
+command-cooldowns:
+#  feed: 100 # 100 second cooldown on /feed command
+#  '*': 5 # 5 Second cooldown on all commands
+
+# Whether command cooldowns should be persistent past server shutdowns
+command-cooldown-persistence: true
+
+# Whether NPC balances should be listed in balance ranking features such as /balancetop.
+# NPC balances can include features like factions from FactionsUUID plugin.
+npcs-in-balance-ranking: false
+
+# Determines the functionality of the /createkit command.
+# If this is true, /createkit will give the user a link with the kit code.
+# If this is false, /createkit will add the kit to this config file directly.
+#
+# WARNING: If this is false, the config comments WILL be removed and it won't look the same as it does now.
+pastebin-createkit: true
+
+# Allow bulk buying and selling signs when the player is sneaking.
+# This is useful when a sign sells or buys one item at a time and the player wants to sell a bunch at once.
+allow-bulk-buy-sell: true
+
+# Delay for the MOTD display for players on join, in milliseconds.
+# This has no effect if the MOTD command or permission are disabled.
+delay-motd: 0
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -519,6 +570,9 @@ sethome-multiple:
 # Set the timeout, in seconds for players to accept a tpa before the request is cancelled.
 # Set to 0 for no timeout.
 tpa-accept-cancellation: 120
+
+# Allow players to set hats by clicking on their helmet slot.
+allow-direct-hat: true
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -560,15 +614,25 @@ economy-log-enabled: false
 
 # Use this option to force superperms-based permissions handler regardless of detected installed perms plugin.
 # This is useful if you want superperms-based permissions (with wildcards) for custom permissions plugins.
-# Default is false. 
-use-bukkit-permissions: false
+# If you wish to use EssentialsX' built-in permissions using the `player-commands` section above, set this to false.
+# Default is true. 
+use-bukkit-permissions: true
 
 # Minimum acceptable amount to be used in /pay.
-minimum-pay-amount: 0.01
+minimum-pay-amount: 0.001
 
-# Make money more fancy by separating it with commas. This makes it easier to read.
-# It'd make $12345678.90 appear as $12,345,678.90
-comma-separated-money: true
+# The format of currency, excluding symbols. See currency-sumbol-format-locale for symbol configuration.
+#
+# "#,##0.00" is how the majority of countries display currency.
+#currency-format: "#,##0.00"
+
+# Format currency symbols. Some locales use , and . interchangeably.
+# Some formats do not display properly in-game due to faulty Minecraft font rendering.
+#
+# For 1.234,50 use de-DE
+# For 1,234.50 use en-US
+# For 1'234,50 use fr-ch
+#currency-symbol-format-locale: en-US
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -810,5 +874,14 @@ respawn-listener-priority: high
 
 # When users die, should they respawn at their first home or bed, instead of the spawnpoint?
 respawn-at-home: false
+
+# Teleport all joining players to the spawnpoint
+spawn-on-join: false
+# The following value of `guests` states that all players in group `guests` will be teleported to spawn when joining.
+#spawn-on-join: guests
+# The following list value states that all players in group `guests` and `admin` are to be teleported to spawn when joining. 
+#spawn-on-join:
+#- guests
+#- admin
 
 # End of file <-- No seriously, you're done with configuration.
