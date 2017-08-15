@@ -581,7 +581,7 @@
 	},
 	{
 		"name": "CratesPlus CSGO Addon",
-		"desc": "CratesPlus opener of a CSGO like GUI.",
+		"desc": "CratesPlus opener of a CSGO like GUI.\n&cRequires &nCratesPlus&c.",
 		"jarName": "CSGO-CratesPlus.jar",
 		"configName": "CSGO-CratesPlus",
 		"freePlugin": true
@@ -649,7 +649,7 @@
 	},
 	{
 		"name": "Item Fixer",
-		"desc": "Blocks hack client features that abuse item nbt data",
+		"desc": "Blocks hack client features that abuse item nbt data.\n&cRequires &nProtocolLib&c.",
 		"jarName": "ItemFixer.jar",
 		"configName": "ItemFixer",
 		"freePlugin": true
