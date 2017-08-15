@@ -11,5 +11,3 @@ blacklist-commands:
   - 'minecraft:op'
   - 'sudo'
   - 'esudo'
-  - 'essentials:sudo'
-  - 'essentials:esudo'

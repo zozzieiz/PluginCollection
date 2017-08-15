@@ -17,7 +17,6 @@ plot:
 buy:
   aliases:
   - buy
-  - b
   usage: /plot buy
   description: Buy the plot you are standing on
   confirmation: false
@@ -59,7 +58,7 @@ update:
   - update
   - updateplugin
   usage: /plot update
-  description: Update PlotSquared
+  description: Update the plugin
   confirmation: false
 setup:
   aliases:
@@ -92,7 +91,8 @@ createroadschematic:
   - createroadschematic
   - crs
   usage: /plot createroadschematic
-  description: Add a road schematic to your world using the roads around your current plot
+  description: Add a road schematic to your world using the roads around your current
+    plot
   confirmation: false
 debugallowunsafe:
   aliases:
@@ -152,6 +152,7 @@ delete:
   - delete
   - dispose
   - del
+  - reset
   usage: /plot delete
   description: Delete a plot
   confirmation: true
@@ -165,7 +166,6 @@ trust:
 add:
   aliases:
   - add
-  - a
   usage: /plot add <player>
   description: Allow a user to build while you are online
   confirmation: false
@@ -184,6 +184,7 @@ remove:
   - untrust
   - ut
   - undeny
+  - unban
   - ud
   usage: /plot remove <player>
   description: Remove a player from a plot
@@ -195,13 +196,21 @@ info:
   usage: /plot info <id>
   description: Display plot info
   confirmation: false
+near:
+  aliases:
+  - near
+  - n
+  usage: /plot near
+  description: Display nearby players
+  confirmation: false
 list:
   aliases:
   - list
   - l
   - find
   - search
-  usage: /plot list <forsale|mine|shared|world|top|all|unowned|unknown|player|world|done|fuzzy <search...>> [#]
+  usage: /plot list <forsale|mine|shared|world|top|all|unowned|unknown|player|world|done|fuzzy
+    <search...>> [#]
   description: List plots
   confirmation: false
 debug:
@@ -227,7 +236,8 @@ plugin:
 purge:
   aliases:
   - purge
-  usage: /plot purge world:<world> area:<area> id:<id> owner:<owner> shared:<shared> unknown:[true|false]
+  usage: /plot purge world:<world> area:<area> id:<id> owner:<owner> shared:<shared>
+    unknown:[true|false]
   description: Purge all plots for a world
   confirmation: true
 reload:
@@ -275,14 +285,15 @@ rate:
   aliases:
   - rate
   - rt
-  usage: /plot rate [#|next]
+  usage: /plot rate [#|next|purge]
   description: Rate the plot
   confirmation: false
 debugclaimtest:
   aliases:
   - debugclaimtest
   usage: ''
-  description: If you accidentally delete your database, this command will attempt to restore all plots based on the data from plot signs. Execution time may vary
+  description: If you accidentally delete your database, this command will attempt
+    to restore all plots based on the data from plot signs. Execution time may vary
   confirmation: false
 inbox:
   aliases:
@@ -301,7 +312,7 @@ database:
   aliases:
   - database
   - convert
-  usage: /plots database [area] <sqlite|mysql|import>
+  usage: /plot database [area] <sqlite|mysql|import>
   description: Convert/Backup Storage
   confirmation: false
 swap:
@@ -457,6 +468,7 @@ setalias:
   - rename
   - setname
   - seta
+  - nameplot
   usage: /plot alias <alias>
   description: Set the plot name
   confirmation: false
@@ -475,6 +487,12 @@ cluster:
   usage: ''
   description: Manage a plot cluster
   confirmation: false
+debugimportworlds:
+  aliases:
+  - debugimportworlds
+  usage: ''
+  description: Import worlds by player name
+  confirmation: false
 toggle:
   aliases:
   - toggle
@@ -482,14 +500,6 @@ toggle:
   usage: ''
   description: Toggle per user settings
   confirmation: false
-  worldedit:
-    aliases:
-    - worldedit
-    - we
-    - wea
-    usage: ''
-    description: Toggle worldedit area restrictions
-    confirmation: false
   chat:
     aliases:
     - chat
@@ -501,6 +511,20 @@ toggle:
     - titles
     usage: ''
     description: Toggle plot title messages
+    confirmation: false
+  clear-confirmation:
+    aliases:
+    - clear-confirmation
+    usage: ''
+    description: Toggle autoclear confirmation
+    confirmation: false
+  worldedit:
+    aliases:
+    - worldedit
+    - we
+    - wea
+    usage: ''
+    description: Toggle worldedit area restrictions
     confirmation: false
   chatspy:
     aliases:
