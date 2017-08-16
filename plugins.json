@@ -1122,5 +1122,12 @@
 		"jarName": "StackMob.jar",
 		"configName": "StackMob",
 		"freePlugin": true
+	},
+	{
+		"name": "Sky Changer",
+		"desc": "Change the color of your personal sky.\n&cIt is recommend that you use\n&cOptifine while using this plugin\n&cto disable rain particles when\n&csetting high values!",
+		"jarName": "SkyChanger.jar",
+		"configName": "SkyChanger",
+		"requiredRank": "platinum"
 	}
 ]
