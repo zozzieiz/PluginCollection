@@ -637,9 +637,21 @@
 	},
     {
         "name": "Prison",
-        "desc": "A simple prison mine plugin.",
+        "desc": "An all-in-one prison plugin.",
         "jarName": "Prison.jar",
         "configName": "Prison"
+    },
+    {
+        "name": "Prison Mines",
+        "desc": "A mines module for the 'Prison' plugin.\n&cRequires &nPrison&c.",
+        "jarName": "PrisonMines.jar",
+        "configName": "PrisonMines"
+    },
+    {
+        "name": "Prison Ranks",
+        "desc": "A ranks module for the 'Prison' plugin.\n&cRequires &nPrison&c.",
+        "jarName": "PrisonRanks.jar",
+        "configName": "PrisonRanks"
     },
 	{
 		"name": "Libs Disguises",
