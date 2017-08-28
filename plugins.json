@@ -629,12 +629,18 @@
 		"jarName": "EZRanksPro.jar",
 		"configName": "EZRanksPro"
 	},
-  		{
+    {
 		"name": "MineResetLite",
 		"desc": "Create mines that will reset.",
 		"jarName": "MineResetLite.jar",
 		"configName": "MineResetLite"
 	},
+    {
+        "name": "Prison",
+        "desc": "A simple prison mine plugin.",
+        "jarName": "Prison.jar",
+        "configName": "Prison"
+    },
 	{
 		"name": "Libs Disguises",
 		"desc": "Disguise as mobs!\n&cRequires &nProtocolLib&c.",
