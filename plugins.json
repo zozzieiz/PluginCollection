@@ -671,6 +671,12 @@
 		"jarName": "CreateYourOwnMenus.jar",
 		"configName": "CreateYourOwnMenus"
 	},
+    {
+        "name": "My Command",
+        "desc": "Make your own custom commands",
+        "jarName": "MyCommand.jar",
+        "configName": "MyCommand"
+    },
 	{
 		"name": "Item Fixer",
 		"desc": "Blocks hack client features that abuse item nbt data.\n&cRequires &nProtocolLib&c.",
