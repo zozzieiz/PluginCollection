@@ -718,7 +718,7 @@
 	},
 	{
 		"name": "Trade+",
-		"desc": "Lets players easily and safely trade items via a GUI.\nMade by Minehut user &nGamer&r.",
+		"desc": "Lets players easily and safely trade items via a GUI.\nMade by Minehut user &nLucas&r.",
 		"jarName": "TradePlus.jar",
 		"configName": "TradePlus"
 	},
@@ -893,7 +893,7 @@
 	},
 	{
 		"name": "Loot Protect",
-		"desc": "Protects loot dropped upon death.\nMade by Minehut user &nGamer&r.",
+		"desc": "Protects loot dropped upon death.\nMade by Minehut user &nLucas&r.",
 		"jarName": "LootProtect.jar",
 		"configName": "LootProtect"
 	},
