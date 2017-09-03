@@ -592,6 +592,12 @@
 		"jarName": "Shopkeepers.jar",
 		"configName": "Shopkeepers"
 	},
+    {
+        "name": "Lift",
+        "desc": "A simple elevator plugin",
+        "jarName": "Lift.jar",
+        "configName": "Lift"
+    },
 	{
 		"name": "Silk Spawners",
 		"desc": "Create and pick up custom mob spawners.",
@@ -608,7 +614,7 @@
 	{
 		"name": "Chat Control",
 		"desc": "Control aspects of the chat and prevent swearing/spamming.",
-    "jarName": "ChatControl.jar",
+        "jarName": "ChatControl.jar",
 		"configName": "ChatControl"
 	},
 	{
@@ -665,6 +671,12 @@
 		"jarName": "CreateYourOwnMenus.jar",
 		"configName": "CreateYourOwnMenus"
 	},
+    {
+        "name": "My Command",
+        "desc": "Make your own custom commands",
+        "jarName": "MyCommand.jar",
+        "configName": "MyCommand"
+    },
 	{
 		"name": "Item Fixer",
 		"desc": "Blocks hack client features that abuse item nbt data.\n&cRequires &nProtocolLib&c.",
@@ -706,7 +718,7 @@
 	},
 	{
 		"name": "Trade+",
-		"desc": "Lets players easily and safely trade items via a GUI.\nMade by Minehut user &nGamer&r.",
+		"desc": "Lets players easily and safely trade items via a GUI.\nMade by Minehut user &nLucas&r.",
 		"jarName": "TradePlus.jar",
 		"configName": "TradePlus"
 	},
@@ -881,7 +893,7 @@
 	},
 	{
 		"name": "Loot Protect",
-		"desc": "Protects loot dropped upon death.\nMade by Minehut user &nGamer&r.",
+		"desc": "Protects loot dropped upon death.\nMade by Minehut user &nLucas&r.",
 		"jarName": "LootProtect.jar",
 		"configName": "LootProtect"
 	},
@@ -1147,5 +1159,20 @@
 		"jarName": "SkyChanger.jar",
 		"configName": "SkyChanger",
 		"requiredRank": "platinum"
-	}
+	},
+    {
+        "name": "TARDIS",
+        "desc": "Lets your players own a\nTARDIS from Doctor Who!\n&cRequires &nTARDIS Chunk Generator&c.",
+        "jarName": "TARDIS.jar",
+        "configName": "TARDIS",
+        "requiredRank": "silver"
+    },
+    {
+        "name": "TARDIS Chunk Generator",
+        "desc": "Chunk generator for the world in which\nTARDIS interiors are stored",
+        "jarName": "TARDISChunkGenerator.jar",
+        "configName": "TARDISChunkGenerator",
+        "requiredRank": "silver",
+        "freePlugin": true
+    }
 ]
