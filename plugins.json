@@ -1174,5 +1174,12 @@
         "configName": "TARDISChunkGenerator",
         "requiredRank": "silver",
         "freePlugin": true
+    },
+    {
+        "name": "Simple Sit",
+        "desc": "Sit on staircases! (good for roleplay)",
+        "jarName": "SimpleSit.jar",
+        "configName": "SimpleSit",
+        "freePlugin": true
     }
 ]
