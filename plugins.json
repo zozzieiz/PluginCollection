@@ -1181,5 +1181,12 @@
         "jarName": "SimpleSit.jar",
         "configName": "SimpleSit",
         "freePlugin": true
+    },
+    {
+        "name": "Chat Feelings",
+        "desc": "Emote in new, fun ways!\n(e.g. /dab, /kiss)",
+        "jarName": "ChatFeelings.jar",
+        "configName": "ChatFeelings",
+        "freePlugin": true
     }
 ]
