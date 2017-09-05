@@ -127,7 +127,8 @@
         "name": "Super Vanish",
         "desc": "Advanced /vanish that prevents players from\nknowing you're on the server!",
         "jarName": "SuperVanish.jar",
-        "configName": "SuperVanish"
+        "configName": "SuperVanish",
+        "freePlugin": true
     },
 	{
 		"name": "Jobs",
