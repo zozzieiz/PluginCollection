@@ -573,6 +573,12 @@
 		"jarName": "ChestShop.jar",
 		"configName": "ChestShop"
 	},
+    {
+        "name": "Spawner Shop",
+        "desc": "Sign and GUI shops for mob spawners.",
+        "jarName": "SpawnerShop.jar",
+        "configName": "SpawnerShop"
+    },
 	{
 		"name": "Crack Shot",
 		"desc": "Guns in Minecraft.",
