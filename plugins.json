@@ -123,6 +123,13 @@
 		"jarName": "AquaticPerms.jar",
 		"configName": "AquaticPerms"
 	},
+    {
+        "name": "Super Vanish",
+        "desc": "Advanced /vanish that prevents players from\nknowing you're on the server!",
+        "jarName": "SuperVanish.jar",
+        "configName": "SuperVanish",
+        "freePlugin": true
+    },
 	{
 		"name": "Jobs",
 		"desc": "Let your players earn money by doing various jobs!",
@@ -567,6 +574,12 @@
 		"jarName": "ChestShop.jar",
 		"configName": "ChestShop"
 	},
+    {
+        "name": "Spawner Shop",
+        "desc": "Sign and GUI shops for mob spawners.",
+        "jarName": "SpawnerShop.jar",
+        "configName": "SpawnerShop"
+    },
 	{
 		"name": "Crack Shot",
 		"desc": "Guns in Minecraft.",
@@ -1173,6 +1186,20 @@
         "jarName": "TARDISChunkGenerator.jar",
         "configName": "TARDISChunkGenerator",
         "requiredRank": "silver",
+        "freePlugin": true
+    },
+    {
+        "name": "Simple Sit",
+        "desc": "Sit on staircases! (good for roleplay)",
+        "jarName": "SimpleSit.jar",
+        "configName": "SimpleSit",
+        "freePlugin": true
+    },
+    {
+        "name": "Chat Feelings",
+        "desc": "Emote in new, fun ways!\n(e.g. /dab, /kiss)",
+        "jarName": "ChatFeelings.jar",
+        "configName": "ChatFeelings",
         "freePlugin": true
     }
 ]
