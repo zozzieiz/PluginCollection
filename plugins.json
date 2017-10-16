@@ -785,6 +785,13 @@
 		"configName": "CommandNPC",
 		"requiredRank": "bronze"
 	},
+    {
+        "name": "Citizens CMD",
+        "desc": "Add clickable commands to your NPCs.\nAlternative to CommandNPC.\n&cRequires &nCitizens&c.",
+        "jarName": "CitizensCMD.jar",
+        "configName": "CitizensCMD",
+        "requiredRank": "bronze"
+    },
 	{
 		"name": "McMMO",
 		"desc": "RPG experience in Minecraft!",
