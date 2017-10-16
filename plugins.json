@@ -729,6 +729,12 @@
 		"jarName": "ObsidianAuctions.jar",
 		"configName": "ObsidianAuctions"
 	},
+    {
+        "name": "Crazy Auctions",
+        "desc": "Auction plugin with easy-to-use GUI",
+        "jarName": "CrazyAuctions.jar",
+        "configName": "CrazyAuctions"
+    },
 	{
 		"name": "Trade+",
 		"desc": "Lets players easily and safely trade items via a GUI.\nMade by Minehut user &nLucas&r.",
