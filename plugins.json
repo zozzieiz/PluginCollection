@@ -1003,6 +1003,12 @@
 		"jarName": "Tablist.jar",
 		"configName": "Tablist"
 	},
+    {
+        "name": "Vault Tablist",
+        "desc": "Displays your rank prefixes & suffixes in the tablist!\n&cRequires &nVault&c.",
+        "jarName": "VaultTablist.jar",
+        "configName": "VaultTablist"
+    },
 	{
 		"name": "Titlebar",
 		"desc": "Animated titlebar",
