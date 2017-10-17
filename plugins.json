@@ -552,10 +552,17 @@
 	{
 		"name": "Snake",
 		"desc": "The classic game of Snake in Minecraft!\nEat food to grow, but don't run into someone's snake!\n&cRequires &nMinigamesLib&c.",
-		"jarName": "MGSnake",
+		"jarName": "MGSnake.jar",
 		"configName": "MGSnake",
 		"requiredRank": "diamond"
 	},
+    {
+        "name": "MG Bed Wars",
+        "desc": "An alternative bed wars plugin.\nTeams battle to destroy eachothers beds!\n&cRequires &nMinigamesLib&c.",
+        "jarName": "MGBedWars.jar",
+        "configName": "MGBedWars",
+        "requiredRank": "diamond"
+    },
 	{
 		"name": "Combat Log",
 		"desc": "Punish players who log out during combat!",
