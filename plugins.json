@@ -1014,7 +1014,8 @@
         "name": "Vault Tablist",
         "desc": "Displays your rank prefixes & suffixes in the tablist!\nCreated by Minehut user &nLucas&r.\n&cRequires &nVault&c.",
         "jarName": "VaultTablist.jar",
-        "configName": "VaultTablist"
+        "configName": "VaultTablist",
+        "disabled": true
     },
 	{
 		"name": "Titlebar",
