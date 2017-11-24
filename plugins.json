@@ -349,7 +349,8 @@
 		"name": "Red Protect",
 		"desc": "Anti-Grief, Chat protection, Spawn Protection\nMay be a good alternative to WorldGuard.",
 		"jarName": "RedProtect.jar",
-		"configName": "RedProtect"
+		"configName": "RedProtect",
+		"freePlugin": true
 	},
 	{
 		"name": "GriefPrevention",
