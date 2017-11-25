@@ -330,7 +330,8 @@
 		"name": "Async WorldEdit Injector",
 		"desc": "Injects Async WorldEdit into WorldEdit",
 		"jarName": "AsyncWorldEditInjector.jar",
-		"configName": "AsyncWorldEditInjector"
+		"configName": "AsyncWorldEditInjector",
+		"freePlugin": true
 	},
 	{
 		"name": "Houses",
