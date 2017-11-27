@@ -273,19 +273,22 @@
 		"name": "No Cheat Plus",
 		"desc": "Anti-cheat system to block bad modifications.\n&aProtocolLib is &a&nrecommended&r&a while using No Cheat Plus.",
 		"jarName": "NoCheatPlus.jar",
-		"configName": "NoCheatPlus"
+		"configName": "NoCheatPlus",
+		"freePlugin": true
 	},
 	{
 		"name": "Phoenix Anti-Cheat",
 		"desc": "Anti-cheat to block client modifications.\n&cRequires &nProtocolLib&c.",
 		"jarName": "PAC.jar",
-		"configName": "PAC"
+		"configName": "PAC",
+		"freePlugin": true
 	},
 	{
 		"name": "Hack Detective",
 		"desc": "Another anti-cheat to block harmful client mods.\n&cRequires &nProtocolLib&c.",
 		"jarName": "HackDetective.jar",
-		"configName": "HackDetective"
+		"configName": "HackDetective",
+		"freePlugin": true
 	},
 	{
 		"name": "ProtocolLib",
