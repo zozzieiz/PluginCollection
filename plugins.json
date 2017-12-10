@@ -901,8 +901,7 @@
 		"desc": "Fast, efficient block logging and anti-griefing tool.",
 		"jarName": "CoreProtect.jar",
 		"configName": "CoreProtect",
-		"requiredRank": 2,
-		"disabled": true
+		"requiredRank": 2
 	},
 	{
 		"name": "Log",
