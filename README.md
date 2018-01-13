@@ -1,3 +1,5 @@
+**This repo is no longer in use.**
+
 ## Minehut.com Player-Server Plugin Repository
 Public plugin repo used in the /minehut plugin menu. 
 
