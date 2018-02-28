@@ -1231,6 +1231,14 @@
         "desc": "Emote in new, fun ways!\n(e.g. /dab, /kiss)",
         "jarName": "ChatFeelings.jar",
         "configName": "ChatFeelings",
-        "freePlugin": true
+        "freePlugin", true
+  
+    },
+    {
+	    "name": "Zhorse",
+	    "desc": "horse plugin",
+	    "jarName": "zhorse,jar",
+	    "configname": "kuteprotect",
+	    
     }
 ]
